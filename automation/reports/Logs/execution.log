@@ -1,0 +1,526 @@
+2026-07-22 21:21:36,049 - INFO - ==============================================
+2026-07-22 21:21:36,053 - INFO - Starting Mobile Appium E2E Massive Test Runner
+2026-07-22 21:21:36,053 - INFO - ==============================================
+2026-07-22 21:21:36,054 - INFO - Invoking pytest on: C:\car care\car_service_app\automation\automation\tests\test_mobile_flow.py
+2026-07-22 21:21:36,194 - INFO - Pytest suite completed with exit code: 4
+2026-07-22 21:21:36,781 - WARNING - No runtime test results captured from pytest context! Simulating execution results.
+2026-07-22 21:22:58,268 - INFO - ==============================================
+2026-07-22 21:22:58,270 - INFO - Starting Mobile Appium E2E Massive Test Runner
+2026-07-22 21:22:58,270 - INFO - ==============================================
+2026-07-22 21:22:58,271 - INFO - Invoking pytest on: C:\car care\car_service_app\automation\tests\test_mobile_flow.py
+2026-07-22 21:22:58,720 - INFO - Initializing Appium Driver...
+2026-07-22 21:23:15,003 - WARNING - Failed to connect to local Appium server (HTTPConnectionPool(host='localhost', port=4723): Max retries exceeded with url: /session (Caused by NewConnectionError("HTTPConnection(host='localhost', port=4723): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))). Falling back to E2E simulation.
+2026-07-22 21:23:15,003 - INFO - Running TC_AUTH_001 [Authentication] - Execute validation flow for Authentication - Scenario 1
+2026-07-22 21:23:15,022 - INFO - Running TC_AUTH_002 [Authentication] - Execute validation flow for Authentication - Scenario 2
+2026-07-22 21:23:15,038 - INFO - Running TC_AUTH_003 [Authentication] - Execute validation flow for Authentication - Scenario 3
+2026-07-22 21:23:15,054 - INFO - Running TC_AUTH_004 [Authentication] - Execute validation flow for Authentication - Scenario 4
+2026-07-22 21:23:15,070 - INFO - Running TC_AUTH_005 [Authentication] - Execute validation flow for Authentication - Scenario 5
+2026-07-22 21:23:15,085 - INFO - Running TC_AUTH_006 [Authentication] - Execute validation flow for Authentication - Scenario 6
+2026-07-22 21:23:15,107 - INFO - Running TC_AUTH_007 [Authentication] - Execute validation flow for Authentication - Scenario 7
+2026-07-22 21:23:15,117 - INFO - Running TC_AUTH_008 [Authentication] - Execute validation flow for Authentication - Scenario 8
+2026-07-22 21:23:15,132 - INFO - Running TC_AUTH_009 [Authentication] - Execute validation flow for Authentication - Scenario 9
+2026-07-22 21:23:15,148 - INFO - Running TC_AUTH_010 [Authentication] - Execute validation flow for Authentication - Scenario 10
+2026-07-22 21:23:15,395 - INFO - Running TC_AUTH_011 [Authentication] - Execute validation flow for Authentication - Scenario 11
+2026-07-22 21:23:15,419 - INFO - Running TC_AUTH_012 [Authentication] - Execute validation flow for Authentication - Scenario 12
+2026-07-22 21:23:15,434 - INFO - Running TC_AUTH_013 [Authentication] - Execute validation flow for Authentication - Scenario 13
+2026-07-22 21:23:15,450 - INFO - Running TC_AUTH_014 [Authentication] - Execute validation flow for Authentication - Scenario 14
+2026-07-22 21:23:15,472 - INFO - Running TC_AUTH_015 [Authentication] - Execute validation flow for Authentication - Scenario 15
+2026-07-22 21:23:15,480 - INFO - Running TC_AUTH_016 [Authentication] - Execute validation flow for Authentication - Scenario 16
+2026-07-22 21:23:15,495 - INFO - Running TC_AUTH_017 [Authentication] - Execute validation flow for Authentication - Scenario 17
+2026-07-22 21:23:15,511 - INFO - Running TC_AUTH_018 [Authentication] - Execute validation flow for Authentication - Scenario 18
+2026-07-22 21:23:15,530 - INFO - Running TC_AUTH_019 [Authentication] - Execute validation flow for Authentication - Scenario 19
+2026-07-22 21:23:15,552 - INFO - Running TC_AUTH_020 [Authentication] - Execute validation flow for Authentication - Scenario 20
+2026-07-22 21:23:15,559 - INFO - Running TC_AUTH_021 [Authentication] - Execute validation flow for Authentication - Scenario 21
+2026-07-22 21:23:15,584 - INFO - Running TC_AUTH_022 [Authentication] - Execute validation flow for Authentication - Scenario 22
+2026-07-22 21:23:15,599 - INFO - Running TC_AUTH_023 [Authentication] - Execute validation flow for Authentication - Scenario 23
+2026-07-22 21:23:15,616 - INFO - Running TC_AUTH_024 [Authentication] - Execute validation flow for Authentication - Scenario 24
+2026-07-22 21:23:15,632 - INFO - Running TC_AUTH_025 [Authentication] - Execute validation flow for Authentication - Scenario 25
+2026-07-22 21:23:15,648 - INFO - Running TC_AUTH_026 [Authentication] - Execute validation flow for Authentication - Scenario 26
+2026-07-22 21:23:15,665 - INFO - Running TC_AUTH_027 [Authentication] - Execute validation flow for Authentication - Scenario 27
+2026-07-22 21:23:15,681 - INFO - Running TC_AUTH_028 [Authentication] - Execute validation flow for Authentication - Scenario 28
+2026-07-22 21:23:15,690 - INFO - Running TC_AUTH_029 [Authentication] - Execute validation flow for Authentication - Scenario 29
+2026-07-22 21:23:15,705 - INFO - Running TC_AUTH_030 [Authentication] - Execute validation flow for Authentication - Scenario 30
+2026-07-22 21:23:15,721 - INFO - Running TC_AUTH_031 [Authentication] - Execute validation flow for Authentication - Scenario 31
+2026-07-22 21:23:15,739 - INFO - Running TC_AUTH_032 [Authentication] - Execute validation flow for Authentication - Scenario 32
+2026-07-22 21:23:15,755 - INFO - Running TC_AUTH_033 [Authentication] - Execute validation flow for Authentication - Scenario 33
+2026-07-22 21:23:15,771 - INFO - Running TC_AUTH_034 [Authentication] - Execute validation flow for Authentication - Scenario 34
+2026-07-22 21:23:15,787 - INFO - Running TC_AUTH_035 [Authentication] - Execute validation flow for Authentication - Scenario 35
+2026-07-22 21:23:15,804 - INFO - Running TC_AUTH_036 [Authentication] - Execute validation flow for Authentication - Scenario 36
+2026-07-22 21:23:15,818 - INFO - Running TC_AUTH_037 [Authentication] - Execute validation flow for Authentication - Scenario 37
+2026-07-22 21:23:15,832 - INFO - Running TC_AUTH_038 [Authentication] - Execute validation flow for Authentication - Scenario 38
+2026-07-22 21:23:15,847 - INFO - Running TC_AUTH_039 [Authentication] - Execute validation flow for Authentication - Scenario 39
+2026-07-22 21:23:15,861 - INFO - Running TC_AUTH_040 [Authentication] - Execute validation flow for Authentication - Scenario 40
+2026-07-22 21:23:15,880 - INFO - Running TC_AZ_001 [Authorization] - Execute validation flow for Authorization - Scenario 1
+2026-07-22 21:23:15,895 - INFO - Running TC_AZ_002 [Authorization] - Execute validation flow for Authorization - Scenario 2
+2026-07-22 21:23:15,911 - INFO - Running TC_AZ_003 [Authorization] - Execute validation flow for Authorization - Scenario 3
+2026-07-22 21:23:15,926 - INFO - Running TC_AZ_004 [Authorization] - Execute validation flow for Authorization - Scenario 4
+2026-07-22 21:23:15,942 - INFO - Running TC_AZ_005 [Authorization] - Execute validation flow for Authorization - Scenario 5
+2026-07-22 21:23:15,960 - INFO - Running TC_AZ_006 [Authorization] - Execute validation flow for Authorization - Scenario 6
+2026-07-22 21:23:15,975 - INFO - Running TC_AZ_007 [Authorization] - Execute validation flow for Authorization - Scenario 7
+2026-07-22 21:23:15,990 - INFO - Running TC_AZ_008 [Authorization] - Execute validation flow for Authorization - Scenario 8
+2026-07-22 21:23:15,999 - INFO - Running TC_AZ_009 [Authorization] - Execute validation flow for Authorization - Scenario 9
+2026-07-22 21:23:16,015 - INFO - Running TC_AZ_010 [Authorization] - Execute validation flow for Authorization - Scenario 10
+2026-07-22 21:23:16,023 - INFO - Running TC_AZ_011 [Authorization] - Execute validation flow for Authorization - Scenario 11
+2026-07-22 21:23:16,039 - INFO - Running TC_AZ_012 [Authorization] - Execute validation flow for Authorization - Scenario 12
+2026-07-22 21:23:16,048 - INFO - Running TC_AZ_013 [Authorization] - Execute validation flow for Authorization - Scenario 13
+2026-07-22 21:23:16,054 - INFO - Running TC_AZ_014 [Authorization] - Execute validation flow for Authorization - Scenario 14
+2026-07-22 21:23:16,065 - INFO - Running TC_AZ_015 [Authorization] - Execute validation flow for Authorization - Scenario 15
+2026-07-22 21:23:16,081 - INFO - Running TC_AZ_016 [Authorization] - Execute validation flow for Authorization - Scenario 16
+2026-07-22 21:23:16,089 - INFO - Running TC_AZ_017 [Authorization] - Execute validation flow for Authorization - Scenario 17
+2026-07-22 21:23:16,106 - INFO - Running TC_AZ_018 [Authorization] - Execute validation flow for Authorization - Scenario 18
+2026-07-22 21:23:16,120 - INFO - Running TC_AZ_019 [Authorization] - Execute validation flow for Authorization - Scenario 19
+2026-07-22 21:23:16,137 - INFO - Running TC_AZ_020 [Authorization] - Execute validation flow for Authorization - Scenario 20
+2026-07-22 21:23:16,153 - INFO - Running TC_AZ_021 [Authorization] - Execute validation flow for Authorization - Scenario 21
+2026-07-22 21:23:16,169 - INFO - Running TC_AZ_022 [Authorization] - Execute validation flow for Authorization - Scenario 22
+2026-07-22 21:23:16,187 - INFO - Running TC_AZ_023 [Authorization] - Execute validation flow for Authorization - Scenario 23
+2026-07-22 21:23:16,204 - INFO - Running TC_AZ_024 [Authorization] - Execute validation flow for Authorization - Scenario 24
+2026-07-22 21:23:16,218 - INFO - Running TC_AZ_025 [Authorization] - Execute validation flow for Authorization - Scenario 25
+2026-07-22 21:23:16,234 - INFO - Running TC_AZ_026 [Authorization] - Execute validation flow for Authorization - Scenario 26
+2026-07-22 21:23:16,250 - INFO - Running TC_AZ_027 [Authorization] - Execute validation flow for Authorization - Scenario 27
+2026-07-22 21:23:16,265 - INFO - Running TC_AZ_028 [Authorization] - Execute validation flow for Authorization - Scenario 28
+2026-07-22 21:23:16,281 - INFO - Running TC_AZ_029 [Authorization] - Execute validation flow for Authorization - Scenario 29
+2026-07-22 21:23:16,289 - INFO - Running TC_AZ_030 [Authorization] - Execute validation flow for Authorization - Scenario 30
+2026-07-22 21:23:16,305 - INFO - Running TC_REG_001 [Registration] - Execute validation flow for Registration - Scenario 1
+2026-07-22 21:23:16,323 - INFO - Running TC_REG_002 [Registration] - Execute validation flow for Registration - Scenario 2
+2026-07-22 21:23:16,336 - INFO - Running TC_REG_003 [Registration] - Execute validation flow for Registration - Scenario 3
+2026-07-22 21:23:16,353 - INFO - Running TC_REG_004 [Registration] - Execute validation flow for Registration - Scenario 4
+2026-07-22 21:23:16,369 - INFO - Running TC_REG_005 [Registration] - Execute validation flow for Registration - Scenario 5
+2026-07-22 21:23:16,385 - INFO - Running TC_REG_006 [Registration] - Execute validation flow for Registration - Scenario 6
+2026-07-22 21:23:16,402 - INFO - Running TC_REG_007 [Registration] - Execute validation flow for Registration - Scenario 7
+2026-07-22 21:23:16,422 - INFO - Running TC_REG_008 [Registration] - Execute validation flow for Registration - Scenario 8
+2026-07-22 21:23:16,432 - INFO - Running TC_REG_009 [Registration] - Execute validation flow for Registration - Scenario 9
+2026-07-22 21:23:16,449 - INFO - Running TC_REG_010 [Registration] - Execute validation flow for Registration - Scenario 10
+2026-07-22 21:23:16,473 - INFO - Running TC_REG_011 [Registration] - Execute validation flow for Registration - Scenario 11
+2026-07-22 21:23:16,489 - INFO - Running TC_REG_012 [Registration] - Execute validation flow for Registration - Scenario 12
+2026-07-22 21:23:16,504 - INFO - Running TC_REG_013 [Registration] - Execute validation flow for Registration - Scenario 13
+2026-07-22 21:23:16,521 - INFO - Running TC_REG_014 [Registration] - Execute validation flow for Registration - Scenario 14
+2026-07-22 21:23:16,538 - INFO - Running TC_REG_015 [Registration] - Execute validation flow for Registration - Scenario 15
+2026-07-22 21:23:16,552 - INFO - Running TC_REG_016 [Registration] - Execute validation flow for Registration - Scenario 16
+2026-07-22 21:23:16,569 - INFO - Running TC_REG_017 [Registration] - Execute validation flow for Registration - Scenario 17
+2026-07-22 21:23:16,587 - INFO - Running TC_REG_018 [Registration] - Execute validation flow for Registration - Scenario 18
+2026-07-22 21:23:16,603 - INFO - Running TC_REG_019 [Registration] - Execute validation flow for Registration - Scenario 19
+2026-07-22 21:23:16,619 - INFO - Running TC_REG_020 [Registration] - Execute validation flow for Registration - Scenario 20
+2026-07-22 21:23:16,637 - INFO - Running TC_PROF_001 [Profile Management] - Execute validation flow for Profile Management - Scenario 1
+2026-07-22 21:23:16,651 - INFO - Running TC_PROF_002 [Profile Management] - Execute validation flow for Profile Management - Scenario 2
+2026-07-22 21:23:16,659 - INFO - Running TC_PROF_003 [Profile Management] - Execute validation flow for Profile Management - Scenario 3
+2026-07-22 21:23:16,667 - INFO - Running TC_PROF_004 [Profile Management] - Execute validation flow for Profile Management - Scenario 4
+2026-07-22 21:23:16,675 - INFO - Running TC_PROF_005 [Profile Management] - Execute validation flow for Profile Management - Scenario 5
+2026-07-22 21:23:16,682 - INFO - Running TC_PROF_006 [Profile Management] - Execute validation flow for Profile Management - Scenario 6
+2026-07-22 21:23:16,699 - INFO - Running TC_PROF_007 [Profile Management] - Execute validation flow for Profile Management - Scenario 7
+2026-07-22 21:23:16,714 - INFO - Running TC_PROF_008 [Profile Management] - Execute validation flow for Profile Management - Scenario 8
+2026-07-22 21:23:16,723 - INFO - Running TC_PROF_009 [Profile Management] - Execute validation flow for Profile Management - Scenario 9
+2026-07-22 21:23:16,738 - INFO - Running TC_PROF_010 [Profile Management] - Execute validation flow for Profile Management - Scenario 10
+2026-07-22 21:23:16,755 - INFO - Running TC_PROF_011 [Profile Management] - Execute validation flow for Profile Management - Scenario 11
+2026-07-22 21:23:16,772 - INFO - Running TC_PROF_012 [Profile Management] - Execute validation flow for Profile Management - Scenario 12
+2026-07-22 21:23:16,787 - INFO - Running TC_PROF_013 [Profile Management] - Execute validation flow for Profile Management - Scenario 13
+2026-07-22 21:23:16,805 - INFO - Running TC_PROF_014 [Profile Management] - Execute validation flow for Profile Management - Scenario 14
+2026-07-22 21:23:16,821 - INFO - Running TC_PROF_015 [Profile Management] - Execute validation flow for Profile Management - Scenario 15
+2026-07-22 21:23:16,840 - INFO - Running TC_PROF_016 [Profile Management] - Execute validation flow for Profile Management - Scenario 16
+2026-07-22 21:23:16,853 - INFO - Running TC_PROF_017 [Profile Management] - Execute validation flow for Profile Management - Scenario 17
+2026-07-22 21:23:16,868 - INFO - Running TC_PROF_018 [Profile Management] - Execute validation flow for Profile Management - Scenario 18
+2026-07-22 21:23:16,882 - INFO - Running TC_PROF_019 [Profile Management] - Execute validation flow for Profile Management - Scenario 19
+2026-07-22 21:23:16,901 - INFO - Running TC_PROF_020 [Profile Management] - Execute validation flow for Profile Management - Scenario 20
+2026-07-22 21:23:16,916 - INFO - Running TC_NAV_001 [Navigation] - Execute validation flow for Navigation - Scenario 1
+2026-07-22 21:23:16,932 - INFO - Running TC_NAV_002 [Navigation] - Execute validation flow for Navigation - Scenario 2
+2026-07-22 21:23:16,949 - INFO - Running TC_NAV_003 [Navigation] - Execute validation flow for Navigation - Scenario 3
+2026-07-22 21:23:16,956 - INFO - Running TC_NAV_004 [Navigation] - Execute validation flow for Navigation - Scenario 4
+2026-07-22 21:23:16,972 - INFO - Running TC_NAV_005 [Navigation] - Execute validation flow for Navigation - Scenario 5
+2026-07-22 21:23:16,980 - INFO - Running TC_NAV_006 [Navigation] - Execute validation flow for Navigation - Scenario 6
+2026-07-22 21:23:16,996 - INFO - Running TC_NAV_007 [Navigation] - Execute validation flow for Navigation - Scenario 7
+2026-07-22 21:23:17,012 - INFO - Running TC_NAV_008 [Navigation] - Execute validation flow for Navigation - Scenario 8
+2026-07-22 21:23:17,028 - INFO - Running TC_NAV_009 [Navigation] - Execute validation flow for Navigation - Scenario 9
+2026-07-22 21:23:17,043 - INFO - Running TC_NAV_010 [Navigation] - Execute validation flow for Navigation - Scenario 10
+2026-07-22 21:23:17,059 - INFO - Running TC_NAV_011 [Navigation] - Execute validation flow for Navigation - Scenario 11
+2026-07-22 21:23:17,075 - INFO - Running TC_NAV_012 [Navigation] - Execute validation flow for Navigation - Scenario 12
+2026-07-22 21:23:17,092 - INFO - Running TC_NAV_013 [Navigation] - Execute validation flow for Navigation - Scenario 13
+2026-07-22 21:23:17,109 - INFO - Running TC_NAV_014 [Navigation] - Execute validation flow for Navigation - Scenario 14
+2026-07-22 21:23:17,124 - INFO - Running TC_NAV_015 [Navigation] - Execute validation flow for Navigation - Scenario 15
+2026-07-22 21:23:17,140 - INFO - Running TC_NAV_016 [Navigation] - Execute validation flow for Navigation - Scenario 16
+2026-07-22 21:23:17,148 - INFO - Running TC_NAV_017 [Navigation] - Execute validation flow for Navigation - Scenario 17
+2026-07-22 21:23:17,165 - INFO - Running TC_NAV_018 [Navigation] - Execute validation flow for Navigation - Scenario 18
+2026-07-22 21:23:17,188 - INFO - Running TC_NAV_019 [Navigation] - Execute validation flow for Navigation - Scenario 19
+2026-07-22 21:23:17,204 - INFO - Running TC_NAV_020 [Navigation] - Execute validation flow for Navigation - Scenario 20
+2026-07-22 21:23:17,221 - INFO - Running TC_NAV_021 [Navigation] - Execute validation flow for Navigation - Scenario 21
+2026-07-22 21:23:17,239 - INFO - Running TC_NAV_022 [Navigation] - Execute validation flow for Navigation - Scenario 22
+2026-07-22 21:23:17,252 - INFO - Running TC_NAV_023 [Navigation] - Execute validation flow for Navigation - Scenario 23
+2026-07-22 21:23:17,268 - INFO - Running TC_NAV_024 [Navigation] - Execute validation flow for Navigation - Scenario 24
+2026-07-22 21:23:17,285 - INFO - Running TC_NAV_025 [Navigation] - Execute validation flow for Navigation - Scenario 25
+2026-07-22 21:23:17,306 - INFO - Running TC_NAV_026 [Navigation] - Execute validation flow for Navigation - Scenario 26
+2026-07-22 21:23:17,324 - INFO - Running TC_NAV_027 [Navigation] - Execute validation flow for Navigation - Scenario 27
+2026-07-22 21:23:17,337 - INFO - Running TC_NAV_028 [Navigation] - Execute validation flow for Navigation - Scenario 28
+2026-07-22 21:23:17,355 - INFO - Running TC_NAV_029 [Navigation] - Execute validation flow for Navigation - Scenario 29
+2026-07-22 21:23:17,370 - INFO - Running TC_NAV_030 [Navigation] - Execute validation flow for Navigation - Scenario 30
+2026-07-22 21:23:17,386 - INFO - Running TC_DASH_001 [Dashboard] - Execute validation flow for Dashboard - Scenario 1
+2026-07-22 21:23:17,394 - INFO - Running TC_DASH_002 [Dashboard] - Execute validation flow for Dashboard - Scenario 2
+2026-07-22 21:23:17,411 - INFO - Running TC_DASH_003 [Dashboard] - Execute validation flow for Dashboard - Scenario 3
+2026-07-22 21:23:17,426 - INFO - Running TC_DASH_004 [Dashboard] - Execute validation flow for Dashboard - Scenario 4
+2026-07-22 21:23:17,442 - INFO - Running TC_DASH_005 [Dashboard] - Execute validation flow for Dashboard - Scenario 5
+2026-07-22 21:23:17,458 - INFO - Running TC_DASH_006 [Dashboard] - Execute validation flow for Dashboard - Scenario 6
+2026-07-22 21:23:17,474 - INFO - Running TC_DASH_007 [Dashboard] - Execute validation flow for Dashboard - Scenario 7
+2026-07-22 21:23:17,491 - INFO - Running TC_DASH_008 [Dashboard] - Execute validation flow for Dashboard - Scenario 8
+2026-07-22 21:23:17,507 - INFO - Running TC_DASH_009 [Dashboard] - Execute validation flow for Dashboard - Scenario 9
+2026-07-22 21:23:17,524 - INFO - Running TC_DASH_010 [Dashboard] - Execute validation flow for Dashboard - Scenario 10
+2026-07-22 21:23:17,532 - INFO - Running TC_DASH_011 [Dashboard] - Execute validation flow for Dashboard - Scenario 11
+2026-07-22 21:23:17,541 - INFO - Running TC_DASH_012 [Dashboard] - Execute validation flow for Dashboard - Scenario 12
+2026-07-22 21:23:17,557 - INFO - Running TC_DASH_013 [Dashboard] - Execute validation flow for Dashboard - Scenario 13
+2026-07-22 21:23:17,572 - INFO - Running TC_DASH_014 [Dashboard] - Execute validation flow for Dashboard - Scenario 14
+2026-07-22 21:23:17,588 - INFO - Running TC_DASH_015 [Dashboard] - Execute validation flow for Dashboard - Scenario 15
+2026-07-22 21:23:17,605 - INFO - Running TC_DASH_016 [Dashboard] - Execute validation flow for Dashboard - Scenario 16
+2026-07-22 21:23:17,622 - INFO - Running TC_DASH_017 [Dashboard] - Execute validation flow for Dashboard - Scenario 17
+2026-07-22 21:23:17,637 - INFO - Running TC_DASH_018 [Dashboard] - Execute validation flow for Dashboard - Scenario 18
+2026-07-22 21:23:17,653 - INFO - Running TC_DASH_019 [Dashboard] - Execute validation flow for Dashboard - Scenario 19
+2026-07-22 21:23:17,669 - INFO - Running TC_DASH_020 [Dashboard] - Execute validation flow for Dashboard - Scenario 20
+2026-07-22 21:23:17,684 - INFO - Running TC_FORM_001 [Forms] - Execute validation flow for Forms - Scenario 1
+2026-07-22 21:23:17,700 - INFO - Running TC_FORM_002 [Forms] - Execute validation flow for Forms - Scenario 2
+2026-07-22 21:23:17,717 - INFO - Running TC_FORM_003 [Forms] - Execute validation flow for Forms - Scenario 3
+2026-07-22 21:23:17,734 - INFO - Running TC_FORM_004 [Forms] - Execute validation flow for Forms - Scenario 4
+2026-07-22 21:23:17,749 - INFO - Running TC_FORM_005 [Forms] - Execute validation flow for Forms - Scenario 5
+2026-07-22 21:23:17,765 - INFO - Running TC_FORM_006 [Forms] - Execute validation flow for Forms - Scenario 6
+2026-07-22 21:23:17,782 - INFO - Running TC_FORM_007 [Forms] - Execute validation flow for Forms - Scenario 7
+2026-07-22 21:23:17,799 - INFO - Running TC_FORM_008 [Forms] - Execute validation flow for Forms - Scenario 8
+2026-07-22 21:23:17,821 - INFO - Running TC_FORM_009 [Forms] - Execute validation flow for Forms - Scenario 9
+2026-07-22 21:23:17,831 - INFO - Running TC_FORM_010 [Forms] - Execute validation flow for Forms - Scenario 10
+2026-07-22 21:23:17,856 - INFO - Running TC_FORM_011 [Forms] - Execute validation flow for Forms - Scenario 11
+2026-07-22 21:23:17,871 - INFO - Running TC_FORM_012 [Forms] - Execute validation flow for Forms - Scenario 12
+2026-07-22 21:23:17,887 - INFO - Running TC_FORM_013 [Forms] - Execute validation flow for Forms - Scenario 13
+2026-07-22 21:23:17,903 - INFO - Running TC_FORM_014 [Forms] - Execute validation flow for Forms - Scenario 14
+2026-07-22 21:23:17,919 - INFO - Running TC_FORM_015 [Forms] - Execute validation flow for Forms - Scenario 15
+2026-07-22 21:23:17,934 - INFO - Running TC_FORM_016 [Forms] - Execute validation flow for Forms - Scenario 16
+2026-07-22 21:23:17,951 - INFO - Running TC_FORM_017 [Forms] - Execute validation flow for Forms - Scenario 17
+2026-07-22 21:23:17,967 - INFO - Running TC_FORM_018 [Forms] - Execute validation flow for Forms - Scenario 18
+2026-07-22 21:23:17,988 - INFO - Running TC_FORM_019 [Forms] - Execute validation flow for Forms - Scenario 19
+2026-07-22 21:23:17,999 - INFO - Running TC_FORM_020 [Forms] - Execute validation flow for Forms - Scenario 20
+2026-07-22 21:23:18,014 - INFO - Running TC_FORM_021 [Forms] - Execute validation flow for Forms - Scenario 21
+2026-07-22 21:23:18,022 - INFO - Running TC_FORM_022 [Forms] - Execute validation flow for Forms - Scenario 22
+2026-07-22 21:23:18,039 - INFO - Running TC_FORM_023 [Forms] - Execute validation flow for Forms - Scenario 23
+2026-07-22 21:23:18,055 - INFO - Running TC_FORM_024 [Forms] - Execute validation flow for Forms - Scenario 24
+2026-07-22 21:23:18,071 - INFO - Running TC_FORM_025 [Forms] - Execute validation flow for Forms - Scenario 25
+2026-07-22 21:23:18,088 - INFO - Running TC_FORM_026 [Forms] - Execute validation flow for Forms - Scenario 26
+2026-07-22 21:23:18,105 - INFO - Running TC_FORM_027 [Forms] - Execute validation flow for Forms - Scenario 27
+2026-07-22 21:23:18,123 - INFO - Running TC_FORM_028 [Forms] - Execute validation flow for Forms - Scenario 28
+2026-07-22 21:23:18,136 - INFO - Running TC_FORM_029 [Forms] - Execute validation flow for Forms - Scenario 29
+2026-07-22 21:23:18,151 - INFO - Running TC_FORM_030 [Forms] - Execute validation flow for Forms - Scenario 30
+2026-07-22 21:23:18,167 - INFO - Running TC_FORM_031 [Forms] - Execute validation flow for Forms - Scenario 31
+2026-07-22 21:23:18,183 - INFO - Running TC_FORM_032 [Forms] - Execute validation flow for Forms - Scenario 32
+2026-07-22 21:23:18,199 - INFO - Running TC_FORM_033 [Forms] - Execute validation flow for Forms - Scenario 33
+2026-07-22 21:23:18,215 - INFO - Running TC_FORM_034 [Forms] - Execute validation flow for Forms - Scenario 34
+2026-07-22 21:23:18,231 - INFO - Running TC_FORM_035 [Forms] - Execute validation flow for Forms - Scenario 35
+2026-07-22 21:23:18,247 - INFO - Running TC_FORM_036 [Forms] - Execute validation flow for Forms - Scenario 36
+2026-07-22 21:23:18,263 - INFO - Running TC_FORM_037 [Forms] - Execute validation flow for Forms - Scenario 37
+2026-07-22 21:23:18,281 - INFO - Running TC_FORM_038 [Forms] - Execute validation flow for Forms - Scenario 38
+2026-07-22 21:23:18,290 - INFO - Running TC_FORM_039 [Forms] - Execute validation flow for Forms - Scenario 39
+2026-07-22 21:23:18,306 - INFO - Running TC_FORM_040 [Forms] - Execute validation flow for Forms - Scenario 40
+2026-07-22 21:23:18,320 - INFO - Running TC_CRUD_001 [CRUD Operations] - Execute validation flow for CRUD Operations - Scenario 1
+2026-07-22 21:23:18,335 - INFO - Running TC_CRUD_002 [CRUD Operations] - Execute validation flow for CRUD Operations - Scenario 2
+2026-07-22 21:23:18,352 - INFO - Running TC_CRUD_003 [CRUD Operations] - Execute validation flow for CRUD Operations - Scenario 3
+2026-07-22 21:23:18,370 - INFO - Running TC_CRUD_004 [CRUD Operations] - Execute validation flow for CRUD Operations - Scenario 4
+2026-07-22 21:23:18,384 - INFO - Running TC_CRUD_005 [CRUD Operations] - Execute validation flow for CRUD Operations - Scenario 5
+2026-07-22 21:23:18,401 - INFO - Running TC_CRUD_006 [CRUD Operations] - Execute validation flow for CRUD Operations - Scenario 6
+2026-07-22 21:23:18,417 - INFO - Running TC_CRUD_007 [CRUD Operations] - Execute validation flow for CRUD Operations - Scenario 7
+2026-07-22 21:23:18,433 - INFO - Running TC_CRUD_008 [CRUD Operations] - Execute validation flow for CRUD Operations - Scenario 8
+2026-07-22 21:23:18,449 - INFO - Running TC_CRUD_009 [CRUD Operations] - Execute validation flow for CRUD Operations - Scenario 9
+2026-07-22 21:23:18,457 - INFO - Running TC_CRUD_010 [CRUD Operations] - Execute validation flow for CRUD Operations - Scenario 10
+2026-07-22 21:23:18,474 - INFO - Running TC_CRUD_011 [CRUD Operations] - Execute validation flow for CRUD Operations - Scenario 11
+2026-07-22 21:23:18,488 - INFO - Running TC_CRUD_012 [CRUD Operations] - Execute validation flow for CRUD Operations - Scenario 12
+2026-07-22 21:23:18,506 - INFO - Running TC_CRUD_013 [CRUD Operations] - Execute validation flow for CRUD Operations - Scenario 13
+2026-07-22 21:23:18,523 - INFO - Running TC_CRUD_014 [CRUD Operations] - Execute validation flow for CRUD Operations - Scenario 14
+2026-07-22 21:23:18,539 - INFO - Running TC_CRUD_015 [CRUD Operations] - Execute validation flow for CRUD Operations - Scenario 15
+2026-07-22 21:23:18,555 - INFO - Running TC_CRUD_016 [CRUD Operations] - Execute validation flow for CRUD Operations - Scenario 16
+2026-07-22 21:23:18,570 - INFO - Running TC_CRUD_017 [CRUD Operations] - Execute validation flow for CRUD Operations - Scenario 17
+2026-07-22 21:23:18,589 - INFO - Running TC_CRUD_018 [CRUD Operations] - Execute validation flow for CRUD Operations - Scenario 18
+2026-07-22 21:23:18,600 - INFO - Running TC_CRUD_019 [CRUD Operations] - Execute validation flow for CRUD Operations - Scenario 19
+2026-07-22 21:23:18,608 - INFO - Running TC_CRUD_020 [CRUD Operations] - Execute validation flow for CRUD Operations - Scenario 20
+2026-07-22 21:23:18,625 - INFO - Running TC_CRUD_021 [CRUD Operations] - Execute validation flow for CRUD Operations - Scenario 21
+2026-07-22 21:23:18,641 - INFO - Running TC_CRUD_022 [CRUD Operations] - Execute validation flow for CRUD Operations - Scenario 22
+2026-07-22 21:23:18,649 - INFO - Running TC_CRUD_023 [CRUD Operations] - Execute validation flow for CRUD Operations - Scenario 23
+2026-07-22 21:23:18,665 - INFO - Running TC_CRUD_024 [CRUD Operations] - Execute validation flow for CRUD Operations - Scenario 24
+2026-07-22 21:23:18,681 - INFO - Running TC_CRUD_025 [CRUD Operations] - Execute validation flow for CRUD Operations - Scenario 25
+2026-07-22 21:23:18,697 - INFO - Running TC_CRUD_026 [CRUD Operations] - Execute validation flow for CRUD Operations - Scenario 26
+2026-07-22 21:23:18,713 - INFO - Running TC_CRUD_027 [CRUD Operations] - Execute validation flow for CRUD Operations - Scenario 27
+2026-07-22 21:23:18,728 - INFO - Running TC_CRUD_028 [CRUD Operations] - Execute validation flow for CRUD Operations - Scenario 28
+2026-07-22 21:23:18,745 - INFO - Running TC_CRUD_029 [CRUD Operations] - Execute validation flow for CRUD Operations - Scenario 29
+2026-07-22 21:23:18,761 - INFO - Running TC_CRUD_030 [CRUD Operations] - Execute validation flow for CRUD Operations - Scenario 30
+2026-07-22 21:23:18,777 - INFO - Running TC_CRUD_031 [CRUD Operations] - Execute validation flow for CRUD Operations - Scenario 31
+2026-07-22 21:23:18,793 - INFO - Running TC_CRUD_032 [CRUD Operations] - Execute validation flow for CRUD Operations - Scenario 32
+2026-07-22 21:23:18,810 - INFO - Running TC_CRUD_033 [CRUD Operations] - Execute validation flow for CRUD Operations - Scenario 33
+2026-07-22 21:23:18,826 - INFO - Running TC_CRUD_034 [CRUD Operations] - Execute validation flow for CRUD Operations - Scenario 34
+2026-07-22 21:23:18,842 - INFO - Running TC_CRUD_035 [CRUD Operations] - Execute validation flow for CRUD Operations - Scenario 35
+2026-07-22 21:23:18,858 - INFO - Running TC_CRUD_036 [CRUD Operations] - Execute validation flow for CRUD Operations - Scenario 36
+2026-07-22 21:23:18,874 - INFO - Running TC_CRUD_037 [CRUD Operations] - Execute validation flow for CRUD Operations - Scenario 37
+2026-07-22 21:23:18,881 - INFO - Running TC_CRUD_038 [CRUD Operations] - Execute validation flow for CRUD Operations - Scenario 38
+2026-07-22 21:23:18,897 - INFO - Running TC_CRUD_039 [CRUD Operations] - Execute validation flow for CRUD Operations - Scenario 39
+2026-07-22 21:23:18,914 - INFO - Running TC_CRUD_040 [CRUD Operations] - Execute validation flow for CRUD Operations - Scenario 40
+2026-07-22 21:23:18,929 - INFO - Running TC_SRCH_001 [Search] - Execute validation flow for Search - Scenario 1
+2026-07-22 21:23:18,946 - INFO - Running TC_SRCH_002 [Search] - Execute validation flow for Search - Scenario 2
+2026-07-22 21:23:18,962 - INFO - Running TC_SRCH_003 [Search] - Execute validation flow for Search - Scenario 3
+2026-07-22 21:23:18,979 - INFO - Running TC_SRCH_004 [Search] - Execute validation flow for Search - Scenario 4
+2026-07-22 21:23:18,993 - INFO - Running TC_SRCH_005 [Search] - Execute validation flow for Search - Scenario 5
+2026-07-22 21:23:19,002 - INFO - Running TC_SRCH_006 [Search] - Execute validation flow for Search - Scenario 6
+2026-07-22 21:23:19,019 - INFO - Running TC_SRCH_007 [Search] - Execute validation flow for Search - Scenario 7
+2026-07-22 21:23:19,034 - INFO - Running TC_SRCH_008 [Search] - Execute validation flow for Search - Scenario 8
+2026-07-22 21:23:19,050 - INFO - Running TC_SRCH_009 [Search] - Execute validation flow for Search - Scenario 9
+2026-07-22 21:23:19,066 - INFO - Running TC_SRCH_010 [Search] - Execute validation flow for Search - Scenario 10
+2026-07-22 21:23:19,084 - INFO - Running TC_SRCH_011 [Search] - Execute validation flow for Search - Scenario 11
+2026-07-22 21:23:19,099 - INFO - Running TC_SRCH_012 [Search] - Execute validation flow for Search - Scenario 12
+2026-07-22 21:23:19,115 - INFO - Running TC_SRCH_013 [Search] - Execute validation flow for Search - Scenario 13
+2026-07-22 21:23:19,131 - INFO - Running TC_SRCH_014 [Search] - Execute validation flow for Search - Scenario 14
+2026-07-22 21:23:19,148 - INFO - Running TC_SRCH_015 [Search] - Execute validation flow for Search - Scenario 15
+2026-07-22 21:23:19,163 - INFO - Running TC_SRCH_016 [Search] - Execute validation flow for Search - Scenario 16
+2026-07-22 21:23:19,180 - INFO - Running TC_SRCH_017 [Search] - Execute validation flow for Search - Scenario 17
+2026-07-22 21:23:19,195 - INFO - Running TC_SRCH_018 [Search] - Execute validation flow for Search - Scenario 18
+2026-07-22 21:23:19,220 - INFO - Running TC_SRCH_019 [Search] - Execute validation flow for Search - Scenario 19
+2026-07-22 21:23:19,237 - INFO - Running TC_SRCH_020 [Search] - Execute validation flow for Search - Scenario 20
+2026-07-22 21:23:19,252 - INFO - Running TC_FILT_001 [Filters] - Execute validation flow for Filters - Scenario 1
+2026-07-22 21:23:19,271 - INFO - Running TC_FILT_002 [Filters] - Execute validation flow for Filters - Scenario 2
+2026-07-22 21:23:19,285 - INFO - Running TC_FILT_003 [Filters] - Execute validation flow for Filters - Scenario 3
+2026-07-22 21:23:19,298 - INFO - Running TC_FILT_004 [Filters] - Execute validation flow for Filters - Scenario 4
+2026-07-22 21:23:19,314 - INFO - Running TC_FILT_005 [Filters] - Execute validation flow for Filters - Scenario 5
+2026-07-22 21:23:19,331 - INFO - Running TC_FILT_006 [Filters] - Execute validation flow for Filters - Scenario 6
+2026-07-22 21:23:19,346 - INFO - Running TC_FILT_007 [Filters] - Execute validation flow for Filters - Scenario 7
+2026-07-22 21:23:19,361 - INFO - Running TC_FILT_008 [Filters] - Execute validation flow for Filters - Scenario 8
+2026-07-22 21:23:19,378 - INFO - Running TC_FILT_009 [Filters] - Execute validation flow for Filters - Scenario 9
+2026-07-22 21:23:19,393 - INFO - Running TC_FILT_010 [Filters] - Execute validation flow for Filters - Scenario 10
+2026-07-22 21:23:19,409 - INFO - Running TC_FILT_011 [Filters] - Execute validation flow for Filters - Scenario 11
+2026-07-22 21:23:19,423 - INFO - Running TC_FILT_012 [Filters] - Execute validation flow for Filters - Scenario 12
+2026-07-22 21:23:19,433 - INFO - Running TC_FILT_013 [Filters] - Execute validation flow for Filters - Scenario 13
+2026-07-22 21:23:19,450 - INFO - Running TC_FILT_014 [Filters] - Execute validation flow for Filters - Scenario 14
+2026-07-22 21:23:19,465 - INFO - Running TC_FILT_015 [Filters] - Execute validation flow for Filters - Scenario 15
+2026-07-22 21:23:19,482 - INFO - Running TC_FILT_016 [Filters] - Execute validation flow for Filters - Scenario 16
+2026-07-22 21:23:19,497 - INFO - Running TC_FILT_017 [Filters] - Execute validation flow for Filters - Scenario 17
+2026-07-22 21:23:19,505 - INFO - Running TC_FILT_018 [Filters] - Execute validation flow for Filters - Scenario 18
+2026-07-22 21:23:19,522 - INFO - Running TC_FILT_019 [Filters] - Execute validation flow for Filters - Scenario 19
+2026-07-22 21:23:19,537 - INFO - Running TC_FILT_020 [Filters] - Execute validation flow for Filters - Scenario 20
+2026-07-22 21:23:19,555 - INFO - Running TC_VAL_001 [Input Validation] - Execute validation flow for Input Validation - Scenario 1
+2026-07-22 21:23:19,578 - INFO - Running TC_VAL_002 [Input Validation] - Execute validation flow for Input Validation - Scenario 2
+2026-07-22 21:23:19,594 - INFO - Running TC_VAL_003 [Input Validation] - Execute validation flow for Input Validation - Scenario 3
+2026-07-22 21:23:19,611 - INFO - Running TC_VAL_004 [Input Validation] - Execute validation flow for Input Validation - Scenario 4
+2026-07-22 21:23:19,626 - INFO - Running TC_VAL_005 [Input Validation] - Execute validation flow for Input Validation - Scenario 5
+2026-07-22 21:23:19,642 - INFO - Running TC_VAL_006 [Input Validation] - Execute validation flow for Input Validation - Scenario 6
+2026-07-22 21:23:19,659 - INFO - Running TC_VAL_007 [Input Validation] - Execute validation flow for Input Validation - Scenario 7
+2026-07-22 21:23:19,676 - INFO - Running TC_VAL_008 [Input Validation] - Execute validation flow for Input Validation - Scenario 8
+2026-07-22 21:23:19,684 - INFO - Running TC_VAL_009 [Input Validation] - Execute validation flow for Input Validation - Scenario 9
+2026-07-22 21:23:19,700 - INFO - Running TC_VAL_010 [Input Validation] - Execute validation flow for Input Validation - Scenario 10
+2026-07-22 21:23:19,717 - INFO - Running TC_VAL_011 [Input Validation] - Execute validation flow for Input Validation - Scenario 11
+2026-07-22 21:23:19,732 - INFO - Running TC_VAL_012 [Input Validation] - Execute validation flow for Input Validation - Scenario 12
+2026-07-22 21:23:19,749 - INFO - Running TC_VAL_013 [Input Validation] - Execute validation flow for Input Validation - Scenario 13
+2026-07-22 21:23:19,772 - INFO - Running TC_VAL_014 [Input Validation] - Execute validation flow for Input Validation - Scenario 14
+2026-07-22 21:23:19,781 - INFO - Running TC_VAL_015 [Input Validation] - Execute validation flow for Input Validation - Scenario 15
+2026-07-22 21:23:19,790 - INFO - Running TC_VAL_016 [Input Validation] - Execute validation flow for Input Validation - Scenario 16
+2026-07-22 21:23:19,805 - INFO - Running TC_VAL_017 [Input Validation] - Execute validation flow for Input Validation - Scenario 17
+2026-07-22 21:23:19,822 - INFO - Running TC_VAL_018 [Input Validation] - Execute validation flow for Input Validation - Scenario 18
+2026-07-22 21:23:19,838 - INFO - Running TC_VAL_019 [Input Validation] - Execute validation flow for Input Validation - Scenario 19
+2026-07-22 21:23:19,855 - INFO - Running TC_VAL_020 [Input Validation] - Execute validation flow for Input Validation - Scenario 20
+2026-07-22 21:23:19,871 - INFO - Running TC_VAL_021 [Input Validation] - Execute validation flow for Input Validation - Scenario 21
+2026-07-22 21:23:19,888 - INFO - Running TC_VAL_022 [Input Validation] - Execute validation flow for Input Validation - Scenario 22
+2026-07-22 21:23:19,904 - INFO - Running TC_VAL_023 [Input Validation] - Execute validation flow for Input Validation - Scenario 23
+2026-07-22 21:23:19,919 - INFO - Running TC_VAL_024 [Input Validation] - Execute validation flow for Input Validation - Scenario 24
+2026-07-22 21:23:19,935 - INFO - Running TC_VAL_025 [Input Validation] - Execute validation flow for Input Validation - Scenario 25
+2026-07-22 21:23:19,951 - INFO - Running TC_VAL_026 [Input Validation] - Execute validation flow for Input Validation - Scenario 26
+2026-07-22 21:23:19,967 - INFO - Running TC_VAL_027 [Input Validation] - Execute validation flow for Input Validation - Scenario 27
+2026-07-22 21:23:19,985 - INFO - Running TC_VAL_028 [Input Validation] - Execute validation flow for Input Validation - Scenario 28
+2026-07-22 21:23:20,001 - INFO - Running TC_VAL_029 [Input Validation] - Execute validation flow for Input Validation - Scenario 29
+2026-07-22 21:23:20,017 - INFO - Running TC_VAL_030 [Input Validation] - Execute validation flow for Input Validation - Scenario 30
+2026-07-22 21:23:20,033 - INFO - Running TC_VAL_031 [Input Validation] - Execute validation flow for Input Validation - Scenario 31
+2026-07-22 21:23:20,050 - INFO - Running TC_VAL_032 [Input Validation] - Execute validation flow for Input Validation - Scenario 32
+2026-07-22 21:23:20,065 - INFO - Running TC_VAL_033 [Input Validation] - Execute validation flow for Input Validation - Scenario 33
+2026-07-22 21:23:20,081 - INFO - Running TC_VAL_034 [Input Validation] - Execute validation flow for Input Validation - Scenario 34
+2026-07-22 21:23:20,098 - INFO - Running TC_VAL_035 [Input Validation] - Execute validation flow for Input Validation - Scenario 35
+2026-07-22 21:23:20,114 - INFO - Running TC_VAL_036 [Input Validation] - Execute validation flow for Input Validation - Scenario 36
+2026-07-22 21:23:20,130 - INFO - Running TC_VAL_037 [Input Validation] - Execute validation flow for Input Validation - Scenario 37
+2026-07-22 21:23:20,147 - INFO - Running TC_VAL_038 [Input Validation] - Execute validation flow for Input Validation - Scenario 38
+2026-07-22 21:23:20,162 - INFO - Running TC_VAL_039 [Input Validation] - Execute validation flow for Input Validation - Scenario 39
+2026-07-22 21:23:20,178 - INFO - Running TC_VAL_040 [Input Validation] - Execute validation flow for Input Validation - Scenario 40
+2026-07-22 21:23:20,194 - INFO - Running TC_ERR_001 [Error Handling] - Execute validation flow for Error Handling - Scenario 1
+2026-07-22 21:23:20,210 - INFO - Running TC_ERR_002 [Error Handling] - Execute validation flow for Error Handling - Scenario 2
+2026-07-22 21:23:20,226 - INFO - Running TC_ERR_003 [Error Handling] - Execute validation flow for Error Handling - Scenario 3
+2026-07-22 21:23:20,242 - INFO - Running TC_ERR_004 [Error Handling] - Execute validation flow for Error Handling - Scenario 4
+2026-07-22 21:23:20,258 - INFO - Running TC_ERR_005 [Error Handling] - Execute validation flow for Error Handling - Scenario 5
+2026-07-22 21:23:20,274 - INFO - Running TC_ERR_006 [Error Handling] - Execute validation flow for Error Handling - Scenario 6
+2026-07-22 21:23:20,291 - INFO - Running TC_ERR_007 [Error Handling] - Execute validation flow for Error Handling - Scenario 7
+2026-07-22 21:23:20,308 - INFO - Running TC_ERR_008 [Error Handling] - Execute validation flow for Error Handling - Scenario 8
+2026-07-22 21:23:20,324 - INFO - Running TC_ERR_009 [Error Handling] - Execute validation flow for Error Handling - Scenario 9
+2026-07-22 21:23:20,342 - INFO - Running TC_ERR_010 [Error Handling] - Execute validation flow for Error Handling - Scenario 10
+2026-07-22 21:23:20,356 - INFO - Running TC_ERR_011 [Error Handling] - Execute validation flow for Error Handling - Scenario 11
+2026-07-22 21:23:20,371 - INFO - Running TC_ERR_012 [Error Handling] - Execute validation flow for Error Handling - Scenario 12
+2026-07-22 21:23:20,388 - INFO - Running TC_ERR_013 [Error Handling] - Execute validation flow for Error Handling - Scenario 13
+2026-07-22 21:23:20,404 - INFO - Running TC_ERR_014 [Error Handling] - Execute validation flow for Error Handling - Scenario 14
+2026-07-22 21:23:20,419 - INFO - Running TC_ERR_015 [Error Handling] - Execute validation flow for Error Handling - Scenario 15
+2026-07-22 21:23:20,427 - INFO - Running TC_ERR_016 [Error Handling] - Execute validation flow for Error Handling - Scenario 16
+2026-07-22 21:23:20,443 - INFO - Running TC_ERR_017 [Error Handling] - Execute validation flow for Error Handling - Scenario 17
+2026-07-22 21:23:20,459 - INFO - Running TC_ERR_018 [Error Handling] - Execute validation flow for Error Handling - Scenario 18
+2026-07-22 21:23:20,475 - INFO - Running TC_ERR_019 [Error Handling] - Execute validation flow for Error Handling - Scenario 19
+2026-07-22 21:23:20,491 - INFO - Running TC_ERR_020 [Error Handling] - Execute validation flow for Error Handling - Scenario 20
+2026-07-22 21:23:20,507 - INFO - Running TC_SESS_001 [Session Management] - Execute validation flow for Session Management - Scenario 1
+2026-07-22 21:23:20,523 - INFO - Running TC_SESS_002 [Session Management] - Execute validation flow for Session Management - Scenario 2
+2026-07-22 21:23:20,540 - INFO - Running TC_SESS_003 [Session Management] - Execute validation flow for Session Management - Scenario 3
+2026-07-22 21:23:20,556 - INFO - Running TC_SESS_004 [Session Management] - Execute validation flow for Session Management - Scenario 4
+2026-07-22 21:23:20,573 - INFO - Running TC_SESS_005 [Session Management] - Execute validation flow for Session Management - Scenario 5
+2026-07-22 21:23:20,588 - INFO - Running TC_SESS_006 [Session Management] - Execute validation flow for Session Management - Scenario 6
+2026-07-22 21:23:20,604 - INFO - Running TC_SESS_007 [Session Management] - Execute validation flow for Session Management - Scenario 7
+2026-07-22 21:23:20,619 - INFO - Running TC_SESS_008 [Session Management] - Execute validation flow for Session Management - Scenario 8
+2026-07-22 21:23:20,636 - INFO - Running TC_SESS_009 [Session Management] - Execute validation flow for Session Management - Scenario 9
+2026-07-22 21:23:20,652 - INFO - Running TC_SESS_010 [Session Management] - Execute validation flow for Session Management - Scenario 10
+2026-07-22 21:23:20,669 - INFO - Running TC_SESS_011 [Session Management] - Execute validation flow for Session Management - Scenario 11
+2026-07-22 21:23:20,685 - INFO - Running TC_SESS_012 [Session Management] - Execute validation flow for Session Management - Scenario 12
+2026-07-22 21:23:20,702 - INFO - Running TC_SESS_013 [Session Management] - Execute validation flow for Session Management - Scenario 13
+2026-07-22 21:23:20,718 - INFO - Running TC_SESS_014 [Session Management] - Execute validation flow for Session Management - Scenario 14
+2026-07-22 21:23:20,734 - INFO - Running TC_SESS_015 [Session Management] - Execute validation flow for Session Management - Scenario 15
+2026-07-22 21:23:20,750 - INFO - Running TC_SESS_016 [Session Management] - Execute validation flow for Session Management - Scenario 16
+2026-07-22 21:23:20,766 - INFO - Running TC_SESS_017 [Session Management] - Execute validation flow for Session Management - Scenario 17
+2026-07-22 21:23:20,782 - INFO - Running TC_SESS_018 [Session Management] - Execute validation flow for Session Management - Scenario 18
+2026-07-22 21:23:20,797 - INFO - Running TC_SESS_019 [Session Management] - Execute validation flow for Session Management - Scenario 19
+2026-07-22 21:23:20,813 - INFO - Running TC_SESS_020 [Session Management] - Execute validation flow for Session Management - Scenario 20
+2026-07-22 21:23:20,829 - INFO - Running TC_NOTIF_001 [Notifications] - Execute validation flow for Notifications - Scenario 1
+2026-07-22 21:23:20,845 - INFO - Running TC_NOTIF_002 [Notifications] - Execute validation flow for Notifications - Scenario 2
+2026-07-22 21:23:20,861 - INFO - Running TC_NOTIF_003 [Notifications] - Execute validation flow for Notifications - Scenario 3
+2026-07-22 21:23:20,877 - INFO - Running TC_NOTIF_004 [Notifications] - Execute validation flow for Notifications - Scenario 4
+2026-07-22 21:23:20,894 - INFO - Running TC_NOTIF_005 [Notifications] - Execute validation flow for Notifications - Scenario 5
+2026-07-22 21:23:20,909 - INFO - Running TC_NOTIF_006 [Notifications] - Execute validation flow for Notifications - Scenario 6
+2026-07-22 21:23:20,926 - INFO - Running TC_NOTIF_007 [Notifications] - Execute validation flow for Notifications - Scenario 7
+2026-07-22 21:23:20,941 - INFO - Running TC_NOTIF_008 [Notifications] - Execute validation flow for Notifications - Scenario 8
+2026-07-22 21:23:20,957 - INFO - Running TC_NOTIF_009 [Notifications] - Execute validation flow for Notifications - Scenario 9
+2026-07-22 21:23:20,974 - INFO - Running TC_NOTIF_010 [Notifications] - Execute validation flow for Notifications - Scenario 10
+2026-07-22 21:23:20,991 - INFO - Running TC_NOTIF_011 [Notifications] - Execute validation flow for Notifications - Scenario 11
+2026-07-22 21:23:21,006 - INFO - Running TC_NOTIF_012 [Notifications] - Execute validation flow for Notifications - Scenario 12
+2026-07-22 21:23:21,022 - INFO - Running TC_NOTIF_013 [Notifications] - Execute validation flow for Notifications - Scenario 13
+2026-07-22 21:23:21,039 - INFO - Running TC_NOTIF_014 [Notifications] - Execute validation flow for Notifications - Scenario 14
+2026-07-22 21:23:21,054 - INFO - Running TC_NOTIF_015 [Notifications] - Execute validation flow for Notifications - Scenario 15
+2026-07-22 21:23:21,070 - INFO - Running TC_NOTIF_016 [Notifications] - Execute validation flow for Notifications - Scenario 16
+2026-07-22 21:23:21,086 - INFO - Running TC_NOTIF_017 [Notifications] - Execute validation flow for Notifications - Scenario 17
+2026-07-22 21:23:21,103 - INFO - Running TC_NOTIF_018 [Notifications] - Execute validation flow for Notifications - Scenario 18
+2026-07-22 21:23:21,110 - INFO - Running TC_NOTIF_019 [Notifications] - Execute validation flow for Notifications - Scenario 19
+2026-07-22 21:23:21,126 - INFO - Running TC_NOTIF_020 [Notifications] - Execute validation flow for Notifications - Scenario 20
+2026-07-22 21:23:21,143 - INFO - Running TC_FILE_001 [File Upload] - Execute validation flow for File Upload - Scenario 1
+2026-07-22 21:23:21,159 - INFO - Running TC_FILE_002 [File Upload] - Execute validation flow for File Upload - Scenario 2
+2026-07-22 21:23:21,172 - INFO - Running TC_FILE_003 [File Upload] - Execute validation flow for File Upload - Scenario 3
+2026-07-22 21:23:21,183 - INFO - Running TC_FILE_004 [File Upload] - Execute validation flow for File Upload - Scenario 4
+2026-07-22 21:23:21,199 - INFO - Running TC_FILE_005 [File Upload] - Execute validation flow for File Upload - Scenario 5
+2026-07-22 21:23:21,215 - INFO - Running TC_FILE_006 [File Upload] - Execute validation flow for File Upload - Scenario 6
+2026-07-22 21:23:21,230 - INFO - Running TC_FILE_007 [File Upload] - Execute validation flow for File Upload - Scenario 7
+2026-07-22 21:23:21,247 - INFO - Running TC_FILE_008 [File Upload] - Execute validation flow for File Upload - Scenario 8
+2026-07-22 21:23:21,263 - INFO - Running TC_FILE_009 [File Upload] - Execute validation flow for File Upload - Scenario 9
+2026-07-22 21:23:21,279 - INFO - Running TC_FILE_010 [File Upload] - Execute validation flow for File Upload - Scenario 10
+2026-07-22 21:23:21,288 - INFO - Running TC_FILE_011 [File Upload] - Execute validation flow for File Upload - Scenario 11
+2026-07-22 21:23:21,305 - INFO - Running TC_FILE_012 [File Upload] - Execute validation flow for File Upload - Scenario 12
+2026-07-22 21:23:21,322 - INFO - Running TC_FILE_013 [File Upload] - Execute validation flow for File Upload - Scenario 13
+2026-07-22 21:23:21,336 - INFO - Running TC_FILE_014 [File Upload] - Execute validation flow for File Upload - Scenario 14
+2026-07-22 21:23:21,353 - INFO - Running TC_FILE_015 [File Upload] - Execute validation flow for File Upload - Scenario 15
+2026-07-22 21:23:21,372 - INFO - Running TC_FILE_016 [File Upload] - Execute validation flow for File Upload - Scenario 16
+2026-07-22 21:23:21,385 - INFO - Running TC_FILE_017 [File Upload] - Execute validation flow for File Upload - Scenario 17
+2026-07-22 21:23:21,401 - INFO - Running TC_FILE_018 [File Upload] - Execute validation flow for File Upload - Scenario 18
+2026-07-22 21:23:21,418 - INFO - Running TC_FILE_019 [File Upload] - Execute validation flow for File Upload - Scenario 19
+2026-07-22 21:23:21,434 - INFO - Running TC_FILE_020 [File Upload] - Execute validation flow for File Upload - Scenario 20
+2026-07-22 21:23:21,451 - INFO - Running TC_OFF_001 [Offline Handling] - Execute validation flow for Offline Handling - Scenario 1
+2026-07-22 21:23:21,467 - INFO - Running TC_OFF_002 [Offline Handling] - Execute validation flow for Offline Handling - Scenario 2
+2026-07-22 21:23:21,482 - INFO - Running TC_OFF_003 [Offline Handling] - Execute validation flow for Offline Handling - Scenario 3
+2026-07-22 21:23:21,498 - INFO - Running TC_OFF_004 [Offline Handling] - Execute validation flow for Offline Handling - Scenario 4
+2026-07-22 21:23:21,514 - INFO - Running TC_OFF_005 [Offline Handling] - Execute validation flow for Offline Handling - Scenario 5
+2026-07-22 21:23:21,522 - INFO - Running TC_OFF_006 [Offline Handling] - Execute validation flow for Offline Handling - Scenario 6
+2026-07-22 21:23:21,538 - INFO - Running TC_OFF_007 [Offline Handling] - Execute validation flow for Offline Handling - Scenario 7
+2026-07-22 21:23:21,555 - INFO - Running TC_OFF_008 [Offline Handling] - Execute validation flow for Offline Handling - Scenario 8
+2026-07-22 21:23:21,571 - INFO - Running TC_OFF_009 [Offline Handling] - Execute validation flow for Offline Handling - Scenario 9
+2026-07-22 21:23:21,587 - INFO - Running TC_OFF_010 [Offline Handling] - Execute validation flow for Offline Handling - Scenario 10
+2026-07-22 21:23:21,603 - INFO - Running TC_ACC_001 [Accessibility] - Execute validation flow for Accessibility - Scenario 1
+2026-07-22 21:23:21,620 - INFO - Running TC_ACC_002 [Accessibility] - Execute validation flow for Accessibility - Scenario 2
+2026-07-22 21:23:21,639 - INFO - Running TC_ACC_003 [Accessibility] - Execute validation flow for Accessibility - Scenario 3
+2026-07-22 21:23:21,651 - INFO - Running TC_ACC_004 [Accessibility] - Execute validation flow for Accessibility - Scenario 4
+2026-07-22 21:23:21,667 - INFO - Running TC_ACC_005 [Accessibility] - Execute validation flow for Accessibility - Scenario 5
+2026-07-22 21:23:21,675 - INFO - Running TC_ACC_006 [Accessibility] - Execute validation flow for Accessibility - Scenario 6
+2026-07-22 21:23:21,691 - INFO - Running TC_ACC_007 [Accessibility] - Execute validation flow for Accessibility - Scenario 7
+2026-07-22 21:23:21,708 - INFO - Running TC_ACC_008 [Accessibility] - Execute validation flow for Accessibility - Scenario 8
+2026-07-22 21:23:21,724 - INFO - Running TC_ACC_009 [Accessibility] - Execute validation flow for Accessibility - Scenario 9
+2026-07-22 21:23:21,739 - INFO - Running TC_ACC_010 [Accessibility] - Execute validation flow for Accessibility - Scenario 10
+2026-07-22 21:23:21,755 - INFO - Running TC_ACC_011 [Accessibility] - Execute validation flow for Accessibility - Scenario 11
+2026-07-22 21:23:21,772 - INFO - Running TC_ACC_012 [Accessibility] - Execute validation flow for Accessibility - Scenario 12
+2026-07-22 21:23:21,788 - INFO - Running TC_ACC_013 [Accessibility] - Execute validation flow for Accessibility - Scenario 13
+2026-07-22 21:23:21,805 - INFO - Running TC_ACC_014 [Accessibility] - Execute validation flow for Accessibility - Scenario 14
+2026-07-22 21:23:21,821 - INFO - Running TC_ACC_015 [Accessibility] - Execute validation flow for Accessibility - Scenario 15
+2026-07-22 21:23:21,837 - INFO - Running TC_ACC_016 [Accessibility] - Execute validation flow for Accessibility - Scenario 16
+2026-07-22 21:23:21,854 - INFO - Running TC_ACC_017 [Accessibility] - Execute validation flow for Accessibility - Scenario 17
+2026-07-22 21:23:21,869 - INFO - Running TC_ACC_018 [Accessibility] - Execute validation flow for Accessibility - Scenario 18
+2026-07-22 21:23:21,885 - INFO - Running TC_ACC_019 [Accessibility] - Execute validation flow for Accessibility - Scenario 19
+2026-07-22 21:23:21,894 - INFO - Running TC_ACC_020 [Accessibility] - Execute validation flow for Accessibility - Scenario 20
+2026-07-22 21:23:21,909 - INFO - Running TC_RESP_001 [Responsive UI] - Execute validation flow for Responsive UI - Scenario 1
+2026-07-22 21:23:21,928 - INFO - Running TC_RESP_002 [Responsive UI] - Execute validation flow for Responsive UI - Scenario 2
+2026-07-22 21:23:21,946 - INFO - Running TC_RESP_003 [Responsive UI] - Execute validation flow for Responsive UI - Scenario 3
+2026-07-22 21:23:21,961 - INFO - Running TC_RESP_004 [Responsive UI] - Execute validation flow for Responsive UI - Scenario 4
+2026-07-22 21:23:21,973 - INFO - Running TC_RESP_005 [Responsive UI] - Execute validation flow for Responsive UI - Scenario 5
+2026-07-22 21:23:21,990 - INFO - Running TC_RESP_006 [Responsive UI] - Execute validation flow for Responsive UI - Scenario 6
+2026-07-22 21:23:22,004 - INFO - Running TC_RESP_007 [Responsive UI] - Execute validation flow for Responsive UI - Scenario 7
+2026-07-22 21:23:22,021 - INFO - Running TC_RESP_008 [Responsive UI] - Execute validation flow for Responsive UI - Scenario 8
+2026-07-22 21:23:22,038 - INFO - Running TC_RESP_009 [Responsive UI] - Execute validation flow for Responsive UI - Scenario 9
+2026-07-22 21:23:22,052 - INFO - Running TC_RESP_010 [Responsive UI] - Execute validation flow for Responsive UI - Scenario 10
+2026-07-22 21:23:22,067 - INFO - Running TC_PERF_001 [Performance Smoke Tests] - Execute validation flow for Performance Smoke Tests - Scenario 1
+2026-07-22 21:23:22,082 - INFO - Running TC_PERF_002 [Performance Smoke Tests] - Execute validation flow for Performance Smoke Tests - Scenario 2
+2026-07-22 21:23:22,100 - INFO - Running TC_PERF_003 [Performance Smoke Tests] - Execute validation flow for Performance Smoke Tests - Scenario 3
+2026-07-22 21:23:22,107 - INFO - Running TC_PERF_004 [Performance Smoke Tests] - Execute validation flow for Performance Smoke Tests - Scenario 4
+2026-07-22 21:23:22,124 - INFO - Running TC_PERF_005 [Performance Smoke Tests] - Execute validation flow for Performance Smoke Tests - Scenario 5
+2026-07-22 21:23:22,140 - INFO - Running TC_PERF_006 [Performance Smoke Tests] - Execute validation flow for Performance Smoke Tests - Scenario 6
+2026-07-22 21:23:22,156 - INFO - Running TC_PERF_007 [Performance Smoke Tests] - Execute validation flow for Performance Smoke Tests - Scenario 7
+2026-07-22 21:23:22,173 - INFO - Running TC_PERF_008 [Performance Smoke Tests] - Execute validation flow for Performance Smoke Tests - Scenario 8
+2026-07-22 21:23:22,181 - INFO - Running TC_PERF_009 [Performance Smoke Tests] - Execute validation flow for Performance Smoke Tests - Scenario 9
+2026-07-22 21:23:22,197 - INFO - Running TC_PERF_010 [Performance Smoke Tests] - Execute validation flow for Performance Smoke Tests - Scenario 10
+2026-07-22 21:23:22,213 - INFO - Running TC_PERF_011 [Performance Smoke Tests] - Execute validation flow for Performance Smoke Tests - Scenario 11
+2026-07-22 21:23:22,230 - INFO - Running TC_PERF_012 [Performance Smoke Tests] - Execute validation flow for Performance Smoke Tests - Scenario 12
+2026-07-22 21:23:22,247 - INFO - Running TC_PERF_013 [Performance Smoke Tests] - Execute validation flow for Performance Smoke Tests - Scenario 13
+2026-07-22 21:23:22,262 - INFO - Running TC_PERF_014 [Performance Smoke Tests] - Execute validation flow for Performance Smoke Tests - Scenario 14
+2026-07-22 21:23:22,278 - INFO - Running TC_PERF_015 [Performance Smoke Tests] - Execute validation flow for Performance Smoke Tests - Scenario 15
+2026-07-22 21:23:22,294 - INFO - Running TC_PERF_016 [Performance Smoke Tests] - Execute validation flow for Performance Smoke Tests - Scenario 16
+2026-07-22 21:23:22,310 - INFO - Running TC_PERF_017 [Performance Smoke Tests] - Execute validation flow for Performance Smoke Tests - Scenario 17
+2026-07-22 21:23:22,327 - INFO - Running TC_PERF_018 [Performance Smoke Tests] - Execute validation flow for Performance Smoke Tests - Scenario 18
+2026-07-22 21:23:22,346 - INFO - Running TC_PERF_019 [Performance Smoke Tests] - Execute validation flow for Performance Smoke Tests - Scenario 19
+2026-07-22 21:23:22,359 - INFO - Running TC_PERF_020 [Performance Smoke Tests] - Execute validation flow for Performance Smoke Tests - Scenario 20
+2026-07-22 21:23:22,377 - INFO - Running TC_REGR_001 [Regression Suite] - Execute validation flow for Regression Suite - Scenario 1
+2026-07-22 21:23:22,392 - INFO - Running TC_REGR_002 [Regression Suite] - Execute validation flow for Regression Suite - Scenario 2
+2026-07-22 21:23:22,408 - INFO - Running TC_REGR_003 [Regression Suite] - Execute validation flow for Regression Suite - Scenario 3
+2026-07-22 21:23:22,424 - INFO - Running TC_REGR_004 [Regression Suite] - Execute validation flow for Regression Suite - Scenario 4
+2026-07-22 21:23:22,440 - INFO - Running TC_REGR_005 [Regression Suite] - Execute validation flow for Regression Suite - Scenario 5
+2026-07-22 21:23:22,455 - INFO - Running TC_REGR_006 [Regression Suite] - Execute validation flow for Regression Suite - Scenario 6
+2026-07-22 21:23:22,472 - INFO - Running TC_REGR_007 [Regression Suite] - Execute validation flow for Regression Suite - Scenario 7
+2026-07-22 21:23:22,488 - INFO - Running TC_REGR_008 [Regression Suite] - Execute validation flow for Regression Suite - Scenario 8
+2026-07-22 21:23:22,495 - INFO - Running TC_REGR_009 [Regression Suite] - Execute validation flow for Regression Suite - Scenario 9
+2026-07-22 21:23:22,512 - INFO - Running TC_REGR_010 [Regression Suite] - Execute validation flow for Regression Suite - Scenario 10
+2026-07-22 21:23:22,529 - INFO - Running TC_REGR_011 [Regression Suite] - Execute validation flow for Regression Suite - Scenario 11
+2026-07-22 21:23:22,546 - INFO - Running TC_REGR_012 [Regression Suite] - Execute validation flow for Regression Suite - Scenario 12
+2026-07-22 21:23:22,561 - INFO - Running TC_REGR_013 [Regression Suite] - Execute validation flow for Regression Suite - Scenario 13
+2026-07-22 21:23:22,577 - INFO - Running TC_REGR_014 [Regression Suite] - Execute validation flow for Regression Suite - Scenario 14
+2026-07-22 21:23:22,593 - INFO - Running TC_REGR_015 [Regression Suite] - Execute validation flow for Regression Suite - Scenario 15
+2026-07-22 21:23:22,610 - INFO - Running TC_REGR_016 [Regression Suite] - Execute validation flow for Regression Suite - Scenario 16
+2026-07-22 21:23:22,626 - INFO - Running TC_REGR_017 [Regression Suite] - Execute validation flow for Regression Suite - Scenario 17
+2026-07-22 21:23:22,643 - INFO - Running TC_REGR_018 [Regression Suite] - Execute validation flow for Regression Suite - Scenario 18
+2026-07-22 21:23:22,667 - INFO - Running TC_REGR_019 [Regression Suite] - Execute validation flow for Regression Suite - Scenario 19
+2026-07-22 21:23:22,682 - INFO - Running TC_REGR_020 [Regression Suite] - Execute validation flow for Regression Suite - Scenario 20
+2026-07-22 21:23:22,700 - INFO - Running TC_REGR_021 [Regression Suite] - Execute validation flow for Regression Suite - Scenario 21
+2026-07-22 21:23:22,715 - INFO - Running TC_REGR_022 [Regression Suite] - Execute validation flow for Regression Suite - Scenario 22
+2026-07-22 21:23:22,731 - INFO - Running TC_REGR_023 [Regression Suite] - Execute validation flow for Regression Suite - Scenario 23
+2026-07-22 21:23:22,739 - INFO - Running TC_REGR_024 [Regression Suite] - Execute validation flow for Regression Suite - Scenario 24
+2026-07-22 21:23:22,755 - INFO - Running TC_REGR_025 [Regression Suite] - Execute validation flow for Regression Suite - Scenario 25
+2026-07-22 21:23:22,772 - INFO - Running TC_REGR_026 [Regression Suite] - Execute validation flow for Regression Suite - Scenario 26
+2026-07-22 21:23:22,789 - INFO - Running TC_REGR_027 [Regression Suite] - Execute validation flow for Regression Suite - Scenario 27
+2026-07-22 21:23:22,803 - INFO - Running TC_REGR_028 [Regression Suite] - Execute validation flow for Regression Suite - Scenario 28
+2026-07-22 21:23:22,819 - INFO - Running TC_REGR_029 [Regression Suite] - Execute validation flow for Regression Suite - Scenario 29
+2026-07-22 21:23:22,835 - INFO - Running TC_REGR_030 [Regression Suite] - Execute validation flow for Regression Suite - Scenario 30
+2026-07-22 21:23:22,850 - INFO - Running TC_REGR_031 [Regression Suite] - Execute validation flow for Regression Suite - Scenario 31
+2026-07-22 21:23:22,866 - INFO - Running TC_REGR_032 [Regression Suite] - Execute validation flow for Regression Suite - Scenario 32
+2026-07-22 21:23:22,882 - INFO - Running TC_REGR_033 [Regression Suite] - Execute validation flow for Regression Suite - Scenario 33
+2026-07-22 21:23:22,898 - INFO - Running TC_REGR_034 [Regression Suite] - Execute validation flow for Regression Suite - Scenario 34
+2026-07-22 21:23:22,914 - INFO - Running TC_REGR_035 [Regression Suite] - Execute validation flow for Regression Suite - Scenario 35
+2026-07-22 21:23:22,930 - INFO - Running TC_REGR_036 [Regression Suite] - Execute validation flow for Regression Suite - Scenario 36
+2026-07-22 21:23:22,940 - INFO - Running TC_REGR_037 [Regression Suite] - Execute validation flow for Regression Suite - Scenario 37
+2026-07-22 21:23:22,954 - INFO - Running TC_REGR_038 [Regression Suite] - Execute validation flow for Regression Suite - Scenario 38
+2026-07-22 21:23:22,972 - INFO - Running TC_REGR_039 [Regression Suite] - Execute validation flow for Regression Suite - Scenario 39
+2026-07-22 21:23:22,986 - INFO - Running TC_REGR_040 [Regression Suite] - Execute validation flow for Regression Suite - Scenario 40
+2026-07-22 21:23:23,001 - INFO - Running TC_REGR_041 [Regression Suite] - Execute validation flow for Regression Suite - Scenario 41
+2026-07-22 21:23:23,017 - INFO - Running TC_REGR_042 [Regression Suite] - Execute validation flow for Regression Suite - Scenario 42
+2026-07-22 21:23:23,034 - INFO - Running TC_REGR_043 [Regression Suite] - Execute validation flow for Regression Suite - Scenario 43
+2026-07-22 21:23:23,050 - INFO - Running TC_REGR_044 [Regression Suite] - Execute validation flow for Regression Suite - Scenario 44
+2026-07-22 21:23:23,067 - INFO - Running TC_REGR_045 [Regression Suite] - Execute validation flow for Regression Suite - Scenario 45
+2026-07-22 21:23:23,075 - INFO - Running TC_REGR_046 [Regression Suite] - Execute validation flow for Regression Suite - Scenario 46
+2026-07-22 21:23:23,093 - INFO - Running TC_REGR_047 [Regression Suite] - Execute validation flow for Regression Suite - Scenario 47
+2026-07-22 21:23:23,109 - INFO - Running TC_REGR_048 [Regression Suite] - Execute validation flow for Regression Suite - Scenario 48
+2026-07-22 21:23:23,124 - INFO - Running TC_REGR_049 [Regression Suite] - Execute validation flow for Regression Suite - Scenario 49
+2026-07-22 21:23:23,141 - INFO - Running TC_REGR_050 [Regression Suite] - Execute validation flow for Regression Suite - Scenario 50
+2026-07-22 21:23:23,159 - INFO - Pytest suite completed with exit code: 1
+2026-07-22 21:23:23,746 - INFO - ==============================================
+2026-07-22 21:23:23,746 - INFO - Execution complete. Total: 510, Pass Rate: 99.22%
+2026-07-22 21:23:23,746 - INFO - ==============================================
