@@ -524,3 +524,482 @@
 2026-07-22 21:23:23,746 - INFO - ==============================================
 2026-07-22 21:23:23,746 - INFO - Execution complete. Total: 510, Pass Rate: 99.22%
 2026-07-22 21:23:23,746 - INFO - ==============================================
+2026-07-22 21:59:30,343 - INFO - ==============================================
+2026-07-22 21:59:30,343 - INFO - Starting Live Web Selenium E2E Massive Test Runner
+2026-07-22 21:59:30,345 - INFO - ==============================================
+2026-07-22 21:59:30,355 - INFO - Invoking pytest on: C:\car care\car_service_app\automation\tests\test_web_flow.py
+2026-07-22 21:59:30,866 - INFO - Initializing Selenium Web Driver...
+2026-07-22 22:00:29,150 - INFO - Running Web TC_W_AUTH_001 [Authentication] - Validate web component workflow: Authentication - Step 1
+2026-07-22 22:00:29,164 - INFO - Running Web TC_W_AUTH_002 [Authentication] - Validate web component workflow: Authentication - Step 2
+2026-07-22 22:00:29,181 - INFO - Running Web TC_W_AUTH_003 [Authentication] - Validate web component workflow: Authentication - Step 3
+2026-07-22 22:00:29,198 - INFO - Running Web TC_W_AUTH_004 [Authentication] - Validate web component workflow: Authentication - Step 4
+2026-07-22 22:00:29,205 - INFO - Running Web TC_W_AUTH_005 [Authentication] - Validate web component workflow: Authentication - Step 5
+2026-07-22 22:00:29,223 - INFO - Running Web TC_W_AUTH_006 [Authentication] - Validate web component workflow: Authentication - Step 6
+2026-07-22 22:00:29,239 - INFO - Running Web TC_W_AUTH_007 [Authentication] - Validate web component workflow: Authentication - Step 7
+2026-07-22 22:00:29,252 - INFO - Running Web TC_W_AUTH_008 [Authentication] - Validate web component workflow: Authentication - Step 8
+2026-07-22 22:00:29,261 - INFO - Running Web TC_W_AUTH_009 [Authentication] - Validate web component workflow: Authentication - Step 9
+2026-07-22 22:00:29,277 - INFO - Running Web TC_W_AUTH_010 [Authentication] - Validate web component workflow: Authentication - Step 10
+2026-07-22 22:00:29,295 - INFO - Running Web TC_W_AUTH_011 [Authentication] - Validate web component workflow: Authentication - Step 11
+2026-07-22 22:00:29,309 - INFO - Running Web TC_W_AUTH_012 [Authentication] - Validate web component workflow: Authentication - Step 12
+2026-07-22 22:00:29,318 - INFO - Running Web TC_W_AUTH_013 [Authentication] - Validate web component workflow: Authentication - Step 13
+2026-07-22 22:00:29,332 - INFO - Running Web TC_W_AUTH_014 [Authentication] - Validate web component workflow: Authentication - Step 14
+2026-07-22 22:00:29,348 - INFO - Running Web TC_W_AUTH_015 [Authentication] - Validate web component workflow: Authentication - Step 15
+2026-07-22 22:00:29,634 - INFO - Running Web TC_W_AUTH_016 [Authentication] - Validate web component workflow: Authentication - Step 16
+2026-07-22 22:00:29,646 - INFO - Running Web TC_W_AUTH_017 [Authentication] - Validate web component workflow: Authentication - Step 17
+2026-07-22 22:00:29,671 - INFO - Running Web TC_W_AUTH_018 [Authentication] - Validate web component workflow: Authentication - Step 18
+2026-07-22 22:00:29,687 - INFO - Running Web TC_W_AUTH_019 [Authentication] - Validate web component workflow: Authentication - Step 19
+2026-07-22 22:00:29,703 - INFO - Running Web TC_W_AUTH_020 [Authentication] - Validate web component workflow: Authentication - Step 20
+2026-07-22 22:00:29,719 - INFO - Running Web TC_W_AUTH_021 [Authentication] - Validate web component workflow: Authentication - Step 21
+2026-07-22 22:00:29,734 - INFO - Running Web TC_W_AUTH_022 [Authentication] - Validate web component workflow: Authentication - Step 22
+2026-07-22 22:00:29,751 - INFO - Running Web TC_W_AUTH_023 [Authentication] - Validate web component workflow: Authentication - Step 23
+2026-07-22 22:00:29,768 - INFO - Running Web TC_W_AUTH_024 [Authentication] - Validate web component workflow: Authentication - Step 24
+2026-07-22 22:00:29,776 - INFO - Running Web TC_W_AUTH_025 [Authentication] - Validate web component workflow: Authentication - Step 25
+2026-07-22 22:00:29,787 - INFO - Running Web TC_W_AUTH_026 [Authentication] - Validate web component workflow: Authentication - Step 26
+2026-07-22 22:00:29,800 - INFO - Running Web TC_W_AUTH_027 [Authentication] - Validate web component workflow: Authentication - Step 27
+2026-07-22 22:00:29,816 - INFO - Running Web TC_W_AUTH_028 [Authentication] - Validate web component workflow: Authentication - Step 28
+2026-07-22 22:00:29,833 - INFO - Running Web TC_W_AUTH_029 [Authentication] - Validate web component workflow: Authentication - Step 29
+2026-07-22 22:00:29,841 - INFO - Running Web TC_W_AUTH_030 [Authentication] - Validate web component workflow: Authentication - Step 30
+2026-07-22 22:00:29,856 - INFO - Running Web TC_W_AUTH_031 [Authentication] - Validate web component workflow: Authentication - Step 31
+2026-07-22 22:00:29,865 - INFO - Running Web TC_W_AUTH_032 [Authentication] - Validate web component workflow: Authentication - Step 32
+2026-07-22 22:00:29,880 - INFO - Running Web TC_W_AUTH_033 [Authentication] - Validate web component workflow: Authentication - Step 33
+2026-07-22 22:00:29,896 - INFO - Running Web TC_W_AUTH_034 [Authentication] - Validate web component workflow: Authentication - Step 34
+2026-07-22 22:00:29,913 - INFO - Running Web TC_W_AUTH_035 [Authentication] - Validate web component workflow: Authentication - Step 35
+2026-07-22 22:00:29,929 - INFO - Running Web TC_W_AUTH_036 [Authentication] - Validate web component workflow: Authentication - Step 36
+2026-07-22 22:00:29,945 - INFO - Running Web TC_W_AUTH_037 [Authentication] - Validate web component workflow: Authentication - Step 37
+2026-07-22 22:00:29,953 - INFO - Running Web TC_W_AUTH_038 [Authentication] - Validate web component workflow: Authentication - Step 38
+2026-07-22 22:00:29,962 - INFO - Running Web TC_W_AUTH_039 [Authentication] - Validate web component workflow: Authentication - Step 39
+2026-07-22 22:00:29,979 - INFO - Running Web TC_W_AUTH_040 [Authentication] - Validate web component workflow: Authentication - Step 40
+2026-07-22 22:00:29,995 - INFO - Running Web TC_W_AZ_001 [Authorization] - Validate web component workflow: Authorization - Step 1
+2026-07-22 22:00:30,005 - INFO - Running Web TC_W_AZ_002 [Authorization] - Validate web component workflow: Authorization - Step 2
+2026-07-22 22:00:30,021 - INFO - Running Web TC_W_AZ_003 [Authorization] - Validate web component workflow: Authorization - Step 3
+2026-07-22 22:00:30,028 - INFO - Running Web TC_W_AZ_004 [Authorization] - Validate web component workflow: Authorization - Step 4
+2026-07-22 22:00:30,046 - INFO - Running Web TC_W_AZ_005 [Authorization] - Validate web component workflow: Authorization - Step 5
+2026-07-22 22:00:30,061 - INFO - Running Web TC_W_AZ_006 [Authorization] - Validate web component workflow: Authorization - Step 6
+2026-07-22 22:00:30,077 - INFO - Running Web TC_W_AZ_007 [Authorization] - Validate web component workflow: Authorization - Step 7
+2026-07-22 22:00:30,093 - INFO - Running Web TC_W_AZ_008 [Authorization] - Validate web component workflow: Authorization - Step 8
+2026-07-22 22:00:30,102 - INFO - Running Web TC_W_AZ_009 [Authorization] - Validate web component workflow: Authorization - Step 9
+2026-07-22 22:00:30,119 - INFO - Running Web TC_W_AZ_010 [Authorization] - Validate web component workflow: Authorization - Step 10
+2026-07-22 22:00:30,136 - INFO - Running Web TC_W_AZ_011 [Authorization] - Validate web component workflow: Authorization - Step 11
+2026-07-22 22:00:30,152 - INFO - Running Web TC_W_AZ_012 [Authorization] - Validate web component workflow: Authorization - Step 12
+2026-07-22 22:00:30,159 - INFO - Running Web TC_W_AZ_013 [Authorization] - Validate web component workflow: Authorization - Step 13
+2026-07-22 22:00:30,176 - INFO - Running Web TC_W_AZ_014 [Authorization] - Validate web component workflow: Authorization - Step 14
+2026-07-22 22:00:30,192 - INFO - Running Web TC_W_AZ_015 [Authorization] - Validate web component workflow: Authorization - Step 15
+2026-07-22 22:00:30,207 - INFO - Running Web TC_W_AZ_016 [Authorization] - Validate web component workflow: Authorization - Step 16
+2026-07-22 22:00:30,216 - INFO - Running Web TC_W_AZ_017 [Authorization] - Validate web component workflow: Authorization - Step 17
+2026-07-22 22:00:30,231 - INFO - Running Web TC_W_AZ_018 [Authorization] - Validate web component workflow: Authorization - Step 18
+2026-07-22 22:00:30,247 - INFO - Running Web TC_W_AZ_019 [Authorization] - Validate web component workflow: Authorization - Step 19
+2026-07-22 22:00:30,264 - INFO - Running Web TC_W_AZ_020 [Authorization] - Validate web component workflow: Authorization - Step 20
+2026-07-22 22:00:30,280 - INFO - Running Web TC_W_AZ_021 [Authorization] - Validate web component workflow: Authorization - Step 21
+2026-07-22 22:00:30,288 - INFO - Running Web TC_W_AZ_022 [Authorization] - Validate web component workflow: Authorization - Step 22
+2026-07-22 22:00:30,304 - INFO - Running Web TC_W_AZ_023 [Authorization] - Validate web component workflow: Authorization - Step 23
+2026-07-22 22:00:30,319 - INFO - Running Web TC_W_AZ_024 [Authorization] - Validate web component workflow: Authorization - Step 24
+2026-07-22 22:00:30,327 - INFO - Running Web TC_W_AZ_025 [Authorization] - Validate web component workflow: Authorization - Step 25
+2026-07-22 22:00:30,336 - INFO - Running Web TC_W_AZ_026 [Authorization] - Validate web component workflow: Authorization - Step 26
+2026-07-22 22:00:30,353 - INFO - Running Web TC_W_AZ_027 [Authorization] - Validate web component workflow: Authorization - Step 27
+2026-07-22 22:00:30,370 - INFO - Running Web TC_W_AZ_028 [Authorization] - Validate web component workflow: Authorization - Step 28
+2026-07-22 22:00:30,385 - INFO - Running Web TC_W_AZ_029 [Authorization] - Validate web component workflow: Authorization - Step 29
+2026-07-22 22:00:30,401 - INFO - Running Web TC_W_AZ_030 [Authorization] - Validate web component workflow: Authorization - Step 30
+2026-07-22 22:00:30,408 - INFO - Running Web TC_W_AZ_031 [Authorization] - Validate web component workflow: Authorization - Step 31
+2026-07-22 22:00:30,425 - INFO - Running Web TC_W_AZ_032 [Authorization] - Validate web component workflow: Authorization - Step 32
+2026-07-22 22:00:30,442 - INFO - Running Web TC_W_AZ_033 [Authorization] - Validate web component workflow: Authorization - Step 33
+2026-07-22 22:00:30,458 - INFO - Running Web TC_W_AZ_034 [Authorization] - Validate web component workflow: Authorization - Step 34
+2026-07-22 22:00:30,474 - INFO - Running Web TC_W_AZ_035 [Authorization] - Validate web component workflow: Authorization - Step 35
+2026-07-22 22:00:30,491 - INFO - Running Web TC_W_AZ_036 [Authorization] - Validate web component workflow: Authorization - Step 36
+2026-07-22 22:00:30,506 - INFO - Running Web TC_W_AZ_037 [Authorization] - Validate web component workflow: Authorization - Step 37
+2026-07-22 22:00:30,520 - INFO - Running Web TC_W_AZ_038 [Authorization] - Validate web component workflow: Authorization - Step 38
+2026-07-22 22:00:30,529 - INFO - Running Web TC_W_AZ_039 [Authorization] - Validate web component workflow: Authorization - Step 39
+2026-07-22 22:00:30,537 - INFO - Running Web TC_W_AZ_040 [Authorization] - Validate web component workflow: Authorization - Step 40
+2026-07-22 22:00:30,544 - INFO - Running Web TC_W_NAV_001 [Navigation] - Validate web component workflow: Navigation - Step 1
+2026-07-22 22:00:30,561 - INFO - Running Web TC_W_NAV_002 [Navigation] - Validate web component workflow: Navigation - Step 2
+2026-07-22 22:00:30,569 - INFO - Running Web TC_W_NAV_003 [Navigation] - Validate web component workflow: Navigation - Step 3
+2026-07-22 22:00:30,576 - INFO - Running Web TC_W_NAV_004 [Navigation] - Validate web component workflow: Navigation - Step 4
+2026-07-22 22:00:30,589 - INFO - Running Web TC_W_NAV_005 [Navigation] - Validate web component workflow: Navigation - Step 5
+2026-07-22 22:00:30,601 - INFO - Running Web TC_W_NAV_006 [Navigation] - Validate web component workflow: Navigation - Step 6
+2026-07-22 22:00:30,618 - INFO - Running Web TC_W_NAV_007 [Navigation] - Validate web component workflow: Navigation - Step 7
+2026-07-22 22:00:30,632 - INFO - Running Web TC_W_NAV_008 [Navigation] - Validate web component workflow: Navigation - Step 8
+2026-07-22 22:00:30,641 - INFO - Running Web TC_W_NAV_009 [Navigation] - Validate web component workflow: Navigation - Step 9
+2026-07-22 22:00:30,657 - INFO - Running Web TC_W_NAV_010 [Navigation] - Validate web component workflow: Navigation - Step 10
+2026-07-22 22:00:30,673 - INFO - Running Web TC_W_NAV_011 [Navigation] - Validate web component workflow: Navigation - Step 11
+2026-07-22 22:00:30,690 - INFO - Running Web TC_W_NAV_012 [Navigation] - Validate web component workflow: Navigation - Step 12
+2026-07-22 22:00:30,707 - INFO - Running Web TC_W_NAV_013 [Navigation] - Validate web component workflow: Navigation - Step 13
+2026-07-22 22:00:30,714 - INFO - Running Web TC_W_NAV_014 [Navigation] - Validate web component workflow: Navigation - Step 14
+2026-07-22 22:00:30,731 - INFO - Running Web TC_W_NAV_015 [Navigation] - Validate web component workflow: Navigation - Step 15
+2026-07-22 22:00:30,746 - INFO - Running Web TC_W_NAV_016 [Navigation] - Validate web component workflow: Navigation - Step 16
+2026-07-22 22:00:30,762 - INFO - Running Web TC_W_NAV_017 [Navigation] - Validate web component workflow: Navigation - Step 17
+2026-07-22 22:00:30,779 - INFO - Running Web TC_W_NAV_018 [Navigation] - Validate web component workflow: Navigation - Step 18
+2026-07-22 22:00:30,794 - INFO - Running Web TC_W_NAV_019 [Navigation] - Validate web component workflow: Navigation - Step 19
+2026-07-22 22:00:30,811 - INFO - Running Web TC_W_NAV_020 [Navigation] - Validate web component workflow: Navigation - Step 20
+2026-07-22 22:00:30,835 - INFO - Running Web TC_W_NAV_021 [Navigation] - Validate web component workflow: Navigation - Step 21
+2026-07-22 22:00:30,851 - INFO - Running Web TC_W_NAV_022 [Navigation] - Validate web component workflow: Navigation - Step 22
+2026-07-22 22:00:30,867 - INFO - Running Web TC_W_NAV_023 [Navigation] - Validate web component workflow: Navigation - Step 23
+2026-07-22 22:00:30,883 - INFO - Running Web TC_W_NAV_024 [Navigation] - Validate web component workflow: Navigation - Step 24
+2026-07-22 22:00:30,900 - INFO - Running Web TC_W_NAV_025 [Navigation] - Validate web component workflow: Navigation - Step 25
+2026-07-22 22:00:30,916 - INFO - Running Web TC_W_NAV_026 [Navigation] - Validate web component workflow: Navigation - Step 26
+2026-07-22 22:00:30,931 - INFO - Running Web TC_W_NAV_027 [Navigation] - Validate web component workflow: Navigation - Step 27
+2026-07-22 22:00:30,947 - INFO - Running Web TC_W_NAV_028 [Navigation] - Validate web component workflow: Navigation - Step 28
+2026-07-22 22:00:30,963 - INFO - Running Web TC_W_NAV_029 [Navigation] - Validate web component workflow: Navigation - Step 29
+2026-07-22 22:00:30,977 - INFO - Running Web TC_W_NAV_030 [Navigation] - Validate web component workflow: Navigation - Step 30
+2026-07-22 22:00:30,987 - INFO - Running Web TC_W_UI_001 [UI Validation] - Validate web component workflow: UI Validation - Step 1
+2026-07-22 22:00:31,004 - INFO - Running Web TC_W_UI_002 [UI Validation] - Validate web component workflow: UI Validation - Step 2
+2026-07-22 22:00:31,018 - INFO - Running Web TC_W_UI_003 [UI Validation] - Validate web component workflow: UI Validation - Step 3
+2026-07-22 22:00:31,025 - INFO - Running Web TC_W_UI_004 [UI Validation] - Validate web component workflow: UI Validation - Step 4
+2026-07-22 22:00:31,043 - INFO - Running Web TC_W_UI_005 [UI Validation] - Validate web component workflow: UI Validation - Step 5
+2026-07-22 22:00:31,058 - INFO - Running Web TC_W_UI_006 [UI Validation] - Validate web component workflow: UI Validation - Step 6
+2026-07-22 22:00:31,075 - INFO - Running Web TC_W_UI_007 [UI Validation] - Validate web component workflow: UI Validation - Step 7
+2026-07-22 22:00:31,091 - INFO - Running Web TC_W_UI_008 [UI Validation] - Validate web component workflow: UI Validation - Step 8
+2026-07-22 22:00:31,107 - INFO - Running Web TC_W_UI_009 [UI Validation] - Validate web component workflow: UI Validation - Step 9
+2026-07-22 22:00:31,124 - INFO - Running Web TC_W_UI_010 [UI Validation] - Validate web component workflow: UI Validation - Step 10
+2026-07-22 22:00:31,138 - INFO - Running Web TC_W_UI_011 [UI Validation] - Validate web component workflow: UI Validation - Step 11
+2026-07-22 22:00:31,154 - INFO - Running Web TC_W_UI_012 [UI Validation] - Validate web component workflow: UI Validation - Step 12
+2026-07-22 22:00:31,170 - INFO - Running Web TC_W_UI_013 [UI Validation] - Validate web component workflow: UI Validation - Step 13
+2026-07-22 22:00:31,186 - INFO - Running Web TC_W_UI_014 [UI Validation] - Validate web component workflow: UI Validation - Step 14
+2026-07-22 22:00:31,202 - INFO - Running Web TC_W_UI_015 [UI Validation] - Validate web component workflow: UI Validation - Step 15
+2026-07-22 22:00:31,218 - INFO - Running Web TC_W_UI_016 [UI Validation] - Validate web component workflow: UI Validation - Step 16
+2026-07-22 22:00:31,235 - INFO - Running Web TC_W_UI_017 [UI Validation] - Validate web component workflow: UI Validation - Step 17
+2026-07-22 22:00:31,251 - INFO - Running Web TC_W_UI_018 [UI Validation] - Validate web component workflow: UI Validation - Step 18
+2026-07-22 22:00:31,266 - INFO - Running Web TC_W_UI_019 [UI Validation] - Validate web component workflow: UI Validation - Step 19
+2026-07-22 22:00:31,282 - INFO - Running Web TC_W_UI_020 [UI Validation] - Validate web component workflow: UI Validation - Step 20
+2026-07-22 22:00:31,298 - INFO - Running Web TC_W_UI_021 [UI Validation] - Validate web component workflow: UI Validation - Step 21
+2026-07-22 22:00:31,308 - INFO - Running Web TC_W_UI_022 [UI Validation] - Validate web component workflow: UI Validation - Step 22
+2026-07-22 22:00:31,323 - INFO - Running Web TC_W_UI_023 [UI Validation] - Validate web component workflow: UI Validation - Step 23
+2026-07-22 22:00:31,339 - INFO - Running Web TC_W_UI_024 [UI Validation] - Validate web component workflow: UI Validation - Step 24
+2026-07-22 22:00:31,354 - INFO - Running Web TC_W_UI_025 [UI Validation] - Validate web component workflow: UI Validation - Step 25
+2026-07-22 22:00:31,371 - INFO - Running Web TC_W_UI_026 [UI Validation] - Validate web component workflow: UI Validation - Step 26
+2026-07-22 22:00:31,388 - INFO - Running Web TC_W_UI_027 [UI Validation] - Validate web component workflow: UI Validation - Step 27
+2026-07-22 22:00:31,404 - INFO - Running Web TC_W_UI_028 [UI Validation] - Validate web component workflow: UI Validation - Step 28
+2026-07-22 22:00:31,411 - INFO - Running Web TC_W_UI_029 [UI Validation] - Validate web component workflow: UI Validation - Step 29
+2026-07-22 22:00:31,428 - INFO - Running Web TC_W_UI_030 [UI Validation] - Validate web component workflow: UI Validation - Step 30
+2026-07-22 22:00:31,443 - INFO - Running Web TC_W_UI_031 [UI Validation] - Validate web component workflow: UI Validation - Step 31
+2026-07-22 22:00:31,459 - INFO - Running Web TC_W_UI_032 [UI Validation] - Validate web component workflow: UI Validation - Step 32
+2026-07-22 22:00:31,475 - INFO - Running Web TC_W_UI_033 [UI Validation] - Validate web component workflow: UI Validation - Step 33
+2026-07-22 22:00:31,491 - INFO - Running Web TC_W_UI_034 [UI Validation] - Validate web component workflow: UI Validation - Step 34
+2026-07-22 22:00:31,507 - INFO - Running Web TC_W_UI_035 [UI Validation] - Validate web component workflow: UI Validation - Step 35
+2026-07-22 22:00:31,522 - INFO - Running Web TC_W_UI_036 [UI Validation] - Validate web component workflow: UI Validation - Step 36
+2026-07-22 22:00:31,538 - INFO - Running Web TC_W_UI_037 [UI Validation] - Validate web component workflow: UI Validation - Step 37
+2026-07-22 22:00:31,547 - INFO - Running Web TC_W_UI_038 [UI Validation] - Validate web component workflow: UI Validation - Step 38
+2026-07-22 22:00:31,555 - INFO - Running Web TC_W_UI_039 [UI Validation] - Validate web component workflow: UI Validation - Step 39
+2026-07-22 22:00:31,571 - INFO - Running Web TC_W_UI_040 [UI Validation] - Validate web component workflow: UI Validation - Step 40
+2026-07-22 22:00:31,598 - INFO - Running Web TC_W_UI_041 [UI Validation] - Validate web component workflow: UI Validation - Step 41
+2026-07-22 22:00:31,614 - INFO - Running Web TC_W_UI_042 [UI Validation] - Validate web component workflow: UI Validation - Step 42
+2026-07-22 22:00:31,630 - INFO - Running Web TC_W_UI_043 [UI Validation] - Validate web component workflow: UI Validation - Step 43
+2026-07-22 22:00:31,645 - INFO - Running Web TC_W_UI_044 [UI Validation] - Validate web component workflow: UI Validation - Step 44
+2026-07-22 22:00:31,659 - INFO - Running Web TC_W_UI_045 [UI Validation] - Validate web component workflow: UI Validation - Step 45
+2026-07-22 22:00:31,666 - INFO - Running Web TC_W_UI_046 [UI Validation] - Validate web component workflow: UI Validation - Step 46
+2026-07-22 22:00:31,682 - INFO - Running Web TC_W_UI_047 [UI Validation] - Validate web component workflow: UI Validation - Step 47
+2026-07-22 22:00:31,698 - INFO - Running Web TC_W_UI_048 [UI Validation] - Validate web component workflow: UI Validation - Step 48
+2026-07-22 22:00:31,713 - INFO - Running Web TC_W_UI_049 [UI Validation] - Validate web component workflow: UI Validation - Step 49
+2026-07-22 22:00:31,729 - INFO - Running Web TC_W_UI_050 [UI Validation] - Validate web component workflow: UI Validation - Step 50
+2026-07-22 22:00:31,746 - INFO - Running Web TC_W_FORM_001 [Forms] - Validate web component workflow: Forms - Step 1
+2026-07-22 22:00:31,760 - INFO - Running Web TC_W_FORM_002 [Forms] - Validate web component workflow: Forms - Step 2
+2026-07-22 22:00:31,777 - INFO - Running Web TC_W_FORM_003 [Forms] - Validate web component workflow: Forms - Step 3
+2026-07-22 22:00:31,794 - INFO - Running Web TC_W_FORM_004 [Forms] - Validate web component workflow: Forms - Step 4
+2026-07-22 22:00:31,801 - INFO - Running Web TC_W_FORM_005 [Forms] - Validate web component workflow: Forms - Step 5
+2026-07-22 22:00:31,877 - INFO - Running Web TC_W_FORM_006 [Forms] - Validate web component workflow: Forms - Step 6
+2026-07-22 22:00:31,891 - INFO - Running Web TC_W_FORM_007 [Forms] - Validate web component workflow: Forms - Step 7
+2026-07-22 22:00:31,906 - INFO - Running Web TC_W_FORM_008 [Forms] - Validate web component workflow: Forms - Step 8
+2026-07-22 22:00:31,923 - INFO - Running Web TC_W_FORM_009 [Forms] - Validate web component workflow: Forms - Step 9
+2026-07-22 22:00:31,939 - INFO - Running Web TC_W_FORM_010 [Forms] - Validate web component workflow: Forms - Step 10
+2026-07-22 22:00:31,956 - INFO - Running Web TC_W_FORM_011 [Forms] - Validate web component workflow: Forms - Step 11
+2026-07-22 22:00:31,973 - INFO - Running Web TC_W_FORM_012 [Forms] - Validate web component workflow: Forms - Step 12
+2026-07-22 22:00:31,990 - INFO - Running Web TC_W_FORM_013 [Forms] - Validate web component workflow: Forms - Step 13
+2026-07-22 22:00:32,006 - INFO - Running Web TC_W_FORM_014 [Forms] - Validate web component workflow: Forms - Step 14
+2026-07-22 22:00:32,014 - INFO - Running Web TC_W_FORM_015 [Forms] - Validate web component workflow: Forms - Step 15
+2026-07-22 22:00:32,030 - INFO - Running Web TC_W_FORM_016 [Forms] - Validate web component workflow: Forms - Step 16
+2026-07-22 22:00:32,046 - INFO - Running Web TC_W_FORM_017 [Forms] - Validate web component workflow: Forms - Step 17
+2026-07-22 22:00:32,062 - INFO - Running Web TC_W_FORM_018 [Forms] - Validate web component workflow: Forms - Step 18
+2026-07-22 22:00:32,079 - INFO - Running Web TC_W_FORM_019 [Forms] - Validate web component workflow: Forms - Step 19
+2026-07-22 22:00:32,094 - INFO - Running Web TC_W_FORM_020 [Forms] - Validate web component workflow: Forms - Step 20
+2026-07-22 22:00:32,101 - INFO - Running Web TC_W_FORM_021 [Forms] - Validate web component workflow: Forms - Step 21
+2026-07-22 22:00:32,118 - INFO - Running Web TC_W_FORM_022 [Forms] - Validate web component workflow: Forms - Step 22
+2026-07-22 22:00:32,133 - INFO - Running Web TC_W_FORM_023 [Forms] - Validate web component workflow: Forms - Step 23
+2026-07-22 22:00:32,150 - INFO - Running Web TC_W_FORM_024 [Forms] - Validate web component workflow: Forms - Step 24
+2026-07-22 22:00:32,166 - INFO - Running Web TC_W_FORM_025 [Forms] - Validate web component workflow: Forms - Step 25
+2026-07-22 22:00:32,182 - INFO - Running Web TC_W_FORM_026 [Forms] - Validate web component workflow: Forms - Step 26
+2026-07-22 22:00:32,198 - INFO - Running Web TC_W_FORM_027 [Forms] - Validate web component workflow: Forms - Step 27
+2026-07-22 22:00:32,215 - INFO - Running Web TC_W_FORM_028 [Forms] - Validate web component workflow: Forms - Step 28
+2026-07-22 22:00:32,231 - INFO - Running Web TC_W_FORM_029 [Forms] - Validate web component workflow: Forms - Step 29
+2026-07-22 22:00:32,247 - INFO - Running Web TC_W_FORM_030 [Forms] - Validate web component workflow: Forms - Step 30
+2026-07-22 22:00:32,263 - INFO - Running Web TC_W_FORM_031 [Forms] - Validate web component workflow: Forms - Step 31
+2026-07-22 22:00:32,280 - INFO - Running Web TC_W_FORM_032 [Forms] - Validate web component workflow: Forms - Step 32
+2026-07-22 22:00:32,287 - INFO - Running Web TC_W_FORM_033 [Forms] - Validate web component workflow: Forms - Step 33
+2026-07-22 22:00:32,304 - INFO - Running Web TC_W_FORM_034 [Forms] - Validate web component workflow: Forms - Step 34
+2026-07-22 22:00:32,320 - INFO - Running Web TC_W_FORM_035 [Forms] - Validate web component workflow: Forms - Step 35
+2026-07-22 22:00:32,344 - INFO - Running Web TC_W_FORM_036 [Forms] - Validate web component workflow: Forms - Step 36
+2026-07-22 22:00:32,360 - INFO - Running Web TC_W_FORM_037 [Forms] - Validate web component workflow: Forms - Step 37
+2026-07-22 22:00:32,375 - INFO - Running Web TC_W_FORM_038 [Forms] - Validate web component workflow: Forms - Step 38
+2026-07-22 22:00:32,392 - INFO - Running Web TC_W_FORM_039 [Forms] - Validate web component workflow: Forms - Step 39
+2026-07-22 22:00:32,408 - INFO - Running Web TC_W_FORM_040 [Forms] - Validate web component workflow: Forms - Step 40
+2026-07-22 22:00:32,424 - INFO - Running Web TC_W_FORM_041 [Forms] - Validate web component workflow: Forms - Step 41
+2026-07-22 22:00:32,441 - INFO - Running Web TC_W_FORM_042 [Forms] - Validate web component workflow: Forms - Step 42
+2026-07-22 22:00:32,447 - INFO - Running Web TC_W_FORM_043 [Forms] - Validate web component workflow: Forms - Step 43
+2026-07-22 22:00:32,465 - INFO - Running Web TC_W_FORM_044 [Forms] - Validate web component workflow: Forms - Step 44
+2026-07-22 22:00:32,481 - INFO - Running Web TC_W_FORM_045 [Forms] - Validate web component workflow: Forms - Step 45
+2026-07-22 22:00:32,497 - INFO - Running Web TC_W_FORM_046 [Forms] - Validate web component workflow: Forms - Step 46
+2026-07-22 22:00:32,514 - INFO - Running Web TC_W_FORM_047 [Forms] - Validate web component workflow: Forms - Step 47
+2026-07-22 22:00:32,530 - INFO - Running Web TC_W_FORM_048 [Forms] - Validate web component workflow: Forms - Step 48
+2026-07-22 22:00:32,545 - INFO - Running Web TC_W_FORM_049 [Forms] - Validate web component workflow: Forms - Step 49
+2026-07-22 22:00:32,562 - INFO - Running Web TC_W_FORM_050 [Forms] - Validate web component workflow: Forms - Step 50
+2026-07-22 22:00:32,578 - INFO - Running Web TC_W_CRUD_001 [CRUD Operations] - Validate web component workflow: CRUD Operations - Step 1
+2026-07-22 22:00:32,595 - INFO - Running Web TC_W_CRUD_002 [CRUD Operations] - Validate web component workflow: CRUD Operations - Step 2
+2026-07-22 22:00:32,610 - INFO - Running Web TC_W_CRUD_003 [CRUD Operations] - Validate web component workflow: CRUD Operations - Step 3
+2026-07-22 22:00:32,627 - INFO - Running Web TC_W_CRUD_004 [CRUD Operations] - Validate web component workflow: CRUD Operations - Step 4
+2026-07-22 22:00:32,653 - INFO - Running Web TC_W_CRUD_005 [CRUD Operations] - Validate web component workflow: CRUD Operations - Step 5
+2026-07-22 22:00:32,667 - INFO - Running Web TC_W_CRUD_006 [CRUD Operations] - Validate web component workflow: CRUD Operations - Step 6
+2026-07-22 22:00:32,683 - INFO - Running Web TC_W_CRUD_007 [CRUD Operations] - Validate web component workflow: CRUD Operations - Step 7
+2026-07-22 22:00:32,699 - INFO - Running Web TC_W_CRUD_008 [CRUD Operations] - Validate web component workflow: CRUD Operations - Step 8
+2026-07-22 22:00:32,715 - INFO - Running Web TC_W_CRUD_009 [CRUD Operations] - Validate web component workflow: CRUD Operations - Step 9
+2026-07-22 22:00:32,723 - INFO - Running Web TC_W_CRUD_010 [CRUD Operations] - Validate web component workflow: CRUD Operations - Step 10
+2026-07-22 22:00:32,741 - INFO - Running Web TC_W_CRUD_011 [CRUD Operations] - Validate web component workflow: CRUD Operations - Step 11
+2026-07-22 22:00:32,756 - INFO - Running Web TC_W_CRUD_012 [CRUD Operations] - Validate web component workflow: CRUD Operations - Step 12
+2026-07-22 22:00:32,773 - INFO - Running Web TC_W_CRUD_013 [CRUD Operations] - Validate web component workflow: CRUD Operations - Step 13
+2026-07-22 22:00:32,781 - INFO - Running Web TC_W_CRUD_014 [CRUD Operations] - Validate web component workflow: CRUD Operations - Step 14
+2026-07-22 22:00:32,798 - INFO - Running Web TC_W_CRUD_015 [CRUD Operations] - Validate web component workflow: CRUD Operations - Step 15
+2026-07-22 22:00:32,813 - INFO - Running Web TC_W_CRUD_016 [CRUD Operations] - Validate web component workflow: CRUD Operations - Step 16
+2026-07-22 22:00:32,833 - INFO - Running Web TC_W_CRUD_017 [CRUD Operations] - Validate web component workflow: CRUD Operations - Step 17
+2026-07-22 22:00:32,846 - INFO - Running Web TC_W_CRUD_018 [CRUD Operations] - Validate web component workflow: CRUD Operations - Step 18
+2026-07-22 22:00:32,862 - INFO - Running Web TC_W_CRUD_019 [CRUD Operations] - Validate web component workflow: CRUD Operations - Step 19
+2026-07-22 22:00:32,880 - INFO - Running Web TC_W_CRUD_020 [CRUD Operations] - Validate web component workflow: CRUD Operations - Step 20
+2026-07-22 22:00:32,895 - INFO - Running Web TC_W_CRUD_021 [CRUD Operations] - Validate web component workflow: CRUD Operations - Step 21
+2026-07-22 22:00:32,911 - INFO - Running Web TC_W_CRUD_022 [CRUD Operations] - Validate web component workflow: CRUD Operations - Step 22
+2026-07-22 22:00:33,007 - INFO - Running Web TC_W_CRUD_023 [CRUD Operations] - Validate web component workflow: CRUD Operations - Step 23
+2026-07-22 22:00:33,024 - INFO - Running Web TC_W_CRUD_024 [CRUD Operations] - Validate web component workflow: CRUD Operations - Step 24
+2026-07-22 22:00:33,040 - INFO - Running Web TC_W_CRUD_025 [CRUD Operations] - Validate web component workflow: CRUD Operations - Step 25
+2026-07-22 22:00:33,047 - INFO - Running Web TC_W_CRUD_026 [CRUD Operations] - Validate web component workflow: CRUD Operations - Step 26
+2026-07-22 22:00:33,064 - INFO - Running Web TC_W_CRUD_027 [CRUD Operations] - Validate web component workflow: CRUD Operations - Step 27
+2026-07-22 22:00:33,079 - INFO - Running Web TC_W_CRUD_028 [CRUD Operations] - Validate web component workflow: CRUD Operations - Step 28
+2026-07-22 22:00:33,095 - INFO - Running Web TC_W_CRUD_029 [CRUD Operations] - Validate web component workflow: CRUD Operations - Step 29
+2026-07-22 22:00:33,103 - INFO - Running Web TC_W_CRUD_030 [CRUD Operations] - Validate web component workflow: CRUD Operations - Step 30
+2026-07-22 22:00:33,119 - INFO - Running Web TC_W_CRUD_031 [CRUD Operations] - Validate web component workflow: CRUD Operations - Step 31
+2026-07-22 22:00:33,136 - INFO - Running Web TC_W_CRUD_032 [CRUD Operations] - Validate web component workflow: CRUD Operations - Step 32
+2026-07-22 22:00:33,152 - INFO - Running Web TC_W_CRUD_033 [CRUD Operations] - Validate web component workflow: CRUD Operations - Step 33
+2026-07-22 22:00:33,167 - INFO - Running Web TC_W_CRUD_034 [CRUD Operations] - Validate web component workflow: CRUD Operations - Step 34
+2026-07-22 22:00:33,183 - INFO - Running Web TC_W_CRUD_035 [CRUD Operations] - Validate web component workflow: CRUD Operations - Step 35
+2026-07-22 22:00:33,199 - INFO - Running Web TC_W_CRUD_036 [CRUD Operations] - Validate web component workflow: CRUD Operations - Step 36
+2026-07-22 22:00:33,216 - INFO - Running Web TC_W_CRUD_037 [CRUD Operations] - Validate web component workflow: CRUD Operations - Step 37
+2026-07-22 22:00:33,233 - INFO - Running Web TC_W_CRUD_038 [CRUD Operations] - Validate web component workflow: CRUD Operations - Step 38
+2026-07-22 22:00:33,249 - INFO - Running Web TC_W_CRUD_039 [CRUD Operations] - Validate web component workflow: CRUD Operations - Step 39
+2026-07-22 22:00:33,264 - INFO - Running Web TC_W_CRUD_040 [CRUD Operations] - Validate web component workflow: CRUD Operations - Step 40
+2026-07-22 22:00:33,273 - INFO - Running Web TC_W_CRUD_041 [CRUD Operations] - Validate web component workflow: CRUD Operations - Step 41
+2026-07-22 22:00:33,289 - INFO - Running Web TC_W_CRUD_042 [CRUD Operations] - Validate web component workflow: CRUD Operations - Step 42
+2026-07-22 22:00:33,305 - INFO - Running Web TC_W_CRUD_043 [CRUD Operations] - Validate web component workflow: CRUD Operations - Step 43
+2026-07-22 22:00:33,321 - INFO - Running Web TC_W_CRUD_044 [CRUD Operations] - Validate web component workflow: CRUD Operations - Step 44
+2026-07-22 22:00:33,339 - INFO - Running Web TC_W_CRUD_045 [CRUD Operations] - Validate web component workflow: CRUD Operations - Step 45
+2026-07-22 22:00:33,355 - INFO - Running Web TC_W_CRUD_046 [CRUD Operations] - Validate web component workflow: CRUD Operations - Step 46
+2026-07-22 22:00:33,370 - INFO - Running Web TC_W_CRUD_047 [CRUD Operations] - Validate web component workflow: CRUD Operations - Step 47
+2026-07-22 22:00:33,384 - INFO - Running Web TC_W_CRUD_048 [CRUD Operations] - Validate web component workflow: CRUD Operations - Step 48
+2026-07-22 22:00:33,394 - INFO - Running Web TC_W_CRUD_049 [CRUD Operations] - Validate web component workflow: CRUD Operations - Step 49
+2026-07-22 22:00:33,401 - INFO - Running Web TC_W_CRUD_050 [CRUD Operations] - Validate web component workflow: CRUD Operations - Step 50
+2026-07-22 22:00:33,417 - INFO - Running Web TC_W_VAL_001 [Input Validation] - Validate web component workflow: Input Validation - Step 1
+2026-07-22 22:00:33,434 - INFO - Running Web TC_W_VAL_002 [Input Validation] - Validate web component workflow: Input Validation - Step 2
+2026-07-22 22:00:33,449 - INFO - Running Web TC_W_VAL_003 [Input Validation] - Validate web component workflow: Input Validation - Step 3
+2026-07-22 22:00:33,466 - INFO - Running Web TC_W_VAL_004 [Input Validation] - Validate web component workflow: Input Validation - Step 4
+2026-07-22 22:00:33,481 - INFO - Running Web TC_W_VAL_005 [Input Validation] - Validate web component workflow: Input Validation - Step 5
+2026-07-22 22:00:33,498 - INFO - Running Web TC_W_VAL_006 [Input Validation] - Validate web component workflow: Input Validation - Step 6
+2026-07-22 22:00:33,515 - INFO - Running Web TC_W_VAL_007 [Input Validation] - Validate web component workflow: Input Validation - Step 7
+2026-07-22 22:00:33,530 - INFO - Running Web TC_W_VAL_008 [Input Validation] - Validate web component workflow: Input Validation - Step 8
+2026-07-22 22:00:33,546 - INFO - Running Web TC_W_VAL_009 [Input Validation] - Validate web component workflow: Input Validation - Step 9
+2026-07-22 22:00:33,555 - INFO - Running Web TC_W_VAL_010 [Input Validation] - Validate web component workflow: Input Validation - Step 10
+2026-07-22 22:00:33,570 - INFO - Running Web TC_W_VAL_011 [Input Validation] - Validate web component workflow: Input Validation - Step 11
+2026-07-22 22:00:33,586 - INFO - Running Web TC_W_VAL_012 [Input Validation] - Validate web component workflow: Input Validation - Step 12
+2026-07-22 22:00:33,594 - INFO - Running Web TC_W_VAL_013 [Input Validation] - Validate web component workflow: Input Validation - Step 13
+2026-07-22 22:00:33,609 - INFO - Running Web TC_W_VAL_014 [Input Validation] - Validate web component workflow: Input Validation - Step 14
+2026-07-22 22:00:33,625 - INFO - Running Web TC_W_VAL_015 [Input Validation] - Validate web component workflow: Input Validation - Step 15
+2026-07-22 22:00:33,642 - INFO - Running Web TC_W_VAL_016 [Input Validation] - Validate web component workflow: Input Validation - Step 16
+2026-07-22 22:00:33,660 - INFO - Running Web TC_W_VAL_017 [Input Validation] - Validate web component workflow: Input Validation - Step 17
+2026-07-22 22:00:33,675 - INFO - Running Web TC_W_VAL_018 [Input Validation] - Validate web component workflow: Input Validation - Step 18
+2026-07-22 22:00:33,691 - INFO - Running Web TC_W_VAL_019 [Input Validation] - Validate web component workflow: Input Validation - Step 19
+2026-07-22 22:00:33,714 - INFO - Running Web TC_W_VAL_020 [Input Validation] - Validate web component workflow: Input Validation - Step 20
+2026-07-22 22:00:33,721 - INFO - Running Web TC_W_VAL_021 [Input Validation] - Validate web component workflow: Input Validation - Step 21
+2026-07-22 22:00:33,737 - INFO - Running Web TC_W_VAL_022 [Input Validation] - Validate web component workflow: Input Validation - Step 22
+2026-07-22 22:00:33,753 - INFO - Running Web TC_W_VAL_023 [Input Validation] - Validate web component workflow: Input Validation - Step 23
+2026-07-22 22:00:33,760 - INFO - Running Web TC_W_VAL_024 [Input Validation] - Validate web component workflow: Input Validation - Step 24
+2026-07-22 22:00:33,776 - INFO - Running Web TC_W_VAL_025 [Input Validation] - Validate web component workflow: Input Validation - Step 25
+2026-07-22 22:00:33,784 - INFO - Running Web TC_W_VAL_026 [Input Validation] - Validate web component workflow: Input Validation - Step 26
+2026-07-22 22:00:33,802 - INFO - Running Web TC_W_VAL_027 [Input Validation] - Validate web component workflow: Input Validation - Step 27
+2026-07-22 22:00:33,809 - INFO - Running Web TC_W_VAL_028 [Input Validation] - Validate web component workflow: Input Validation - Step 28
+2026-07-22 22:00:33,825 - INFO - Running Web TC_W_VAL_029 [Input Validation] - Validate web component workflow: Input Validation - Step 29
+2026-07-22 22:00:33,841 - INFO - Running Web TC_W_VAL_030 [Input Validation] - Validate web component workflow: Input Validation - Step 30
+2026-07-22 22:00:33,858 - INFO - Running Web TC_W_VAL_031 [Input Validation] - Validate web component workflow: Input Validation - Step 31
+2026-07-22 22:00:33,874 - INFO - Running Web TC_W_VAL_032 [Input Validation] - Validate web component workflow: Input Validation - Step 32
+2026-07-22 22:00:33,889 - INFO - Running Web TC_W_VAL_033 [Input Validation] - Validate web component workflow: Input Validation - Step 33
+2026-07-22 22:00:33,905 - INFO - Running Web TC_W_VAL_034 [Input Validation] - Validate web component workflow: Input Validation - Step 34
+2026-07-22 22:00:33,920 - INFO - Running Web TC_W_VAL_035 [Input Validation] - Validate web component workflow: Input Validation - Step 35
+2026-07-22 22:00:33,929 - INFO - Running Web TC_W_VAL_036 [Input Validation] - Validate web component workflow: Input Validation - Step 36
+2026-07-22 22:00:33,945 - INFO - Running Web TC_W_VAL_037 [Input Validation] - Validate web component workflow: Input Validation - Step 37
+2026-07-22 22:00:33,961 - INFO - Running Web TC_W_VAL_038 [Input Validation] - Validate web component workflow: Input Validation - Step 38
+2026-07-22 22:00:33,975 - INFO - Running Web TC_W_VAL_039 [Input Validation] - Validate web component workflow: Input Validation - Step 39
+2026-07-22 22:00:33,993 - INFO - Running Web TC_W_VAL_040 [Input Validation] - Validate web component workflow: Input Validation - Step 40
+2026-07-22 22:00:34,010 - INFO - Running Web TC_W_ERR_001 [Error Handling] - Validate web component workflow: Error Handling - Step 1
+2026-07-22 22:00:34,026 - INFO - Running Web TC_W_ERR_002 [Error Handling] - Validate web component workflow: Error Handling - Step 2
+2026-07-22 22:00:34,042 - INFO - Running Web TC_W_ERR_003 [Error Handling] - Validate web component workflow: Error Handling - Step 3
+2026-07-22 22:00:34,049 - INFO - Running Web TC_W_ERR_004 [Error Handling] - Validate web component workflow: Error Handling - Step 4
+2026-07-22 22:00:34,066 - INFO - Running Web TC_W_ERR_005 [Error Handling] - Validate web component workflow: Error Handling - Step 5
+2026-07-22 22:00:34,082 - INFO - Running Web TC_W_ERR_006 [Error Handling] - Validate web component workflow: Error Handling - Step 6
+2026-07-22 22:00:34,098 - INFO - Running Web TC_W_ERR_007 [Error Handling] - Validate web component workflow: Error Handling - Step 7
+2026-07-22 22:00:34,114 - INFO - Running Web TC_W_ERR_008 [Error Handling] - Validate web component workflow: Error Handling - Step 8
+2026-07-22 22:00:34,131 - INFO - Running Web TC_W_ERR_009 [Error Handling] - Validate web component workflow: Error Handling - Step 9
+2026-07-22 22:00:34,146 - INFO - Running Web TC_W_ERR_010 [Error Handling] - Validate web component workflow: Error Handling - Step 10
+2026-07-22 22:00:34,163 - INFO - Running Web TC_W_ERR_011 [Error Handling] - Validate web component workflow: Error Handling - Step 11
+2026-07-22 22:00:34,179 - INFO - Running Web TC_W_ERR_012 [Error Handling] - Validate web component workflow: Error Handling - Step 12
+2026-07-22 22:00:34,195 - INFO - Running Web TC_W_ERR_013 [Error Handling] - Validate web component workflow: Error Handling - Step 13
+2026-07-22 22:00:34,212 - INFO - Running Web TC_W_ERR_014 [Error Handling] - Validate web component workflow: Error Handling - Step 14
+2026-07-22 22:00:34,229 - INFO - Running Web TC_W_ERR_015 [Error Handling] - Validate web component workflow: Error Handling - Step 15
+2026-07-22 22:00:34,244 - INFO - Running Web TC_W_ERR_016 [Error Handling] - Validate web component workflow: Error Handling - Step 16
+2026-07-22 22:00:34,260 - INFO - Running Web TC_W_ERR_017 [Error Handling] - Validate web component workflow: Error Handling - Step 17
+2026-07-22 22:00:34,277 - INFO - Running Web TC_W_ERR_018 [Error Handling] - Validate web component workflow: Error Handling - Step 18
+2026-07-22 22:00:34,284 - INFO - Running Web TC_W_ERR_019 [Error Handling] - Validate web component workflow: Error Handling - Step 19
+2026-07-22 22:00:34,302 - INFO - Running Web TC_W_ERR_020 [Error Handling] - Validate web component workflow: Error Handling - Step 20
+2026-07-22 22:00:34,316 - INFO - Running Web TC_W_SESS_001 [Session Management] - Validate web component workflow: Session Management - Step 1
+2026-07-22 22:00:34,332 - INFO - Running Web TC_W_SESS_002 [Session Management] - Validate web component workflow: Session Management - Step 2
+2026-07-22 22:00:34,349 - INFO - Running Web TC_W_SESS_003 [Session Management] - Validate web component workflow: Session Management - Step 3
+2026-07-22 22:00:34,365 - INFO - Running Web TC_W_SESS_004 [Session Management] - Validate web component workflow: Session Management - Step 4
+2026-07-22 22:00:34,381 - INFO - Running Web TC_W_SESS_005 [Session Management] - Validate web component workflow: Session Management - Step 5
+2026-07-22 22:00:34,398 - INFO - Running Web TC_W_SESS_006 [Session Management] - Validate web component workflow: Session Management - Step 6
+2026-07-22 22:00:34,406 - INFO - Running Web TC_W_SESS_007 [Session Management] - Validate web component workflow: Session Management - Step 7
+2026-07-22 22:00:34,423 - INFO - Running Web TC_W_SESS_008 [Session Management] - Validate web component workflow: Session Management - Step 8
+2026-07-22 22:00:34,439 - INFO - Running Web TC_W_SESS_009 [Session Management] - Validate web component workflow: Session Management - Step 9
+2026-07-22 22:00:34,456 - INFO - Running Web TC_W_SESS_010 [Session Management] - Validate web component workflow: Session Management - Step 10
+2026-07-22 22:00:34,472 - INFO - Running Web TC_W_SESS_011 [Session Management] - Validate web component workflow: Session Management - Step 11
+2026-07-22 22:00:34,487 - INFO - Running Web TC_W_SESS_012 [Session Management] - Validate web component workflow: Session Management - Step 12
+2026-07-22 22:00:34,504 - INFO - Running Web TC_W_SESS_013 [Session Management] - Validate web component workflow: Session Management - Step 13
+2026-07-22 22:00:34,520 - INFO - Running Web TC_W_SESS_014 [Session Management] - Validate web component workflow: Session Management - Step 14
+2026-07-22 22:00:34,537 - INFO - Running Web TC_W_SESS_015 [Session Management] - Validate web component workflow: Session Management - Step 15
+2026-07-22 22:00:34,554 - INFO - Running Web TC_W_SESS_016 [Session Management] - Validate web component workflow: Session Management - Step 16
+2026-07-22 22:00:34,570 - INFO - Running Web TC_W_SESS_017 [Session Management] - Validate web component workflow: Session Management - Step 17
+2026-07-22 22:00:34,586 - INFO - Running Web TC_W_SESS_018 [Session Management] - Validate web component workflow: Session Management - Step 18
+2026-07-22 22:00:34,602 - INFO - Running Web TC_W_SESS_019 [Session Management] - Validate web component workflow: Session Management - Step 19
+2026-07-22 22:00:34,617 - INFO - Running Web TC_W_SESS_020 [Session Management] - Validate web component workflow: Session Management - Step 20
+2026-07-22 22:00:34,634 - INFO - Running Web TC_W_FILE_001 [File Upload] - Validate web component workflow: File Upload - Step 1
+2026-07-22 22:00:34,651 - INFO - Running Web TC_W_FILE_002 [File Upload] - Validate web component workflow: File Upload - Step 2
+2026-07-22 22:00:34,658 - INFO - Running Web TC_W_FILE_003 [File Upload] - Validate web component workflow: File Upload - Step 3
+2026-07-22 22:00:34,675 - INFO - Running Web TC_W_FILE_004 [File Upload] - Validate web component workflow: File Upload - Step 4
+2026-07-22 22:00:34,690 - INFO - Running Web TC_W_FILE_005 [File Upload] - Validate web component workflow: File Upload - Step 5
+2026-07-22 22:00:34,706 - INFO - Running Web TC_W_FILE_006 [File Upload] - Validate web component workflow: File Upload - Step 6
+2026-07-22 22:00:34,714 - INFO - Running Web TC_W_FILE_007 [File Upload] - Validate web component workflow: File Upload - Step 7
+2026-07-22 22:00:34,724 - INFO - Running Web TC_W_FILE_008 [File Upload] - Validate web component workflow: File Upload - Step 8
+2026-07-22 22:00:34,738 - INFO - Running Web TC_W_FILE_009 [File Upload] - Validate web component workflow: File Upload - Step 9
+2026-07-22 22:00:34,754 - INFO - Running Web TC_W_FILE_010 [File Upload] - Validate web component workflow: File Upload - Step 10
+2026-07-22 22:00:34,770 - INFO - Running Web TC_W_FILE_011 [File Upload] - Validate web component workflow: File Upload - Step 11
+2026-07-22 22:00:34,787 - INFO - Running Web TC_W_FILE_012 [File Upload] - Validate web component workflow: File Upload - Step 12
+2026-07-22 22:00:34,795 - INFO - Running Web TC_W_FILE_013 [File Upload] - Validate web component workflow: File Upload - Step 13
+2026-07-22 22:00:34,810 - INFO - Running Web TC_W_FILE_014 [File Upload] - Validate web component workflow: File Upload - Step 14
+2026-07-22 22:00:34,827 - INFO - Running Web TC_W_FILE_015 [File Upload] - Validate web component workflow: File Upload - Step 15
+2026-07-22 22:00:34,843 - INFO - Running Web TC_W_FILE_016 [File Upload] - Validate web component workflow: File Upload - Step 16
+2026-07-22 22:00:34,850 - INFO - Running Web TC_W_FILE_017 [File Upload] - Validate web component workflow: File Upload - Step 17
+2026-07-22 22:00:34,868 - INFO - Running Web TC_W_FILE_018 [File Upload] - Validate web component workflow: File Upload - Step 18
+2026-07-22 22:00:34,883 - INFO - Running Web TC_W_FILE_019 [File Upload] - Validate web component workflow: File Upload - Step 19
+2026-07-22 22:00:34,898 - INFO - Running Web TC_W_FILE_020 [File Upload] - Validate web component workflow: File Upload - Step 20
+2026-07-22 22:00:34,907 - INFO - Running Web TC_W_ACC_001 [Accessibility] - Validate web component workflow: Accessibility - Step 1
+2026-07-22 22:00:34,923 - INFO - Running Web TC_W_ACC_002 [Accessibility] - Validate web component workflow: Accessibility - Step 2
+2026-07-22 22:00:34,939 - INFO - Running Web TC_W_ACC_003 [Accessibility] - Validate web component workflow: Accessibility - Step 3
+2026-07-22 22:00:34,954 - INFO - Running Web TC_W_ACC_004 [Accessibility] - Validate web component workflow: Accessibility - Step 4
+2026-07-22 22:00:34,972 - INFO - Running Web TC_W_ACC_005 [Accessibility] - Validate web component workflow: Accessibility - Step 5
+2026-07-22 22:00:34,996 - INFO - Running Web TC_W_ACC_006 [Accessibility] - Validate web component workflow: Accessibility - Step 6
+2026-07-22 22:00:35,005 - INFO - Running Web TC_W_ACC_007 [Accessibility] - Validate web component workflow: Accessibility - Step 7
+2026-07-22 22:00:35,021 - INFO - Running Web TC_W_ACC_008 [Accessibility] - Validate web component workflow: Accessibility - Step 8
+2026-07-22 22:00:35,036 - INFO - Running Web TC_W_ACC_009 [Accessibility] - Validate web component workflow: Accessibility - Step 9
+2026-07-22 22:00:35,053 - INFO - Running Web TC_W_ACC_010 [Accessibility] - Validate web component workflow: Accessibility - Step 10
+2026-07-22 22:00:35,071 - INFO - Running Web TC_W_ACC_011 [Accessibility] - Validate web component workflow: Accessibility - Step 11
+2026-07-22 22:00:35,082 - INFO - Running Web TC_W_ACC_012 [Accessibility] - Validate web component workflow: Accessibility - Step 12
+2026-07-22 22:00:35,093 - INFO - Running Web TC_W_ACC_013 [Accessibility] - Validate web component workflow: Accessibility - Step 13
+2026-07-22 22:00:35,107 - INFO - Running Web TC_W_ACC_014 [Accessibility] - Validate web component workflow: Accessibility - Step 14
+2026-07-22 22:00:35,114 - INFO - Running Web TC_W_ACC_015 [Accessibility] - Validate web component workflow: Accessibility - Step 15
+2026-07-22 22:00:35,131 - INFO - Running Web TC_W_ACC_016 [Accessibility] - Validate web component workflow: Accessibility - Step 16
+2026-07-22 22:00:35,147 - INFO - Running Web TC_W_ACC_017 [Accessibility] - Validate web component workflow: Accessibility - Step 17
+2026-07-22 22:00:35,162 - INFO - Running Web TC_W_ACC_018 [Accessibility] - Validate web component workflow: Accessibility - Step 18
+2026-07-22 22:00:35,180 - INFO - Running Web TC_W_ACC_019 [Accessibility] - Validate web component workflow: Accessibility - Step 19
+2026-07-22 22:00:35,195 - INFO - Running Web TC_W_ACC_020 [Accessibility] - Validate web component workflow: Accessibility - Step 20
+2026-07-22 22:00:35,212 - INFO - Running Web TC_W_RESP_001 [Responsive Design] - Validate web component workflow: Responsive Design - Step 1
+2026-07-22 22:00:35,219 - INFO - Running Web TC_W_RESP_002 [Responsive Design] - Validate web component workflow: Responsive Design - Step 2
+2026-07-22 22:00:35,237 - INFO - Running Web TC_W_RESP_003 [Responsive Design] - Validate web component workflow: Responsive Design - Step 3
+2026-07-22 22:00:35,250 - INFO - Running Web TC_W_RESP_004 [Responsive Design] - Validate web component workflow: Responsive Design - Step 4
+2026-07-22 22:00:35,268 - INFO - Running Web TC_W_RESP_005 [Responsive Design] - Validate web component workflow: Responsive Design - Step 5
+2026-07-22 22:00:35,283 - INFO - Running Web TC_W_RESP_006 [Responsive Design] - Validate web component workflow: Responsive Design - Step 6
+2026-07-22 22:00:35,291 - INFO - Running Web TC_W_RESP_007 [Responsive Design] - Validate web component workflow: Responsive Design - Step 7
+2026-07-22 22:00:35,306 - INFO - Running Web TC_W_RESP_008 [Responsive Design] - Validate web component workflow: Responsive Design - Step 8
+2026-07-22 22:00:35,316 - INFO - Running Web TC_W_RESP_009 [Responsive Design] - Validate web component workflow: Responsive Design - Step 9
+2026-07-22 22:00:35,330 - INFO - Running Web TC_W_RESP_010 [Responsive Design] - Validate web component workflow: Responsive Design - Step 10
+2026-07-22 22:00:35,346 - INFO - Running Web TC_W_RESP_011 [Responsive Design] - Validate web component workflow: Responsive Design - Step 11
+2026-07-22 22:00:35,362 - INFO - Running Web TC_W_RESP_012 [Responsive Design] - Validate web component workflow: Responsive Design - Step 12
+2026-07-22 22:00:35,370 - INFO - Running Web TC_W_RESP_013 [Responsive Design] - Validate web component workflow: Responsive Design - Step 13
+2026-07-22 22:00:35,386 - INFO - Running Web TC_W_RESP_014 [Responsive Design] - Validate web component workflow: Responsive Design - Step 14
+2026-07-22 22:00:35,402 - INFO - Running Web TC_W_RESP_015 [Responsive Design] - Validate web component workflow: Responsive Design - Step 15
+2026-07-22 22:00:35,410 - INFO - Running Web TC_W_RESP_016 [Responsive Design] - Validate web component workflow: Responsive Design - Step 16
+2026-07-22 22:00:35,427 - INFO - Running Web TC_W_RESP_017 [Responsive Design] - Validate web component workflow: Responsive Design - Step 17
+2026-07-22 22:00:35,443 - INFO - Running Web TC_W_RESP_018 [Responsive Design] - Validate web component workflow: Responsive Design - Step 18
+2026-07-22 22:00:35,451 - INFO - Running Web TC_W_RESP_019 [Responsive Design] - Validate web component workflow: Responsive Design - Step 19
+2026-07-22 22:00:35,467 - INFO - Running Web TC_W_RESP_020 [Responsive Design] - Validate web component workflow: Responsive Design - Step 20
+2026-07-22 22:00:35,483 - INFO - Running Web TC_W_PERF_001 [Performance Smoke Tests] - Validate web component workflow: Performance Smoke Tests - Step 1
+2026-07-22 22:00:35,499 - INFO - Running Web TC_W_PERF_002 [Performance Smoke Tests] - Validate web component workflow: Performance Smoke Tests - Step 2
+2026-07-22 22:00:35,508 - INFO - Running Web TC_W_PERF_003 [Performance Smoke Tests] - Validate web component workflow: Performance Smoke Tests - Step 3
+2026-07-22 22:00:35,524 - INFO - Running Web TC_W_PERF_004 [Performance Smoke Tests] - Validate web component workflow: Performance Smoke Tests - Step 4
+2026-07-22 22:00:35,541 - INFO - Running Web TC_W_PERF_005 [Performance Smoke Tests] - Validate web component workflow: Performance Smoke Tests - Step 5
+2026-07-22 22:00:35,557 - INFO - Running Web TC_W_PERF_006 [Performance Smoke Tests] - Validate web component workflow: Performance Smoke Tests - Step 6
+2026-07-22 22:00:35,573 - INFO - Running Web TC_W_PERF_007 [Performance Smoke Tests] - Validate web component workflow: Performance Smoke Tests - Step 7
+2026-07-22 22:00:35,582 - INFO - Running Web TC_W_PERF_008 [Performance Smoke Tests] - Validate web component workflow: Performance Smoke Tests - Step 8
+2026-07-22 22:00:35,598 - INFO - Running Web TC_W_PERF_009 [Performance Smoke Tests] - Validate web component workflow: Performance Smoke Tests - Step 9
+2026-07-22 22:00:35,615 - INFO - Running Web TC_W_PERF_010 [Performance Smoke Tests] - Validate web component workflow: Performance Smoke Tests - Step 10
+2026-07-22 22:00:35,627 - INFO - Running Web TC_W_PERF_011 [Performance Smoke Tests] - Validate web component workflow: Performance Smoke Tests - Step 11
+2026-07-22 22:00:35,637 - INFO - Running Web TC_W_PERF_012 [Performance Smoke Tests] - Validate web component workflow: Performance Smoke Tests - Step 12
+2026-07-22 22:00:35,655 - INFO - Running Web TC_W_PERF_013 [Performance Smoke Tests] - Validate web component workflow: Performance Smoke Tests - Step 13
+2026-07-22 22:00:35,662 - INFO - Running Web TC_W_PERF_014 [Performance Smoke Tests] - Validate web component workflow: Performance Smoke Tests - Step 14
+2026-07-22 22:00:35,679 - INFO - Running Web TC_W_PERF_015 [Performance Smoke Tests] - Validate web component workflow: Performance Smoke Tests - Step 15
+2026-07-22 22:00:35,695 - INFO - Running Web TC_W_PERF_016 [Performance Smoke Tests] - Validate web component workflow: Performance Smoke Tests - Step 16
+2026-07-22 22:00:35,703 - INFO - Running Web TC_W_PERF_017 [Performance Smoke Tests] - Validate web component workflow: Performance Smoke Tests - Step 17
+2026-07-22 22:00:35,719 - INFO - Running Web TC_W_PERF_018 [Performance Smoke Tests] - Validate web component workflow: Performance Smoke Tests - Step 18
+2026-07-22 22:00:35,736 - INFO - Running Web TC_W_PERF_019 [Performance Smoke Tests] - Validate web component workflow: Performance Smoke Tests - Step 19
+2026-07-22 22:00:35,751 - INFO - Running Web TC_W_PERF_020 [Performance Smoke Tests] - Validate web component workflow: Performance Smoke Tests - Step 20
+2026-07-22 22:00:35,759 - INFO - Running Web TC_W_REGR_001 [Regression] - Validate web component workflow: Regression - Step 1
+2026-07-22 22:00:35,777 - INFO - Running Web TC_W_REGR_002 [Regression] - Validate web component workflow: Regression - Step 2
+2026-07-22 22:00:35,792 - INFO - Running Web TC_W_REGR_003 [Regression] - Validate web component workflow: Regression - Step 3
+2026-07-22 22:00:35,800 - INFO - Running Web TC_W_REGR_004 [Regression] - Validate web component workflow: Regression - Step 4
+2026-07-22 22:00:35,814 - INFO - Running Web TC_W_REGR_005 [Regression] - Validate web component workflow: Regression - Step 5
+2026-07-22 22:00:35,830 - INFO - Running Web TC_W_REGR_006 [Regression] - Validate web component workflow: Regression - Step 6
+2026-07-22 22:00:35,847 - INFO - Running Web TC_W_REGR_007 [Regression] - Validate web component workflow: Regression - Step 7
+2026-07-22 22:00:35,864 - INFO - Running Web TC_W_REGR_008 [Regression] - Validate web component workflow: Regression - Step 8
+2026-07-22 22:00:35,881 - INFO - Running Web TC_W_REGR_009 [Regression] - Validate web component workflow: Regression - Step 9
+2026-07-22 22:00:35,898 - INFO - Running Web TC_W_REGR_010 [Regression] - Validate web component workflow: Regression - Step 10
+2026-07-22 22:00:35,906 - INFO - Running Web TC_W_REGR_011 [Regression] - Validate web component workflow: Regression - Step 11
+2026-07-22 22:00:35,922 - INFO - Running Web TC_W_REGR_012 [Regression] - Validate web component workflow: Regression - Step 12
+2026-07-22 22:00:35,937 - INFO - Running Web TC_W_REGR_013 [Regression] - Validate web component workflow: Regression - Step 13
+2026-07-22 22:00:35,952 - INFO - Running Web TC_W_REGR_014 [Regression] - Validate web component workflow: Regression - Step 14
+2026-07-22 22:00:35,968 - INFO - Running Web TC_W_REGR_015 [Regression] - Validate web component workflow: Regression - Step 15
+2026-07-22 22:00:35,986 - INFO - Running Web TC_W_REGR_016 [Regression] - Validate web component workflow: Regression - Step 16
+2026-07-22 22:00:36,002 - INFO - Running Web TC_W_REGR_017 [Regression] - Validate web component workflow: Regression - Step 17
+2026-07-22 22:00:36,017 - INFO - Running Web TC_W_REGR_018 [Regression] - Validate web component workflow: Regression - Step 18
+2026-07-22 22:00:36,033 - INFO - Running Web TC_W_REGR_019 [Regression] - Validate web component workflow: Regression - Step 19
+2026-07-22 22:00:36,049 - INFO - Running Web TC_W_REGR_020 [Regression] - Validate web component workflow: Regression - Step 20
+2026-07-22 22:00:36,065 - INFO - Running Web TC_W_REGR_021 [Regression] - Validate web component workflow: Regression - Step 21
+2026-07-22 22:00:36,072 - INFO - Running Web TC_W_REGR_022 [Regression] - Validate web component workflow: Regression - Step 22
+2026-07-22 22:00:36,081 - INFO - Running Web TC_W_REGR_023 [Regression] - Validate web component workflow: Regression - Step 23
+2026-07-22 22:00:36,096 - INFO - Running Web TC_W_REGR_024 [Regression] - Validate web component workflow: Regression - Step 24
+2026-07-22 22:00:36,105 - INFO - Running Web TC_W_REGR_025 [Regression] - Validate web component workflow: Regression - Step 25
+2026-07-22 22:00:36,121 - INFO - Running Web TC_W_REGR_026 [Regression] - Validate web component workflow: Regression - Step 26
+2026-07-22 22:00:36,129 - INFO - Running Web TC_W_REGR_027 [Regression] - Validate web component workflow: Regression - Step 27
+2026-07-22 22:00:36,144 - INFO - Running Web TC_W_REGR_028 [Regression] - Validate web component workflow: Regression - Step 28
+2026-07-22 22:00:36,161 - INFO - Running Web TC_W_REGR_029 [Regression] - Validate web component workflow: Regression - Step 29
+2026-07-22 22:00:36,178 - INFO - Running Web TC_W_REGR_030 [Regression] - Validate web component workflow: Regression - Step 30
+2026-07-22 22:00:36,193 - INFO - Running Web TC_W_REGR_031 [Regression] - Validate web component workflow: Regression - Step 31
+2026-07-22 22:00:36,202 - INFO - Running Web TC_W_REGR_032 [Regression] - Validate web component workflow: Regression - Step 32
+2026-07-22 22:00:36,217 - INFO - Running Web TC_W_REGR_033 [Regression] - Validate web component workflow: Regression - Step 33
+2026-07-22 22:00:36,234 - INFO - Running Web TC_W_REGR_034 [Regression] - Validate web component workflow: Regression - Step 34
+2026-07-22 22:00:36,250 - INFO - Running Web TC_W_REGR_035 [Regression] - Validate web component workflow: Regression - Step 35
+2026-07-22 22:00:36,259 - INFO - Running Web TC_W_REGR_036 [Regression] - Validate web component workflow: Regression - Step 36
+2026-07-22 22:00:36,275 - INFO - Running Web TC_W_REGR_037 [Regression] - Validate web component workflow: Regression - Step 37
+2026-07-22 22:00:36,291 - INFO - Running Web TC_W_REGR_038 [Regression] - Validate web component workflow: Regression - Step 38
+2026-07-22 22:00:36,308 - INFO - Running Web TC_W_REGR_039 [Regression] - Validate web component workflow: Regression - Step 39
+2026-07-22 22:00:36,323 - INFO - Running Web TC_W_REGR_040 [Regression] - Validate web component workflow: Regression - Step 40
+2026-07-22 22:00:36,339 - INFO - Running Web TC_W_REGR_041 [Regression] - Validate web component workflow: Regression - Step 41
+2026-07-22 22:00:36,347 - INFO - Running Web TC_W_REGR_042 [Regression] - Validate web component workflow: Regression - Step 42
+2026-07-22 22:00:36,362 - INFO - Running Web TC_W_REGR_043 [Regression] - Validate web component workflow: Regression - Step 43
+2026-07-22 22:00:36,379 - INFO - Running Web TC_W_REGR_044 [Regression] - Validate web component workflow: Regression - Step 44
+2026-07-22 22:00:36,387 - INFO - Running Web TC_W_REGR_045 [Regression] - Validate web component workflow: Regression - Step 45
+2026-07-22 22:00:36,395 - INFO - Running Web TC_W_REGR_046 [Regression] - Validate web component workflow: Regression - Step 46
+2026-07-22 22:00:36,412 - INFO - Running Web TC_W_REGR_047 [Regression] - Validate web component workflow: Regression - Step 47
+2026-07-22 22:00:36,437 - INFO - Running Web TC_W_REGR_048 [Regression] - Validate web component workflow: Regression - Step 48
+2026-07-22 22:00:36,444 - INFO - Running Web TC_W_REGR_049 [Regression] - Validate web component workflow: Regression - Step 49
+2026-07-22 22:00:36,460 - INFO - Running Web TC_W_REGR_050 [Regression] - Validate web component workflow: Regression - Step 50
+2026-07-22 22:00:38,735 - INFO - Pytest suite completed with exit code: 1
+2026-07-22 22:00:39,323 - INFO - ==============================================
+2026-07-22 22:00:39,323 - INFO - Web Execution complete. Total: 470, Pass Rate: 99.15%
+2026-07-22 22:00:39,324 - INFO - ==============================================

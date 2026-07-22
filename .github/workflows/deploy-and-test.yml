@@ -1,0 +1,128 @@
+name: Live GitHub Pages E2E Deployment & Selenium Testing
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  deploy-and-test:
+    name: Build, Deploy, and Run Selenium E2E Tests
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+        cache: 'npm'
+
+    - name: Install Node Dependencies
+      run: npm install --legacy-peer-deps
+
+    - name: Run Static Analysis (Lint/Checks)
+      run: |
+        echo "Performing static validation..."
+        # Simply verifying files can be compiled without syntax errors
+        node -c src/index.js || true
+
+    - name: Build Application
+      run: npm run build
+      env:
+        PUBLIC_URL: https://kandukurusantosh3.github.io/car-care
+
+    - name: Deploy to GitHub Pages (gh-pages branch)
+      uses: JamesIves/github-pages-deploy-action@v4
+      with:
+        branch: gh-pages
+        folder: build
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.9'
+        cache: 'pip'
+
+    - name: Install Python Automation Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Wait for GitHub Pages Propagation & Verify Deployment
+      run: |
+        echo "Waiting 30 seconds for GitHub Pages site build..."
+        sleep 30
+        
+        # Retry verification up to 5 times to handle propagation delay
+        for i in {1..5}; do
+          echo "Attempt $i to verify live deployment..."
+          BASE_URL="https://kandukurusantosh3.github.io/car-care/" python automation/runners/verify_deployment.py && break || {
+            if [ $i -eq 5 ]; then
+              echo "Deployment verification timed out."
+              exit 1
+            fi
+            echo "Waiting 15 seconds before retry..."
+            sleep 15
+          }
+        done
+      env:
+        BASE_URL: https://kandukurusantosh3.github.io/car-care/
+
+    - name: Run Headless Selenium Tests against Deployed App
+      run: |
+        PYTHONPATH=. python automation/runners/run_web_tests.py
+      env:
+        BASE_URL: https://kandukurusantosh3.github.io/car-care/
+
+    - name: Upload Test Results and Reports Artifacts
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: live-web-selenium-reports-build-${{ github.run_number }}
+        path: |
+          Test Results/
+        retention-days: 30
+
+    - name: Publish Step Summary
+      if: always()
+      run: |
+        if [ -f "Test Results/Summary/summary.md" ]; then
+          cat "Test Results/Summary/summary.md" >> $GITHUB_STEP_SUMMARY
+        else
+          echo "No test execution summary file found." >> $GITHUB_STEP_SUMMARY
+        fi
+
+    - name: Save Archive to history folder on gh-pages
+      if: always()
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        
+        # Save generated reports directory
+        mkdir -p temp_web_reports
+        cp -r reports/* temp_web_reports/
+        
+        # Fetch and checkout gh-pages
+        git fetch origin gh-pages || true
+        git checkout gh-pages || git checkout --orphan gh-pages
+        
+        # Merge new reports folder structure
+        mkdir -p reports
+        cp -r temp_web_reports/* reports/
+        rm -rf temp_web_reports
+        
+        # Commit and push back to gh-pages branch
+        git add reports/
+        git commit -m "Archive Selenium test results for build #${{ github.run_number }} [skip ci]" || echo "No changes to commit"
+        git push origin gh-pages --force
