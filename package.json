@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "test": "react-scripts test"
   },
   "dependencies": {
     "@capacitor/android": "^8.4.2",

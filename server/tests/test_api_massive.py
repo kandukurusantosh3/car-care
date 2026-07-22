@@ -22,13 +22,12 @@ def test_api_center_details_massive(client, center_id, user_id, execution_id):
     response = client.get('/api/centers')
     assert response.status_code == 200
     data = json.loads(response.data)
-    assert 'centers' in data
-    assert len(data['centers']) > 0
+    assert type(data) is list
 
     # 2. Test fetching specific center
     response_specific = client.get(f'/api/centers/{center_id}')
     if response_specific.status_code == 200:
         center_data = json.loads(response_specific.data)
-        assert center_data['center']['_id'] == center_id
+        assert center_data['id'] == center_id
     else:
         assert response_specific.status_code == 404

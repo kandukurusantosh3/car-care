@@ -11,9 +11,9 @@ jobs:
     name: React Component Tests
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - name: Use Node.js
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v4
       with:
         node-version: '18.x'
     - name: Install dependencies
@@ -25,9 +25,9 @@ jobs:
     name: Backend API Tests
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: '3.9'
     - name: Install dependencies
@@ -36,37 +36,37 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
         pip install pytest pytest-selenium Appium-Python-Client flask flask-cors pymongo
     - name: Run API Tests (400 Cases)
-      run: pytest server/tests/test_api_massive.py -v
+      run: PYTHONPATH=server pytest server/tests/test_api_massive.py -v
 
   test-selenium-web:
     name: Web UI Selenium Tests
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: '3.9'
     - name: Install dependencies
       run: |
         pip install pytest pytest-selenium Appium-Python-Client
     - name: Run Selenium Tests (400 Cases)
-      run: pytest server/tests/test_selenium_massive.py -v
+      run: PYTHONPATH=server pytest server/tests/test_selenium_massive.py -v
 
   test-appium-mobile:
     name: Mobile Appium Tests
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: '3.9'
     - name: Install dependencies
       run: |
         pip install pytest pytest-selenium Appium-Python-Client
     - name: Run Appium Tests (400 Cases)
-      run: pytest server/tests/test_appium_massive.py -v
+      run: PYTHONPATH=server pytest server/tests/test_appium_massive.py -v
 
   generate-summary:
     name: Build Summary
