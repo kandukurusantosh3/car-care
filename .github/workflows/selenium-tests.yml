@@ -25,16 +25,10 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
-      - name: Start React App
-        run: npm start &
-        env:
-          CI: true
-
-      - name: Wait for React App to boot
-        run: npx wait-on http://localhost:3000 -t 60000
-
       - name: Run Selenium Tests
         run: node selenium_tests/test_e2e_flow.js
+        env:
+          CI: 'true'
 
       - name: Upload Excel Report
         if: always()

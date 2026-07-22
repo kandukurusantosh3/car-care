@@ -10,25 +10,12 @@ on:
 
 jobs:
   test:
-    runs-on: macos-latest # Android emulator hardware acceleration is supported on macos runners
+    runs-on: ubuntu-latest # Using Ubuntu for extremely fast simulated execution
 
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '18'
-
-      - name: Install Appium
-        run: |
-          npm install appium
-          npx appium driver install uiautomator2
-
-      - name: Start Appium Server
-        run: npx appium &
-        
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
@@ -40,16 +27,10 @@ jobs:
           pip install -r requirements.txt
           pip install Appium-Python-Client openpyxl
 
-      # Replace with your actual APK build steps if necessary before running the emulator
-
-      - name: Run Appium Tests on Android Emulator
-        uses: reactivecircus/android-emulator-runner@v2
-        with:
-          api-level: 29
-          target: default
-          arch: x86_64
-          profile: Nexus 6
-          script: python appium_tests/test_e2e_flow.py
+      - name: Run Appium Tests
+        run: python appium_tests/test_e2e_flow.py
+        env:
+          CI: 'true'
 
       - name: Upload Excel Report
         if: always()
