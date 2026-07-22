@@ -1,0 +1,237 @@
+{
+  "centers": [
+    {
+      "_id": "center_1",
+      "name": "Apex Auto Care & Repairs",
+      "image": "https://images.unsplash.com/photo-1486006920555-c77dce18193b?auto=format&fit=crop&w=600&q=80",
+      "rating": 4.8,
+      "reviews_count": 142,
+      "address": "120 Industrial Boulevard, Cityville",
+      "lat": 12.9716,
+      "lng": 77.5946,
+      "phone": "+1 (555) 019-2831",
+      "pricing": "$$",
+      "services": [
+        "Car Repair",
+        "Denting & Painting"
+      ],
+      "operating_hours": "08:00 AM - 07:00 PM"
+    },
+    {
+      "_id": "center_2",
+      "name": "Elite Car Wash & Detailing Lounge",
+      "image": "https://images.unsplash.com/photo-1607860108855-64acf2078ed9?auto=format&fit=crop&w=600&q=80",
+      "rating": 4.9,
+      "reviews_count": 89,
+      "address": "45 Ocean Breeze Parkway, Cityville",
+      "lat": 12.9782,
+      "lng": 77.6012,
+      "phone": "+1 (555) 019-9481",
+      "pricing": "$$$",
+      "services": [
+        "Car Wash",
+        "Car Detailing"
+      ],
+      "operating_hours": "09:00 AM - 09:00 PM"
+    },
+    {
+      "_id": "center_3",
+      "name": "Pro Mechanic Solutions",
+      "image": "https://images.unsplash.com/photo-1517524206127-48bbd363f3d7?auto=format&fit=crop&w=600&q=80",
+      "rating": 4.6,
+      "reviews_count": 215,
+      "address": "812 Motorway Avenue, Suburbia",
+      "lat": 12.9641,
+      "lng": 77.5855,
+      "phone": "+1 (555) 019-3344",
+      "pricing": "$",
+      "services": [
+        "Car Repair"
+      ],
+      "operating_hours": "07:30 AM - 06:00 PM"
+    }
+  ],
+  "services": [
+    {
+      "_id": "srv_1",
+      "name": "General Diagnostic & Oil Service",
+      "category": "Car Repair",
+      "price": 120.0,
+      "estimated_time": "2 hours",
+      "description": "Full engine diagnostic, synthetic oil filter swap, top-up of coolant, brake, and washer fluids."
+    },
+    {
+      "_id": "srv_2",
+      "name": "Advanced AC Leak Fix & Gas Recharge",
+      "category": "Car Repair",
+      "price": 180.0,
+      "estimated_time": "3 hours",
+      "description": "Pressure testing the AC lines, vacuum testing, leak sealant injection, and full R134a/R1234yf refrigerant recharge."
+    },
+    {
+      "_id": "srv_3",
+      "name": "Premium Ceramic Paint Protection & Detail",
+      "category": "Car Detailing",
+      "price": 350.0,
+      "estimated_time": "6 hours",
+      "description": "Multi-stage clay bar treatment, dual-action machine paint correction, and application of a high-gloss 9H ceramic coating protection layer."
+    },
+    {
+      "_id": "srv_4",
+      "name": "Eco Steam Interior & Exterior Wash",
+      "category": "Car Wash",
+      "price": 45.0,
+      "estimated_time": "1 hour",
+      "description": "High-pressure exterior steam washing, tire shine, deep dash wipe, interior vacuuming, and deodorizing."
+    },
+    {
+      "_id": "srv_5",
+      "name": "Bumper Scratch Denting & Painting",
+      "category": "Denting & Painting",
+      "price": 220.0,
+      "estimated_time": "1 day",
+      "description": "Denting extraction, body-filler smooth matching, factory color matching paint, and UV-resistant gloss clear coat application."
+    }
+  ],
+  "users": [
+    {
+      "_id": "6a6050c3dac9840666d970cd",
+      "name": "Test User",
+      "email": "test@example.com",
+      "phone": "1234567890",
+      "password_hash": "$2b$12$5/EdXgdGJ2ElNa8vD.bnK.P9OV.DUUKuZgmEnvy2v08y7MM4AIiza",
+      "role": "customer"
+    },
+    {
+      "_id": "6a6052203cdef9dcf46b0a32",
+      "name": "kandukuru santosh",
+      "email": "kandukurusantosh4@gmail.com",
+      "phone": "7569006936",
+      "password_hash": "$2b$12$V89bFguoO7Roaxn2AhQun.d./L/wEYuXlJ0r8dFgHZKBWMakPVEuO",
+      "role": "customer"
+    },
+    {
+      "_id": "6a6078d17746f60bd1b3b308",
+      "name": "sandy",
+      "email": "sandy@gmail.com",
+      "phone": "123456789",
+      "password_hash": "$2b$12$MOHzPx3ZfO8A9jWJk16UyueS1xYnFst7ThhgnL.ZZvej.DQ8J3Ijy",
+      "role": "customer"
+    }
+  ],
+  "bookings": [
+    {
+      "_id": "6a60542c3cdef9dcf46b0a34",
+      "user_id": "6a6052203cdef9dcf46b0a32",
+      "center_id": "center_1",
+      "center_name": "Apex Auto Care & Repairs",
+      "vehicle": {
+        "make": "bmw",
+        "model": "x5",
+        "license_plate": "ap04ph2006"
+      },
+      "services": [
+        {
+          "id": "srv_1",
+          "name": "General Diagnostic & Oil Service",
+          "price": 120.0
+        }
+      ],
+      "total_price": 120.0,
+      "scheduled_date": "2026-07-23",
+      "scheduled_time": "12:30",
+      "pickup_option": false,
+      "status": "Confirmed",
+      "timeline": [
+        {
+          "status": "Confirmed",
+          "timestamp": "2026-07-22 10:55 AM",
+          "description": "Your appointment is confirmed at Apex Auto Care & Repairs"
+        }
+      ],
+      "mechanic_notes": ""
+    },
+    {
+      "_id": "6a6054f83cdef9dcf46b0a35",
+      "user_id": "6a6052203cdef9dcf46b0a32",
+      "center_id": "center_3",
+      "center_name": "Pro Mechanic Solutions",
+      "vehicle": {
+        "make": "bmw",
+        "model": "x5",
+        "license_plate": "ap04ph2006"
+      },
+      "services": [
+        {
+          "id": "srv_2",
+          "name": "Advanced AC Leak Fix & Gas Recharge",
+          "price": 180.0
+        }
+      ],
+      "total_price": 180.0,
+      "scheduled_date": "2026-07-23",
+      "scheduled_time": "10:30",
+      "pickup_option": false,
+      "status": "Confirmed",
+      "timeline": [
+        {
+          "status": "Confirmed",
+          "timestamp": "2026-07-22 10:58 AM",
+          "description": "Your appointment is confirmed at Pro Mechanic Solutions"
+        }
+      ],
+      "mechanic_notes": ""
+    },
+    {
+      "_id": "6a6079387746f60bd1b3b30a",
+      "user_id": "6a6078d17746f60bd1b3b308",
+      "center_id": "center_1",
+      "center_name": "Apex Auto Care & Repairs",
+      "vehicle": {
+        "make": "bmw",
+        "model": "m3",
+        "license_plate": "ap02po3265"
+      },
+      "services": [
+        {
+          "id": "srv_1",
+          "name": "General Diagnostic & Oil Service",
+          "price": 120.0
+        }
+      ],
+      "total_price": 120.0,
+      "scheduled_date": "2026-07-23",
+      "scheduled_time": "12:30",
+      "pickup_option": false,
+      "status": "Confirmed",
+      "timeline": [
+        {
+          "status": "Confirmed",
+          "timestamp": "2026-07-22 01:33 PM",
+          "description": "Your appointment is confirmed at Apex Auto Care & Repairs"
+        }
+      ],
+      "mechanic_notes": ""
+    }
+  ],
+  "vehicles": [
+    {
+      "_id": "6a6052563cdef9dcf46b0a33",
+      "user_id": "6a6052203cdef9dcf46b0a32",
+      "make": "bmw",
+      "model": "x5",
+      "year": "2021",
+      "license_plate": "ap04ph2006",
+      "color": ""
+    },
+    {
+      "_id": "6a6079107746f60bd1b3b309",
+      "user_id": "6a6078d17746f60bd1b3b308",
+      "make": "bmw",
+      "model": "m3",
+      "year": "2023",
+      "license_plate": "ap02po3265",
+      "color": ""
+    }
+  ]
+}
