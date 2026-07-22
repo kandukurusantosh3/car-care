@@ -117,6 +117,22 @@
       "phone": "123456789",
       "password_hash": "$2b$12$MOHzPx3ZfO8A9jWJk16UyueS1xYnFst7ThhgnL.ZZvej.DQ8J3Ijy",
       "role": "customer"
+    },
+    {
+      "_id": "6a609c4058fef7e4a0096dd0",
+      "name": "Santosh Kandukuri",
+      "email": "kandukurisantosh3@gmail.com",
+      "phone": "9866834937",
+      "password_hash": "$2b$12$pzq..xqloNcYqQR/d83qFeD9EZDf0squb5dylhUWI7LE5wOHhxyF2",
+      "role": "customer"
+    },
+    {
+      "_id": "6a609df758fef7e4a0096dd3",
+      "name": "kandukuru santosh",
+      "email": "kandukuru56@gmail.com",
+      "phone": "565426686",
+      "password_hash": "$2b$12$HmdQ5PYVPOV6StoYX6BcAOfc4Z3TPDHqwso/cOPve3pMryzgFPVmC",
+      "role": "mechanic"
     }
   ],
   "bookings": [
@@ -147,6 +163,21 @@
           "status": "Confirmed",
           "timestamp": "2026-07-22 10:55 AM",
           "description": "Your appointment is confirmed at Apex Auto Care & Repairs"
+        },
+        {
+          "status": "In Garage",
+          "timestamp": "2026-07-22 04:10 PM",
+          "description": "Your vehicle has arrived at the service center."
+        },
+        {
+          "status": "Completed",
+          "timestamp": "2026-07-22 04:11 PM",
+          "description": "Service completed and car delivered."
+        },
+        {
+          "status": "Confirmed",
+          "timestamp": "2026-07-22 04:11 PM",
+          "description": "Your appointment is confirmed."
         }
       ],
       "mechanic_notes": ""
@@ -172,12 +203,17 @@
       "scheduled_date": "2026-07-23",
       "scheduled_time": "10:30",
       "pickup_option": false,
-      "status": "Confirmed",
+      "status": "Picked Up",
       "timeline": [
         {
           "status": "Confirmed",
           "timestamp": "2026-07-22 10:58 AM",
           "description": "Your appointment is confirmed at Pro Mechanic Solutions"
+        },
+        {
+          "status": "Picked Up",
+          "timestamp": "2026-07-22 04:10 PM",
+          "description": "Valet has picked up your vehicle."
         }
       ],
       "mechanic_notes": ""
@@ -212,6 +248,99 @@
         }
       ],
       "mechanic_notes": ""
+    },
+    {
+      "_id": "6a609b8b58fef7e4a0096dcf",
+      "user_id": "6a6052203cdef9dcf46b0a32",
+      "center_id": "center_1",
+      "center_name": "Apex Auto Care & Repairs",
+      "vehicle": {
+        "make": "bmw",
+        "model": "x5",
+        "license_plate": "ap04ph2006"
+      },
+      "services": [
+        {
+          "id": "srv_1",
+          "name": "General Diagnostic & Oil Service",
+          "price": 120.0
+        }
+      ],
+      "total_price": 135.0,
+      "scheduled_date": "2028-02-12",
+      "scheduled_time": "10:30",
+      "pickup_option": true,
+      "status": "Confirmed",
+      "timeline": [
+        {
+          "status": "Confirmed",
+          "timestamp": "2026-07-22 03:59 PM",
+          "description": "Your appointment is confirmed at Apex Auto Care & Repairs"
+        }
+      ],
+      "mechanic_notes": ""
+    },
+    {
+      "_id": "6a609c9d58fef7e4a0096dd2",
+      "user_id": "6a609c4058fef7e4a0096dd0",
+      "center_id": "center_1",
+      "center_name": "Apex Auto Care & Repairs",
+      "vehicle": {
+        "make": "Bmw",
+        "model": "M2",
+        "license_plate": "Ap09bb9743"
+      },
+      "services": [
+        {
+          "id": "srv_5",
+          "name": "Bumper Scratch Denting & Painting",
+          "price": 220.0
+        }
+      ],
+      "total_price": 220.0,
+      "scheduled_date": "2026-07-22",
+      "scheduled_time": "16:03",
+      "pickup_option": false,
+      "status": "Confirmed",
+      "timeline": [
+        {
+          "status": "Confirmed",
+          "timestamp": "2026-07-22 04:04 PM",
+          "description": "Your appointment is confirmed at Apex Auto Care & Repairs"
+        }
+      ],
+      "mechanic_notes": ""
+    },
+    {
+      "_id": "6a609f2258fef7e4a0096dd5",
+      "user_id": "6a609df758fef7e4a0096dd3",
+      "center_id": "center_1",
+      "center_name": "Apex Auto Care & Repairs",
+      "vehicle": {
+        "make": "ru66y",
+        "model": "556u",
+        "license_plate": "hf57jj5466"
+      },
+      "services": [
+        {
+          "id": "srv_2",
+          "name": "Advanced AC Leak Fix & Gas Recharge",
+          "price": 180.0
+        }
+      ],
+      "total_price": 180.0,
+      "scheduled_date": "2026-02-10",
+      "scheduled_time": "23:02",
+      "pickup_option": false,
+      "status": "Confirmed",
+      "timeline": [
+        {
+          "status": "Confirmed",
+          "timestamp": "2026-07-22 04:14 PM",
+          "description": "Your appointment is confirmed at Apex Auto Care & Repairs"
+        }
+      ],
+      "mechanic_notes": ""
     }
   ],
   "vehicles": [
@@ -231,6 +360,24 @@
       "model": "m3",
       "year": "2023",
       "license_plate": "ap02po3265",
+      "color": ""
+    },
+    {
+      "_id": "6a609c7d58fef7e4a0096dd1",
+      "user_id": "6a609c4058fef7e4a0096dd0",
+      "make": "Bmw",
+      "model": "M2",
+      "year": "2024",
+      "license_plate": "Ap09bb9743",
+      "color": ""
+    },
+    {
+      "_id": "6a609f0958fef7e4a0096dd4",
+      "user_id": "6a609df758fef7e4a0096dd3",
+      "make": "ru66y",
+      "model": "556u",
+      "year": "5667",
+      "license_plate": "hf57jj5466",
       "color": ""
     }
   ]

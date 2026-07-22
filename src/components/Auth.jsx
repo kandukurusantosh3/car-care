@@ -1,10 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
-
-const API_BASE_URL = window.location.port === '3000'
-  ? 'http://localhost:7082/api'
-  : `${window.location.origin}/api`;
+import { API_BASE_URL } from '../config';
 
 export default function Auth() {
   const navigate = useNavigate();

@@ -2,9 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import axios from 'axios';
 
-const API_BASE_URL = window.location.port === '3000'
-  ? 'http://localhost:7082/api'
-  : `${window.location.origin}/api`;
+import { API_BASE_URL } from '../config';
 
 const getAuthHeader = () => {
   const token = localStorage.getItem('token');

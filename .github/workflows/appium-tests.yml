@@ -1,0 +1,60 @@
+name: Appium Android E2E Tests
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: macos-latest # Android emulator hardware acceleration is supported on macos runners
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install Appium
+        run: |
+          npm install -g appium
+          appium driver install uiautomator2
+
+      - name: Start Appium Server
+        run: appium &
+        
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Python Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install Appium-Python-Client openpyxl
+
+      # Replace with your actual APK build steps if necessary before running the emulator
+
+      - name: Run Appium Tests on Android Emulator
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: 29
+          target: default
+          arch: x86_64
+          profile: Nexus 6
+          script: python appium_tests/test_e2e_flow.py
+
+      - name: Upload Excel Report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: appium-test-report
+          path: appium_tests/*.xlsx
+          retention-days: 7

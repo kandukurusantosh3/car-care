@@ -1,0 +1,45 @@
+name: Selenium E2E Tests
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Start React App
+        run: npm start &
+        env:
+          CI: true
+
+      - name: Wait for React App to boot
+        run: npx wait-on http://localhost:3000 -t 60000
+
+      - name: Run Selenium Tests
+        run: node selenium_tests/test_e2e_flow.js
+
+      - name: Upload Excel Report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: selenium-test-report
+          path: selenium_tests/*.xlsx
+          retention-days: 7
