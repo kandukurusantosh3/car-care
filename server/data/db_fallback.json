@@ -133,6 +133,102 @@
       "phone": "565426686",
       "password_hash": "$2b$12$HmdQ5PYVPOV6StoYX6BcAOfc4Z3TPDHqwso/cOPve3pMryzgFPVmC",
       "role": "mechanic"
+    },
+    {
+      "_id": "6a60db0baa37ae898f9b8ea1",
+      "name": "kandukuru santosh",
+      "email": "kandukur@gmail.com",
+      "phone": "58854754",
+      "password_hash": "$2b$12$AVde/ZrkSCmo15QR9U6n4erBlKE5YEFxXzud30zr.G4wLdOwzxmku",
+      "role": "mechanic"
+    },
+    {
+      "_id": "6a61b22d53b4634b478cf54e",
+      "name": "John",
+      "email": "john45@gmail.com",
+      "phone": "9866824937",
+      "password_hash": "$2b$12$cNViTM36Q3FCJ5jhNGXTgOTt8KCnwb9Wqj4B.DXcJamRU8RghSVE.",
+      "role": "customer"
+    },
+    {
+      "_id": "6a61cff353b4634b478cf552",
+      "name": "sandy",
+      "email": "santosh3@gmail.com",
+      "phone": "895569859",
+      "password_hash": "$2b$12$7000RFg5n3pbkxj3Q6GWkeWqGMVk0NIRtxEfBTZ6d4UiubDi8BuHq",
+      "role": "customer"
+    },
+    {
+      "_id": "6a61d0af53b4634b478cf554",
+      "name": "Santosh ",
+      "email": "abc123@gmail.com",
+      "phone": "75698454694",
+      "password_hash": "$2b$12$HxMeqUqcvyhOLdkfbuh25.mvXZrGg.u.2TvCoELm5cUwD.JyKOe2u",
+      "role": "mechanic"
+    },
+    {
+      "_id": "6a61d41c53b4634b478cf557",
+      "name": "sam",
+      "email": "santosh4@gmail.com",
+      "phone": "5546822",
+      "password_hash": "$2b$12$tIAFquX.SfMeshBXNSGU2eb8H6baHC.UiLreofGnuHgnQ7KJrub9O",
+      "role": "mechanic"
+    },
+    {
+      "_id": "6a61d5a5510bf4ef14febf00",
+      "name": "kimm",
+      "email": "kim4@gmail.com",
+      "phone": "256255365",
+      "password_hash": "$2b$12$nRRsUXkmMtosiRRWvdIVw.PQ3ZeegkSYF8TkvcjStM4vJqQz.15Xu",
+      "role": "customer"
+    },
+    {
+      "_id": "6a61d62d510bf4ef14febf03",
+      "name": "dasd",
+      "email": "dasd4@gmail.com",
+      "phone": "5164946",
+      "password_hash": "$2b$12$nMZbF8ksfdtgE75jMjnmCO7hqdWZKtd.wd.bF9cI2gnNPMR0XDijO",
+      "role": "mechanic"
+    },
+    {
+      "_id": "6a61d6b0510bf4ef14febf04",
+      "name": "Doe",
+      "email": "doe@gmail.com",
+      "phone": "3294.94949",
+      "password_hash": "$2b$12$V7U03yGOFq91CX6/RiEdP.CZp5E34nl7MmCREDcW.qrPgEgmh.KnK",
+      "role": "mechanic"
+    },
+    {
+      "_id": "6a61d82f510bf4ef14febf05",
+      "name": "nivesh",
+      "email": "nivesh4@gmail.com",
+      "phone": "23205632",
+      "password_hash": "$2b$12$3BshxuGBKqzJ0R4xZK9mTeDK5GxsodQzAjtH9kw.gl8./yJ6kEBZO",
+      "role": "customer"
+    },
+    {
+      "_id": "6a636ca618a60b9cabb5a079",
+      "name": "gopi",
+      "email": "gopi@gmail.com",
+      "phone": "8956745896",
+      "password_hash": "$2b$12$pzTUZ/Ea0bbC/a/iD0QFOexYIYrc0yxxHFeOzllMGxE9SNhWIx0o2",
+      "role": "customer"
+    },
+    {
+      "_id": "6a636d4918a60b9cabb5a07c",
+      "name": "mechanic",
+      "email": "mechanic@gmail.com",
+      "phone": "4567891236",
+      "password_hash": "$2b$12$aO5holQS4zednNpvOYXj.eapId4li8hjKzclHz04qjHQgOZpmOKwy",
+      "role": "mechanic"
+    },
+    {
+      "_id": "6a636e5218a60b9cabb5a07d",
+      "name": "customer",
+      "email": "customer@gmail.com",
+      "phone": "5555666698",
+      "password_hash": "$2b$12$py0DGDiWnElj9pBX6jb6eOKXLnQ4CiNFSFBxb8QABqNxS/jqTyf.G",
+      "role": "customer"
     }
   ],
   "bookings": [
@@ -157,7 +253,7 @@
       "scheduled_date": "2026-07-23",
       "scheduled_time": "12:30",
       "pickup_option": false,
-      "status": "Confirmed",
+      "status": "Paid",
       "timeline": [
         {
           "status": "Confirmed",
@@ -178,9 +274,25 @@
           "status": "Confirmed",
           "timestamp": "2026-07-22 04:11 PM",
           "description": "Your appointment is confirmed."
+        },
+        {
+          "status": "Picked Up",
+          "timestamp": "2026-07-22 08:30 PM",
+          "description": "Valet has picked up your vehicle."
+        },
+        {
+          "status": "Completed",
+          "timestamp": "2026-07-23 02:13 PM",
+          "description": "Service completed and car delivered."
+        },
+        {
+          "status": "Paid",
+          "timestamp": "2026-07-24 07:30 PM",
+          "description": "Payment received successfully via Credit Card."
         }
       ],
-      "mechanic_notes": ""
+      "mechanic_notes": "",
+      "payment_method": "Credit Card"
     },
     {
       "_id": "6a6054f83cdef9dcf46b0a35",
@@ -341,6 +453,367 @@
         }
       ],
       "mechanic_notes": ""
+    },
+    {
+      "_id": "6a60dad0aa37ae898f9b8ea0",
+      "user_id": "6a609df758fef7e4a0096dd3",
+      "center_id": "center_3",
+      "center_name": "Pro Mechanic Solutions",
+      "vehicle": {
+        "make": "ru66y",
+        "model": "556u",
+        "license_plate": "hf57jj5466"
+      },
+      "services": [
+        {
+          "id": "srv_1",
+          "name": "General Diagnostic & Oil Service",
+          "price": 120.0
+        }
+      ],
+      "total_price": 135.0,
+      "scheduled_date": "2026-02-12",
+      "scheduled_time": "10:20",
+      "pickup_option": true,
+      "status": "Confirmed",
+      "timeline": [
+        {
+          "status": "Confirmed",
+          "timestamp": "2026-07-22 08:29 PM",
+          "description": "Your appointment is confirmed at Pro Mechanic Solutions"
+        }
+      ],
+      "mechanic_notes": ""
+    },
+    {
+      "_id": "6a61917653b4634b478cf54b",
+      "user_id": "6a6052203cdef9dcf46b0a32",
+      "center_id": "center_1",
+      "center_name": "Apex Auto Care & Repairs",
+      "vehicle": {
+        "make": "bmw",
+        "model": "x5",
+        "license_plate": "ap04ph2006"
+      },
+      "services": [
+        {
+          "id": "srv_2",
+          "name": "Advanced AC Leak Fix & Gas Recharge",
+          "price": 180.0
+        }
+      ],
+      "total_price": 195.0,
+      "scheduled_date": "2026-07-24",
+      "scheduled_time": "10:30",
+      "pickup_option": true,
+      "status": "Confirmed",
+      "timeline": [
+        {
+          "status": "Confirmed",
+          "timestamp": "2026-07-23 09:28 AM",
+          "description": "Your appointment is confirmed at Apex Auto Care & Repairs"
+        }
+      ],
+      "mechanic_notes": ""
+    },
+    {
+      "_id": "6a6191f753b4634b478cf54d",
+      "user_id": "6a60db0baa37ae898f9b8ea1",
+      "center_id": "center_3",
+      "center_name": "Pro Mechanic Solutions",
+      "vehicle": {
+        "make": "bmw",
+        "model": "m3",
+        "license_plate": "ts13qf9999"
+      },
+      "services": [
+        {
+          "id": "srv_1",
+          "name": "General Diagnostic & Oil Service",
+          "price": 120.0
+        }
+      ],
+      "total_price": 135.0,
+      "scheduled_date": "2026-07-25",
+      "scheduled_time": "01:00",
+      "pickup_option": true,
+      "status": "Confirmed",
+      "timeline": [
+        {
+          "status": "Confirmed",
+          "timestamp": "2026-07-23 09:30 AM",
+          "description": "Your appointment is confirmed at Pro Mechanic Solutions"
+        }
+      ],
+      "mechanic_notes": ""
+    },
+    {
+      "_id": "6a61b6f053b4634b478cf550",
+      "user_id": "6a61b22d53b4634b478cf54e",
+      "center_id": "center_2",
+      "center_name": "Elite Car Wash & Detailing Lounge",
+      "vehicle": {
+        "make": "Ch yuv",
+        "model": "Dr gh",
+        "license_plate": "Sh 79gvb"
+      },
+      "services": [
+        {
+          "id": "srv_3",
+          "name": "Premium Ceramic Paint Protection & Detail",
+          "price": 350.0
+        }
+      ],
+      "total_price": 350.0,
+      "scheduled_date": "2026-07-23",
+      "scheduled_time": "12:08",
+      "pickup_option": false,
+      "status": "Confirmed",
+      "timeline": [
+        {
+          "status": "Confirmed",
+          "timestamp": "2026-07-23 12:08 PM",
+          "description": "Your appointment is confirmed at Elite Car Wash & Detailing Lounge"
+        }
+      ],
+      "mechanic_notes": ""
+    },
+    {
+      "_id": "6a61caeb53b4634b478cf551",
+      "user_id": "6a61b22d53b4634b478cf54e",
+      "center_id": "center_1",
+      "center_name": "Apex Auto Care & Repairs",
+      "vehicle": {
+        "make": "Ch yuv",
+        "model": "Dr gh",
+        "license_plate": "Sh 79gvb"
+      },
+      "services": [
+        {
+          "id": "srv_1",
+          "name": "General Diagnostic & Oil Service",
+          "price": 120.0
+        }
+      ],
+      "total_price": 120.0,
+      "scheduled_date": "2026-07-23",
+      "scheduled_time": "19:33",
+      "pickup_option": false,
+      "status": "Confirmed",
+      "timeline": [
+        {
+          "status": "Confirmed",
+          "timestamp": "2026-07-23 01:33 PM",
+          "description": "Your appointment is confirmed at Apex Auto Care & Repairs"
+        }
+      ],
+      "mechanic_notes": ""
+    },
+    {
+      "_id": "6a61d14a53b4634b478cf556",
+      "user_id": "6a61d0af53b4634b478cf554",
+      "center_id": "center_1",
+      "center_name": "Apex Auto Care & Repairs",
+      "vehicle": {
+        "make": "Bmw",
+        "model": "M3",
+        "license_plate": "Ap09dh3444"
+      },
+      "services": [
+        {
+          "id": "srv_1",
+          "name": "General Diagnostic & Oil Service",
+          "price": 120.0
+        }
+      ],
+      "total_price": 120.0,
+      "scheduled_date": "2026-07-23",
+      "scheduled_time": "14:01",
+      "pickup_option": false,
+      "status": "Confirmed",
+      "timeline": [
+        {
+          "status": "Confirmed",
+          "timestamp": "2026-07-23 02:01 PM",
+          "description": "Your appointment is confirmed at Apex Auto Care & Repairs"
+        }
+      ],
+      "mechanic_notes": ""
+    },
+    {
+      "_id": "6a61d5d8510bf4ef14febf02",
+      "user_id": "6a61d5a5510bf4ef14febf00",
+      "center_id": "center_3",
+      "center_name": "Pro Mechanic Solutions",
+      "vehicle": {
+        "make": "tata",
+        "model": "curv",
+        "license_plate": "ap0236962"
+      },
+      "services": [
+        {
+          "id": "srv_1",
+          "name": "General Diagnostic & Oil Service",
+          "price": 120.0
+        }
+      ],
+      "total_price": 135.0,
+      "scheduled_date": "2027-06-12",
+      "scheduled_time": "12:30",
+      "pickup_option": true,
+      "status": "Completed",
+      "timeline": [
+        {
+          "status": "Confirmed",
+          "timestamp": "2026-07-23 02:20 PM",
+          "description": "Your appointment is confirmed at Pro Mechanic Solutions"
+        },
+        {
+          "status": "Completed",
+          "timestamp": "2026-07-23 02:22 PM",
+          "description": "Service completed and car delivered."
+        }
+      ],
+      "mechanic_notes": ""
+    },
+    {
+      "_id": "6a61de0d510bf4ef14febf07",
+      "user_id": "6a61d82f510bf4ef14febf05",
+      "center_id": "center_1",
+      "center_name": "Apex Auto Care & Repairs",
+      "vehicle": {
+        "make": "tata",
+        "model": "nano",
+        "license_plate": "ap04ab1111"
+      },
+      "services": [
+        {
+          "id": "srv_1",
+          "name": "General Diagnostic & Oil Service",
+          "price": 120.0
+        },
+        {
+          "id": "srv_5",
+          "name": "Bumper Scratch Denting & Painting",
+          "price": 220.0
+        }
+      ],
+      "total_price": 355.0,
+      "scheduled_date": "2026-02-12",
+      "scheduled_time": "12:30",
+      "pickup_option": true,
+      "status": "Confirmed",
+      "timeline": [
+        {
+          "status": "Confirmed",
+          "timestamp": "2026-07-23 02:55 PM",
+          "description": "Your appointment is confirmed at Apex Auto Care & Repairs"
+        }
+      ],
+      "mechanic_notes": ""
+    },
+    {
+      "_id": "6a636c7b18a60b9cabb5a078",
+      "user_id": "6a6052203cdef9dcf46b0a32",
+      "center_id": "center_2",
+      "center_name": "Elite Car Wash & Detailing Lounge",
+      "vehicle": {
+        "make": "bmw",
+        "model": "x5",
+        "license_plate": "ap04ph2006"
+      },
+      "services": [
+        {
+          "id": "srv_4",
+          "name": "Eco Steam Interior & Exterior Wash",
+          "price": 45.0
+        }
+      ],
+      "total_price": 60.0,
+      "scheduled_date": "2026-02-10",
+      "scheduled_time": "12:30",
+      "pickup_option": true,
+      "status": "Confirmed",
+      "timeline": [
+        {
+          "status": "Confirmed",
+          "timestamp": "2026-07-24 07:15 PM",
+          "description": "Your appointment is confirmed at Elite Car Wash & Detailing Lounge"
+        }
+      ],
+      "mechanic_notes": ""
+    },
+    {
+      "_id": "6a636d1218a60b9cabb5a07b",
+      "user_id": "6a636ca618a60b9cabb5a079",
+      "center_id": "center_2",
+      "center_name": "Elite Car Wash & Detailing Lounge",
+      "vehicle": {
+        "make": "bugati",
+        "model": "v2",
+        "license_plate": "ap04pc3265"
+      },
+      "services": [
+        {
+          "id": "srv_3",
+          "name": "Premium Ceramic Paint Protection & Detail",
+          "price": 350.0
+        }
+      ],
+      "total_price": 365.0,
+      "scheduled_date": "2026-02-12",
+      "scheduled_time": "10:32",
+      "pickup_option": true,
+      "status": "Picked Up",
+      "timeline": [
+        {
+          "status": "Confirmed",
+          "timestamp": "2026-07-24 07:18 PM",
+          "description": "Your appointment is confirmed at Elite Car Wash & Detailing Lounge"
+        },
+        {
+          "status": "Picked Up",
+          "timestamp": "2026-07-24 07:19 PM",
+          "description": "Valet has picked up your vehicle."
+        }
+      ],
+      "mechanic_notes": ""
+    },
+    {
+      "_id": "6a636ea318a60b9cabb5a07f",
+      "user_id": "6a636e5218a60b9cabb5a07d",
+      "center_id": "center_1",
+      "center_name": "Apex Auto Care & Repairs",
+      "vehicle": {
+        "make": "suzuki",
+        "model": "swift",
+        "license_plate": "AP04BB9571"
+      },
+      "services": [
+        {
+          "id": "srv_1",
+          "name": "General Diagnostic & Oil Service",
+          "price": 120.0
+        }
+      ],
+      "total_price": 135.0,
+      "scheduled_date": "2026-02-12",
+      "scheduled_time": "03:30",
+      "pickup_option": true,
+      "status": "Picked Up",
+      "timeline": [
+        {
+          "status": "Confirmed",
+          "timestamp": "2026-07-24 07:24 PM",
+          "description": "Your appointment is confirmed at Apex Auto Care & Repairs"
+        },
+        {
+          "status": "Picked Up",
+          "timestamp": "2026-07-24 07:25 PM",
+          "description": "Valet has picked up your vehicle."
+        }
+      ],
+      "mechanic_notes": ""
     }
   ],
   "vehicles": [
@@ -378,6 +851,78 @@
       "model": "556u",
       "year": "5667",
       "license_plate": "hf57jj5466",
+      "color": ""
+    },
+    {
+      "_id": "6a6191d053b4634b478cf54c",
+      "user_id": "6a60db0baa37ae898f9b8ea1",
+      "make": "bmw",
+      "model": "m3",
+      "year": "2020",
+      "license_plate": "ts13qf9999",
+      "color": ""
+    },
+    {
+      "_id": "6a61b6e053b4634b478cf54f",
+      "user_id": "6a61b22d53b4634b478cf54e",
+      "make": "Ch yuv",
+      "model": "Dr gh",
+      "year": "9988",
+      "license_plate": "Sh 79gvb",
+      "color": ""
+    },
+    {
+      "_id": "6a61d02a53b4634b478cf553",
+      "user_id": "6a61cff353b4634b478cf552",
+      "make": "bmw",
+      "model": "m3",
+      "year": "2023",
+      "license_plate": "ap21ui6958",
+      "color": ""
+    },
+    {
+      "_id": "6a61d11e53b4634b478cf555",
+      "user_id": "6a61d0af53b4634b478cf554",
+      "make": "Bmw",
+      "model": "M3",
+      "year": "2023",
+      "license_plate": "Ap09dh3444",
+      "color": ""
+    },
+    {
+      "_id": "6a61d5c8510bf4ef14febf01",
+      "user_id": "6a61d5a5510bf4ef14febf00",
+      "make": "tata",
+      "model": "curv",
+      "year": "2023",
+      "license_plate": "ap0236962",
+      "color": ""
+    },
+    {
+      "_id": "6a61d99b510bf4ef14febf06",
+      "user_id": "6a61d82f510bf4ef14febf05",
+      "make": "tata",
+      "model": "nano",
+      "year": "2025",
+      "license_plate": "ap04ab1111",
+      "color": ""
+    },
+    {
+      "_id": "6a636cfa18a60b9cabb5a07a",
+      "user_id": "6a636ca618a60b9cabb5a079",
+      "make": "bugati",
+      "model": "v2",
+      "year": "2016",
+      "license_plate": "ap04pc3265",
+      "color": ""
+    },
+    {
+      "_id": "6a636e8418a60b9cabb5a07e",
+      "user_id": "6a636e5218a60b9cabb5a07d",
+      "make": "suzuki",
+      "model": "swift",
+      "year": "2015",
+      "license_plate": "AP04BB9571",
       "color": ""
     }
   ]

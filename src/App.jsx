@@ -9,6 +9,10 @@ import Auth from './components/Auth';
 // A wrapper component to render the desktop navigation header and main content wrapper
 function Layout({ children }) {
   const location = useLocation();
+  let user = null;
+  try {
+    user = JSON.parse(localStorage.getItem('user'));
+  } catch(e) {}
 
   return (
     <MobileFrame>
@@ -20,9 +24,11 @@ function Layout({ children }) {
           <Link to="/" className={`header-nav-item ${location.pathname === '/' ? 'active' : ''}`}>
             🏠 Dashboard
           </Link>
-          <Link to="/explore" className={`header-nav-item ${location.pathname === '/explore' ? 'active' : ''}`}>
-            🔍 Explore Centers
-          </Link>
+          {user?.role !== 'mechanic' && (
+            <Link to="/explore" className={`header-nav-item ${location.pathname === '/explore' ? 'active' : ''}`}>
+              🔍 Explore Centers
+            </Link>
+          )}
           <Link to="/tracking" className={`header-nav-item ${location.pathname === '/tracking' ? 'active' : ''}`}>
             📍 Track Bookings
           </Link>

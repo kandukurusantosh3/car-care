@@ -31,6 +31,7 @@ export default function Tracking() {
     "Work in Progress", 
     "Ready for Delivery", 
     "Completed", 
+    "Paid",
     "Cancelled"
   ];
 
@@ -38,8 +39,12 @@ export default function Tracking() {
     const token = localStorage.getItem('token');
     const storedUser = localStorage.getItem('user');
     setIsLoggedIn(!!token);
-    if (storedUser) {
-      setUser(JSON.parse(storedUser));
+    if (storedUser && storedUser !== 'undefined') {
+      try {
+        setUser(JSON.parse(storedUser));
+      } catch(e) {
+        console.error(e);
+      }
     }
 
     if (token) {
@@ -80,7 +85,7 @@ export default function Tracking() {
       const response = await axios.get(`${API_BASE_URL}/bookings`, {
         headers: getAuthHeader()
       });
-      setBookings(response.data);
+      setBookings(Array.isArray(response.data) ? response.data : []);
     } catch (err) {
       if (err.response?.status === 401) {
         localStorage.removeItem('token');
@@ -135,6 +140,30 @@ export default function Tracking() {
       alert(err.response?.data?.error || 'Failed to update status.');
     } finally {
       setUpdateLoading(false);
+    }
+  };
+
+  const [paymentLoading, setPaymentLoading] = useState(false);
+  const [paymentMethod, setPaymentMethod] = useState('Credit Card');
+
+  const handlePayment = async () => {
+    if (!window.confirm(`Process payment of $${selectedBooking.total_price} via ${paymentMethod}?`)) return;
+    setPaymentLoading(true);
+    try {
+      const bookingId = selectedBooking._id || selectedBooking.id;
+      const response = await axios.post(`${API_BASE_URL}/bookings/${bookingId}/pay`, {
+        payment_method: paymentMethod
+      }, {
+        headers: getAuthHeader()
+      });
+      // Refresh data
+      await fetchBookings();
+      await fetchTracking(bookingId);
+      alert('Payment successful! Thank you.');
+    } catch (err) {
+      alert(err.response?.data?.error || 'Payment failed.');
+    } finally {
+      setPaymentLoading(false);
     }
   };
 
@@ -303,8 +332,60 @@ export default function Tracking() {
                               <strong>Workshop Notes:</strong> {selectedBooking.mechanic_notes}
                             </div>
                           )}
+                          <div style={{ marginTop: '10px', paddingTop: '10px', borderTop: '1px solid var(--border-color)', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                            <strong style={{ fontSize: '16px' }}>Total Amount:</strong>
+                            <span style={{ fontSize: '18px', fontWeight: '700', color: 'var(--accent)' }}>${selectedBooking.total_price}</span>
+                          </div>
                         </div>
                       </div>
+
+                      {/* Payment Section for Customer */}
+                      {!isMechanic && (() => {
+                        const currentStatus = trackingInfo?.status || selectedBooking.status;
+                        if (currentStatus === 'Completed') {
+                          return (
+                            <div className="glass-card" style={{ border: '1px solid rgba(16, 185, 129, 0.4)', background: 'rgba(16, 185, 129, 0.05)', textAlign: 'center' }}>
+                              <h4 style={{ margin: '0 0 12px 0', color: 'var(--accent-secondary)' }}>💳 Payment Pending</h4>
+                              <p style={{ fontSize: '13px', color: 'var(--text-muted)' }}>Your service is complete! Please settle your invoice of <strong>${selectedBooking.total_price}</strong>.</p>
+                              
+                              <div style={{ marginBottom: '16px', textAlign: 'left' }}>
+                                <label style={{ display: 'block', marginBottom: '8px', fontSize: '12px', color: 'var(--text-muted)' }}>Payment Method:</label>
+                                <select 
+                                  className="form-input"
+                                  value={paymentMethod}
+                                  onChange={(e) => setPaymentMethod(e.target.value)}
+                                  style={{ padding: '10px', width: '100%' }}
+                                >
+                                  <option value="Credit Card">Credit Card</option>
+                                  <option value="PayPal">PayPal</option>
+                                  <option value="Apple Pay">Apple Pay</option>
+                                  <option value="Cash at Garage">Cash at Garage</option>
+                                </select>
+                              </div>
+
+                              <button 
+                                onClick={handlePayment} 
+                                className="btn-glow" 
+                                style={{ width: '100%', background: 'linear-gradient(135deg, var(--accent-secondary), #10b981)', boxShadow: '0 4px 14px 0 rgba(16,185,129,0.4)' }}
+                                disabled={paymentLoading}
+                              >
+                                {paymentLoading ? 'Processing...' : 'Pay Now'}
+                              </button>
+                            </div>
+                          );
+                        } else if (currentStatus === 'Paid') {
+                          return (
+                            <div className="glass-card" style={{ border: '1px solid rgba(16, 185, 129, 0.4)', background: 'rgba(16, 185, 129, 0.05)', textAlign: 'center' }}>
+                              <h4 style={{ margin: '0 0 8px 0', color: 'var(--accent-secondary)' }}>✅ Payment Received</h4>
+                              <p style={{ fontSize: '13px', color: 'var(--text-muted)', margin: 0 }}>Thank you! Your invoice of <strong>${selectedBooking.total_price}</strong> is fully paid.</p>
+                              {trackingInfo?.payment_method && (
+                                <p style={{ fontSize: '12px', color: 'var(--text-muted)', marginTop: '8px' }}>Paid via: {trackingInfo.payment_method}</p>
+                              )}
+                            </div>
+                          );
+                        }
+                        return null;
+                      })()}
                     </div>
 
                     {/* Column 2: Timeline & Mechanic updates */}

@@ -57,5 +57,6 @@ def get_tracking(booking_id):
             "lat": center_lat,
             "lng": center_lng
         },
-        "timeline": booking.get("timeline", [])
+        "timeline": booking.get("timeline", []),
+        "payment_method": booking.get("payment_method")
     }), 200

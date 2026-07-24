@@ -24,8 +24,12 @@ export default function Auth() {
     // Check if user is already logged in
     const storedUser = localStorage.getItem('user');
     const storedToken = localStorage.getItem('token');
-    if (storedUser && storedToken) {
-      setUser(JSON.parse(storedUser));
+    if (storedUser && storedUser !== 'undefined' && storedToken && storedToken !== 'undefined') {
+      try {
+        setUser(JSON.parse(storedUser));
+      } catch (e) {
+        console.error("Failed to parse stored user", e);
+      }
     }
   }, []);
 

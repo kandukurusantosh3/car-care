@@ -14,6 +14,14 @@ export default function Explore() {
   const navigate = useNavigate();
   const location = useLocation();
   const [isLoggedIn, setIsLoggedIn] = useState(false);
+
+  useEffect(() => {
+    let user = null;
+    try { user = JSON.parse(localStorage.getItem('user')); } catch (e) {}
+    if (user?.role === 'mechanic') {
+      navigate('/', { replace: true });
+    }
+  }, [navigate]);
   const [centers, setCenters] = useState([]);
   const [services, setServices] = useState([]);
   const [activeCategory, setActiveCategory] = useState('All');
@@ -62,7 +70,7 @@ export default function Explore() {
       setLoading(true);
       const response = await axios.get(`${API_BASE_URL}/centers`);
       // Ensure it's imported
-      setCenters(response.data);
+      setCenters(Array.isArray(response.data) ? response.data : []);
     } catch (err) {
       setError('Could not load service centers. Please make sure the backend is running.');
     } finally {

@@ -169,7 +169,7 @@ def update_booking_status(booking_id):
     new_status = data.get('status')
     notes = data.get('notes', '')
 
-    valid_statuses = ["Confirmed", "Picked Up", "In Garage", "Work in Progress", "Ready for Delivery", "Completed", "Cancelled"]
+    valid_statuses = ["Confirmed", "Picked Up", "In Garage", "Work in Progress", "Ready for Delivery", "Completed", "Paid", "Cancelled"]
     if not new_status or new_status not in valid_statuses:
         return jsonify({"error": f"Invalid status. Must be one of {valid_statuses}"}), 400
 
@@ -185,6 +185,7 @@ def update_booking_status(booking_id):
         "Work in Progress": "Our mechanics are currently working on your vehicle.",
         "Ready for Delivery": "Service is complete! Your car is ready for pick up / delivery.",
         "Completed": "Service completed and car delivered.",
+        "Paid": "Payment received successfully.",
         "Cancelled": "Booking has been cancelled."
     }
 
@@ -205,5 +206,51 @@ def update_booking_status(booking_id):
     return jsonify({
         "message": f"Booking status updated to {new_status}",
         "status": new_status,
+        "timeline_event": timeline_event
+    }), 200
+
+@bookings_bp.route('/<booking_id>/pay', methods=['POST'])
+@jwt_required()
+def pay_booking(booking_id):
+    user_id = get_jwt_identity()
+    user = db.users.find_one({"_id": user_id})
+    if not user:
+        return jsonify({"error": "User not found"}), 404
+
+    booking = db.bookings.find_one({"_id": booking_id})
+    if not booking:
+        return jsonify({"error": "Booking not found"}), 404
+
+    if booking['user_id'] != user_id:
+        return jsonify({"error": "Unauthorized"}), 403
+
+    if booking['status'] != 'Completed':
+        return jsonify({"error": "Booking is not completed yet"}), 400
+
+    data = request.get_json() or {}
+    payment_method = data.get('payment_method', 'Credit Card')
+
+    new_status = "Paid"
+    timeline_event = {
+        "status": new_status,
+        "timestamp": datetime.datetime.now().strftime("%Y-%m-%d %I:%M %p"),
+        "description": f"Payment received successfully via {payment_method}."
+    }
+
+    db.bookings.update_one(
+        {"_id": booking_id},
+        {
+            "$set": {
+                "status": new_status,
+                "payment_method": payment_method
+            },
+            "$push": {"timeline": timeline_event}
+        }
+    )
+
+    return jsonify({
+        "message": "Payment successful",
+        "status": new_status,
+        "payment_method": payment_method,
         "timeline_event": timeline_event
     }), 200
