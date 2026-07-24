@@ -28,6 +28,10 @@ jwt = JWTManager(app)
 ##
 # API routes
 ##
+@app.route('/api/health', methods=['GET'])
+def health_check():
+    return jsonify({"status": "ok", "message": "Server is running"}), 200
+
 app.register_blueprint(auth_bp, url_prefix='/api/auth')
 app.register_blueprint(centers_bp, url_prefix='/api/centers')
 app.register_blueprint(bookings_bp, url_prefix='/api/bookings')
