@@ -1,0 +1,13 @@
+{
+  "extension": ["js"],
+  "spec": "e2e_framework/tests/**/*.test.js",
+  "timeout": 60000,
+  "reporter": "mochawesome",
+  "reporterOptions": [
+    "reportDir=e2e_framework/reports",
+    "reportFilename=e2e-report",
+    "html=true",
+    "json=true",
+    "overwrite=true"
+  ]
+}

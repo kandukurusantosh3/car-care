@@ -1,0 +1,56 @@
+name: Selenium E2E Automation
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  selenium-e2e:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Install Selenium Browsers (Chrome & Firefox)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y google-chrome-stable firefox
+
+      - name: Run E2E Tests
+        env:
+          HEADLESS: 'true'
+          BROWSER: 'chrome'
+          BASE_URL: 'https://kandukurusantosh3.github.io/car-care/'
+        run: npm run test:e2e
+        continue-on-error: true # Ensure artifacts upload even if tests fail
+
+      - name: Upload Excel Report
+        uses: actions/upload-artifact@v3
+        with:
+          name: E2E-Excel-Report
+          path: e2e_framework/reports/E2E_Report.xlsx
+
+      - name: Upload Mochawesome HTML Report
+        uses: actions/upload-artifact@v3
+        with:
+          name: Mochawesome-Report
+          path: e2e_framework/reports/e2e-report.html
+
+      - name: Upload Screenshots on Failure
+        uses: actions/upload-artifact@v3
+        if: always()
+        with:
+          name: Failure-Screenshots
+          path: e2e_framework/reports/failures/

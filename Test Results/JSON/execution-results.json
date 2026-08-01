@@ -1,0 +1,4235 @@
+[
+    {
+        "test_id": "TC_W_AUTH_001",
+        "module": "Authentication",
+        "name": "Validate web component workflow: Authentication - Step 1",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 11,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AUTH_002",
+        "module": "Authentication",
+        "name": "Validate web component workflow: Authentication - Step 2",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AUTH_003",
+        "module": "Authentication",
+        "name": "Validate web component workflow: Authentication - Step 3",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AUTH_004",
+        "module": "Authentication",
+        "name": "Validate web component workflow: Authentication - Step 4",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 3,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AUTH_005",
+        "module": "Authentication",
+        "name": "Validate web component workflow: Authentication - Step 5",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AUTH_006",
+        "module": "Authentication",
+        "name": "Validate web component workflow: Authentication - Step 6",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 10,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AUTH_007",
+        "module": "Authentication",
+        "name": "Validate web component workflow: Authentication - Step 7",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 10,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AUTH_008",
+        "module": "Authentication",
+        "name": "Validate web component workflow: Authentication - Step 8",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 5,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AUTH_009",
+        "module": "Authentication",
+        "name": "Validate web component workflow: Authentication - Step 9",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AUTH_010",
+        "module": "Authentication",
+        "name": "Validate web component workflow: Authentication - Step 10",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AUTH_011",
+        "module": "Authentication",
+        "name": "Validate web component workflow: Authentication - Step 11",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 10,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AUTH_012",
+        "module": "Authentication",
+        "name": "Validate web component workflow: Authentication - Step 12",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 4,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AUTH_013",
+        "module": "Authentication",
+        "name": "Validate web component workflow: Authentication - Step 13",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 10,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AUTH_014",
+        "module": "Authentication",
+        "name": "Validate web component workflow: Authentication - Step 14",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 11,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AUTH_015",
+        "module": "Authentication",
+        "name": "Validate web component workflow: Authentication - Step 15",
+        "priority": "HIGH",
+        "status": "FAIL",
+        "duration_ms": 14,
+        "error": "Authentication flow failed: Token signature mismatch on server response",
+        "screenshot": "C:\\car care\\car_service_app\\automation\\reports\\Screenshots\\TC_W_AUTH_015_1784737829.png"
+    },
+    {
+        "test_id": "TC_W_AUTH_016",
+        "module": "Authentication",
+        "name": "Validate web component workflow: Authentication - Step 16",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 9,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AUTH_017",
+        "module": "Authentication",
+        "name": "Validate web component workflow: Authentication - Step 17",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 20,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AUTH_018",
+        "module": "Authentication",
+        "name": "Validate web component workflow: Authentication - Step 18",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AUTH_019",
+        "module": "Authentication",
+        "name": "Validate web component workflow: Authentication - Step 19",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 11,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AUTH_020",
+        "module": "Authentication",
+        "name": "Validate web component workflow: Authentication - Step 20",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AUTH_021",
+        "module": "Authentication",
+        "name": "Validate web component workflow: Authentication - Step 21",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 11,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AUTH_022",
+        "module": "Authentication",
+        "name": "Validate web component workflow: Authentication - Step 22",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AUTH_023",
+        "module": "Authentication",
+        "name": "Validate web component workflow: Authentication - Step 23",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AUTH_024",
+        "module": "Authentication",
+        "name": "Validate web component workflow: Authentication - Step 24",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 4,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AUTH_025",
+        "module": "Authentication",
+        "name": "Validate web component workflow: Authentication - Step 25",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 8,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AUTH_026",
+        "module": "Authentication",
+        "name": "Validate web component workflow: Authentication - Step 26",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 10,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AUTH_027",
+        "module": "Authentication",
+        "name": "Validate web component workflow: Authentication - Step 27",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AUTH_028",
+        "module": "Authentication",
+        "name": "Validate web component workflow: Authentication - Step 28",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AUTH_029",
+        "module": "Authentication",
+        "name": "Validate web component workflow: Authentication - Step 29",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 4,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AUTH_030",
+        "module": "Authentication",
+        "name": "Validate web component workflow: Authentication - Step 30",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 11,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AUTH_031",
+        "module": "Authentication",
+        "name": "Validate web component workflow: Authentication - Step 31",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 5,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AUTH_032",
+        "module": "Authentication",
+        "name": "Validate web component workflow: Authentication - Step 32",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AUTH_033",
+        "module": "Authentication",
+        "name": "Validate web component workflow: Authentication - Step 33",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AUTH_034",
+        "module": "Authentication",
+        "name": "Validate web component workflow: Authentication - Step 34",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AUTH_035",
+        "module": "Authentication",
+        "name": "Validate web component workflow: Authentication - Step 35",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AUTH_036",
+        "module": "Authentication",
+        "name": "Validate web component workflow: Authentication - Step 36",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AUTH_037",
+        "module": "Authentication",
+        "name": "Validate web component workflow: Authentication - Step 37",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 5,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AUTH_038",
+        "module": "Authentication",
+        "name": "Validate web component workflow: Authentication - Step 38",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 5,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AUTH_039",
+        "module": "Authentication",
+        "name": "Validate web component workflow: Authentication - Step 39",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AUTH_040",
+        "module": "Authentication",
+        "name": "Validate web component workflow: Authentication - Step 40",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AZ_001",
+        "module": "Authorization",
+        "name": "Validate web component workflow: Authorization - Step 1",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 6,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AZ_002",
+        "module": "Authorization",
+        "name": "Validate web component workflow: Authorization - Step 2",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AZ_003",
+        "module": "Authorization",
+        "name": "Validate web component workflow: Authorization - Step 3",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 4,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AZ_004",
+        "module": "Authorization",
+        "name": "Validate web component workflow: Authorization - Step 4",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AZ_005",
+        "module": "Authorization",
+        "name": "Validate web component workflow: Authorization - Step 5",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AZ_006",
+        "module": "Authorization",
+        "name": "Validate web component workflow: Authorization - Step 6",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 14,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AZ_007",
+        "module": "Authorization",
+        "name": "Validate web component workflow: Authorization - Step 7",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AZ_008",
+        "module": "Authorization",
+        "name": "Validate web component workflow: Authorization - Step 8",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 4,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AZ_009",
+        "module": "Authorization",
+        "name": "Validate web component workflow: Authorization - Step 9",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AZ_010",
+        "module": "Authorization",
+        "name": "Validate web component workflow: Authorization - Step 10",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AZ_011",
+        "module": "Authorization",
+        "name": "Validate web component workflow: Authorization - Step 11",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AZ_012",
+        "module": "Authorization",
+        "name": "Validate web component workflow: Authorization - Step 12",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 4,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AZ_013",
+        "module": "Authorization",
+        "name": "Validate web component workflow: Authorization - Step 13",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AZ_014",
+        "module": "Authorization",
+        "name": "Validate web component workflow: Authorization - Step 14",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AZ_015",
+        "module": "Authorization",
+        "name": "Validate web component workflow: Authorization - Step 15",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 11,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AZ_016",
+        "module": "Authorization",
+        "name": "Validate web component workflow: Authorization - Step 16",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 5,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AZ_017",
+        "module": "Authorization",
+        "name": "Validate web component workflow: Authorization - Step 17",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AZ_018",
+        "module": "Authorization",
+        "name": "Validate web component workflow: Authorization - Step 18",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AZ_019",
+        "module": "Authorization",
+        "name": "Validate web component workflow: Authorization - Step 19",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AZ_020",
+        "module": "Authorization",
+        "name": "Validate web component workflow: Authorization - Step 20",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AZ_021",
+        "module": "Authorization",
+        "name": "Validate web component workflow: Authorization - Step 21",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 4,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AZ_022",
+        "module": "Authorization",
+        "name": "Validate web component workflow: Authorization - Step 22",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 11,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AZ_023",
+        "module": "Authorization",
+        "name": "Validate web component workflow: Authorization - Step 23",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 11,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AZ_024",
+        "module": "Authorization",
+        "name": "Validate web component workflow: Authorization - Step 24",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 5,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AZ_025",
+        "module": "Authorization",
+        "name": "Validate web component workflow: Authorization - Step 25",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 5,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AZ_026",
+        "module": "Authorization",
+        "name": "Validate web component workflow: Authorization - Step 26",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AZ_027",
+        "module": "Authorization",
+        "name": "Validate web component workflow: Authorization - Step 27",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AZ_028",
+        "module": "Authorization",
+        "name": "Validate web component workflow: Authorization - Step 28",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 6,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AZ_029",
+        "module": "Authorization",
+        "name": "Validate web component workflow: Authorization - Step 29",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 11,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AZ_030",
+        "module": "Authorization",
+        "name": "Validate web component workflow: Authorization - Step 30",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 3,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AZ_031",
+        "module": "Authorization",
+        "name": "Validate web component workflow: Authorization - Step 31",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AZ_032",
+        "module": "Authorization",
+        "name": "Validate web component workflow: Authorization - Step 32",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AZ_033",
+        "module": "Authorization",
+        "name": "Validate web component workflow: Authorization - Step 33",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 11,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AZ_034",
+        "module": "Authorization",
+        "name": "Validate web component workflow: Authorization - Step 34",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AZ_035",
+        "module": "Authorization",
+        "name": "Validate web component workflow: Authorization - Step 35",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AZ_036",
+        "module": "Authorization",
+        "name": "Validate web component workflow: Authorization - Step 36",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 10,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AZ_037",
+        "module": "Authorization",
+        "name": "Validate web component workflow: Authorization - Step 37",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 11,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AZ_038",
+        "module": "Authorization",
+        "name": "Validate web component workflow: Authorization - Step 38",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 4,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AZ_039",
+        "module": "Authorization",
+        "name": "Validate web component workflow: Authorization - Step 39",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 4,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_AZ_040",
+        "module": "Authorization",
+        "name": "Validate web component workflow: Authorization - Step 40",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 4,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_NAV_001",
+        "module": "Navigation",
+        "name": "Validate web component workflow: Navigation - Step 1",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_NAV_002",
+        "module": "Navigation",
+        "name": "Validate web component workflow: Navigation - Step 2",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 5,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_NAV_003",
+        "module": "Navigation",
+        "name": "Validate web component workflow: Navigation - Step 3",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 4,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_NAV_004",
+        "module": "Navigation",
+        "name": "Validate web component workflow: Navigation - Step 4",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 8,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_NAV_005",
+        "module": "Navigation",
+        "name": "Validate web component workflow: Navigation - Step 5",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 8,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_NAV_006",
+        "module": "Navigation",
+        "name": "Validate web component workflow: Navigation - Step 6",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 14,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_NAV_007",
+        "module": "Navigation",
+        "name": "Validate web component workflow: Navigation - Step 7",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 11,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_NAV_008",
+        "module": "Navigation",
+        "name": "Validate web component workflow: Navigation - Step 8",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 6,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_NAV_009",
+        "module": "Navigation",
+        "name": "Validate web component workflow: Navigation - Step 9",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_NAV_010",
+        "module": "Navigation",
+        "name": "Validate web component workflow: Navigation - Step 10",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_NAV_011",
+        "module": "Navigation",
+        "name": "Validate web component workflow: Navigation - Step 11",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_NAV_012",
+        "module": "Navigation",
+        "name": "Validate web component workflow: Navigation - Step 12",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_NAV_013",
+        "module": "Navigation",
+        "name": "Validate web component workflow: Navigation - Step 13",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 3,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_NAV_014",
+        "module": "Navigation",
+        "name": "Validate web component workflow: Navigation - Step 14",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_NAV_015",
+        "module": "Navigation",
+        "name": "Validate web component workflow: Navigation - Step 15",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_NAV_016",
+        "module": "Navigation",
+        "name": "Validate web component workflow: Navigation - Step 16",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_NAV_017",
+        "module": "Navigation",
+        "name": "Validate web component workflow: Navigation - Step 17",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_NAV_018",
+        "module": "Navigation",
+        "name": "Validate web component workflow: Navigation - Step 18",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_NAV_019",
+        "module": "Navigation",
+        "name": "Validate web component workflow: Navigation - Step 19",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 14,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_NAV_020",
+        "module": "Navigation",
+        "name": "Validate web component workflow: Navigation - Step 20",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 20,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_NAV_021",
+        "module": "Navigation",
+        "name": "Validate web component workflow: Navigation - Step 21",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_NAV_022",
+        "module": "Navigation",
+        "name": "Validate web component workflow: Navigation - Step 22",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_NAV_023",
+        "module": "Navigation",
+        "name": "Validate web component workflow: Navigation - Step 23",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_NAV_024",
+        "module": "Navigation",
+        "name": "Validate web component workflow: Navigation - Step 24",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_NAV_025",
+        "module": "Navigation",
+        "name": "Validate web component workflow: Navigation - Step 25",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_NAV_026",
+        "module": "Navigation",
+        "name": "Validate web component workflow: Navigation - Step 26",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_NAV_027",
+        "module": "Navigation",
+        "name": "Validate web component workflow: Navigation - Step 27",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_NAV_028",
+        "module": "Navigation",
+        "name": "Validate web component workflow: Navigation - Step 28",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_NAV_029",
+        "module": "Navigation",
+        "name": "Validate web component workflow: Navigation - Step 29",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 4,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_NAV_030",
+        "module": "Navigation",
+        "name": "Validate web component workflow: Navigation - Step 30",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 6,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_UI_001",
+        "module": "UI Validation",
+        "name": "Validate web component workflow: UI Validation - Step 1",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_UI_002",
+        "module": "UI Validation",
+        "name": "Validate web component workflow: UI Validation - Step 2",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 11,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_UI_003",
+        "module": "UI Validation",
+        "name": "Validate web component workflow: UI Validation - Step 3",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 4,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_UI_004",
+        "module": "UI Validation",
+        "name": "Validate web component workflow: UI Validation - Step 4",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 14,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_UI_005",
+        "module": "UI Validation",
+        "name": "Validate web component workflow: UI Validation - Step 5",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_UI_006",
+        "module": "UI Validation",
+        "name": "Validate web component workflow: UI Validation - Step 6",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_UI_007",
+        "module": "UI Validation",
+        "name": "Validate web component workflow: UI Validation - Step 7",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 14,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_UI_008",
+        "module": "UI Validation",
+        "name": "Validate web component workflow: UI Validation - Step 8",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_UI_009",
+        "module": "UI Validation",
+        "name": "Validate web component workflow: UI Validation - Step 9",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 14,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_UI_010",
+        "module": "UI Validation",
+        "name": "Validate web component workflow: UI Validation - Step 10",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 10,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_UI_011",
+        "module": "UI Validation",
+        "name": "Validate web component workflow: UI Validation - Step 11",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_UI_012",
+        "module": "UI Validation",
+        "name": "Validate web component workflow: UI Validation - Step 12",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_UI_013",
+        "module": "UI Validation",
+        "name": "Validate web component workflow: UI Validation - Step 13",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_UI_014",
+        "module": "UI Validation",
+        "name": "Validate web component workflow: UI Validation - Step 14",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_UI_015",
+        "module": "UI Validation",
+        "name": "Validate web component workflow: UI Validation - Step 15",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_UI_016",
+        "module": "UI Validation",
+        "name": "Validate web component workflow: UI Validation - Step 16",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_UI_017",
+        "module": "UI Validation",
+        "name": "Validate web component workflow: UI Validation - Step 17",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_UI_018",
+        "module": "UI Validation",
+        "name": "Validate web component workflow: UI Validation - Step 18",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 11,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_UI_019",
+        "module": "UI Validation",
+        "name": "Validate web component workflow: UI Validation - Step 19",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_UI_020",
+        "module": "UI Validation",
+        "name": "Validate web component workflow: UI Validation - Step 20",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_UI_021",
+        "module": "UI Validation",
+        "name": "Validate web component workflow: UI Validation - Step 21",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 4,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_UI_022",
+        "module": "UI Validation",
+        "name": "Validate web component workflow: UI Validation - Step 22",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 11,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_UI_023",
+        "module": "UI Validation",
+        "name": "Validate web component workflow: UI Validation - Step 23",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_UI_024",
+        "module": "UI Validation",
+        "name": "Validate web component workflow: UI Validation - Step 24",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_UI_025",
+        "module": "UI Validation",
+        "name": "Validate web component workflow: UI Validation - Step 25",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_UI_026",
+        "module": "UI Validation",
+        "name": "Validate web component workflow: UI Validation - Step 26",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_UI_027",
+        "module": "UI Validation",
+        "name": "Validate web component workflow: UI Validation - Step 27",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 11,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_UI_028",
+        "module": "UI Validation",
+        "name": "Validate web component workflow: UI Validation - Step 28",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 3,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_UI_029",
+        "module": "UI Validation",
+        "name": "Validate web component workflow: UI Validation - Step 29",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_UI_030",
+        "module": "UI Validation",
+        "name": "Validate web component workflow: UI Validation - Step 30",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_UI_031",
+        "module": "UI Validation",
+        "name": "Validate web component workflow: UI Validation - Step 31",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 11,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_UI_032",
+        "module": "UI Validation",
+        "name": "Validate web component workflow: UI Validation - Step 32",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_UI_033",
+        "module": "UI Validation",
+        "name": "Validate web component workflow: UI Validation - Step 33",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_UI_034",
+        "module": "UI Validation",
+        "name": "Validate web component workflow: UI Validation - Step 34",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 11,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_UI_035",
+        "module": "UI Validation",
+        "name": "Validate web component workflow: UI Validation - Step 35",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 11,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_UI_036",
+        "module": "UI Validation",
+        "name": "Validate web component workflow: UI Validation - Step 36",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 11,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_UI_037",
+        "module": "UI Validation",
+        "name": "Validate web component workflow: UI Validation - Step 37",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 5,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_UI_038",
+        "module": "UI Validation",
+        "name": "Validate web component workflow: UI Validation - Step 38",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 4,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_UI_039",
+        "module": "UI Validation",
+        "name": "Validate web component workflow: UI Validation - Step 39",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 11,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_UI_040",
+        "module": "UI Validation",
+        "name": "Validate web component workflow: UI Validation - Step 40",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_UI_041",
+        "module": "UI Validation",
+        "name": "Validate web component workflow: UI Validation - Step 41",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 9,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_UI_042",
+        "module": "UI Validation",
+        "name": "Validate web component workflow: UI Validation - Step 42",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 9,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_UI_043",
+        "module": "UI Validation",
+        "name": "Validate web component workflow: UI Validation - Step 43",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 10,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_UI_044",
+        "module": "UI Validation",
+        "name": "Validate web component workflow: UI Validation - Step 44",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 10,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_UI_045",
+        "module": "UI Validation",
+        "name": "Validate web component workflow: UI Validation - Step 45",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 4,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_UI_046",
+        "module": "UI Validation",
+        "name": "Validate web component workflow: UI Validation - Step 46",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_UI_047",
+        "module": "UI Validation",
+        "name": "Validate web component workflow: UI Validation - Step 47",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_UI_048",
+        "module": "UI Validation",
+        "name": "Validate web component workflow: UI Validation - Step 48",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_UI_049",
+        "module": "UI Validation",
+        "name": "Validate web component workflow: UI Validation - Step 49",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_UI_050",
+        "module": "UI Validation",
+        "name": "Validate web component workflow: UI Validation - Step 50",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FORM_001",
+        "module": "Forms",
+        "name": "Validate web component workflow: Forms - Step 1",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 11,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FORM_002",
+        "module": "Forms",
+        "name": "Validate web component workflow: Forms - Step 2",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FORM_003",
+        "module": "Forms",
+        "name": "Validate web component workflow: Forms - Step 3",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FORM_004",
+        "module": "Forms",
+        "name": "Validate web component workflow: Forms - Step 4",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 4,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FORM_005",
+        "module": "Forms",
+        "name": "Validate web component workflow: Forms - Step 5",
+        "priority": "CRITICAL",
+        "status": "FAIL",
+        "duration_ms": 12,
+        "error": "Form flow failed: Input character boundary warning message did not render",
+        "screenshot": "C:\\car care\\car_service_app\\automation\\reports\\Screenshots\\TC_W_FORM_005_1784737831.png"
+    },
+    {
+        "test_id": "TC_W_FORM_006",
+        "module": "Forms",
+        "name": "Validate web component workflow: Forms - Step 6",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 10,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FORM_007",
+        "module": "Forms",
+        "name": "Validate web component workflow: Forms - Step 7",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FORM_008",
+        "module": "Forms",
+        "name": "Validate web component workflow: Forms - Step 8",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FORM_009",
+        "module": "Forms",
+        "name": "Validate web component workflow: Forms - Step 9",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FORM_010",
+        "module": "Forms",
+        "name": "Validate web component workflow: Forms - Step 10",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FORM_011",
+        "module": "Forms",
+        "name": "Validate web component workflow: Forms - Step 11",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 14,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FORM_012",
+        "module": "Forms",
+        "name": "Validate web component workflow: Forms - Step 12",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FORM_013",
+        "module": "Forms",
+        "name": "Validate web component workflow: Forms - Step 13",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FORM_014",
+        "module": "Forms",
+        "name": "Validate web component workflow: Forms - Step 14",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 5,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FORM_015",
+        "module": "Forms",
+        "name": "Validate web component workflow: Forms - Step 15",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FORM_016",
+        "module": "Forms",
+        "name": "Validate web component workflow: Forms - Step 16",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FORM_017",
+        "module": "Forms",
+        "name": "Validate web component workflow: Forms - Step 17",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FORM_018",
+        "module": "Forms",
+        "name": "Validate web component workflow: Forms - Step 18",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FORM_019",
+        "module": "Forms",
+        "name": "Validate web component workflow: Forms - Step 19",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 11,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FORM_020",
+        "module": "Forms",
+        "name": "Validate web component workflow: Forms - Step 20",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 5,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FORM_021",
+        "module": "Forms",
+        "name": "Validate web component workflow: Forms - Step 21",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FORM_022",
+        "module": "Forms",
+        "name": "Validate web component workflow: Forms - Step 22",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FORM_023",
+        "module": "Forms",
+        "name": "Validate web component workflow: Forms - Step 23",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FORM_024",
+        "module": "Forms",
+        "name": "Validate web component workflow: Forms - Step 24",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FORM_025",
+        "module": "Forms",
+        "name": "Validate web component workflow: Forms - Step 25",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FORM_026",
+        "module": "Forms",
+        "name": "Validate web component workflow: Forms - Step 26",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FORM_027",
+        "module": "Forms",
+        "name": "Validate web component workflow: Forms - Step 27",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 14,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FORM_028",
+        "module": "Forms",
+        "name": "Validate web component workflow: Forms - Step 28",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 14,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FORM_029",
+        "module": "Forms",
+        "name": "Validate web component workflow: Forms - Step 29",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FORM_030",
+        "module": "Forms",
+        "name": "Validate web component workflow: Forms - Step 30",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 14,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FORM_031",
+        "module": "Forms",
+        "name": "Validate web component workflow: Forms - Step 31",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 14,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FORM_032",
+        "module": "Forms",
+        "name": "Validate web component workflow: Forms - Step 32",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 4,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FORM_033",
+        "module": "Forms",
+        "name": "Validate web component workflow: Forms - Step 33",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 14,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FORM_034",
+        "module": "Forms",
+        "name": "Validate web component workflow: Forms - Step 34",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FORM_035",
+        "module": "Forms",
+        "name": "Validate web component workflow: Forms - Step 35",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FORM_036",
+        "module": "Forms",
+        "name": "Validate web component workflow: Forms - Step 36",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FORM_037",
+        "module": "Forms",
+        "name": "Validate web component workflow: Forms - Step 37",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 10,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FORM_038",
+        "module": "Forms",
+        "name": "Validate web component workflow: Forms - Step 38",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FORM_039",
+        "module": "Forms",
+        "name": "Validate web component workflow: Forms - Step 39",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FORM_040",
+        "module": "Forms",
+        "name": "Validate web component workflow: Forms - Step 40",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FORM_041",
+        "module": "Forms",
+        "name": "Validate web component workflow: Forms - Step 41",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 14,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FORM_042",
+        "module": "Forms",
+        "name": "Validate web component workflow: Forms - Step 42",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 3,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FORM_043",
+        "module": "Forms",
+        "name": "Validate web component workflow: Forms - Step 43",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FORM_044",
+        "module": "Forms",
+        "name": "Validate web component workflow: Forms - Step 44",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FORM_045",
+        "module": "Forms",
+        "name": "Validate web component workflow: Forms - Step 45",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FORM_046",
+        "module": "Forms",
+        "name": "Validate web component workflow: Forms - Step 46",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FORM_047",
+        "module": "Forms",
+        "name": "Validate web component workflow: Forms - Step 47",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FORM_048",
+        "module": "Forms",
+        "name": "Validate web component workflow: Forms - Step 48",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FORM_049",
+        "module": "Forms",
+        "name": "Validate web component workflow: Forms - Step 49",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 14,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FORM_050",
+        "module": "Forms",
+        "name": "Validate web component workflow: Forms - Step 50",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 14,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_CRUD_001",
+        "module": "CRUD Operations",
+        "name": "Validate web component workflow: CRUD Operations - Step 1",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 14,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_CRUD_002",
+        "module": "CRUD Operations",
+        "name": "Validate web component workflow: CRUD Operations - Step 2",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_CRUD_003",
+        "module": "CRUD Operations",
+        "name": "Validate web component workflow: CRUD Operations - Step 3",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_CRUD_004",
+        "module": "CRUD Operations",
+        "name": "Validate web component workflow: CRUD Operations - Step 4",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 21,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_CRUD_005",
+        "module": "CRUD Operations",
+        "name": "Validate web component workflow: CRUD Operations - Step 5",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 11,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_CRUD_006",
+        "module": "CRUD Operations",
+        "name": "Validate web component workflow: CRUD Operations - Step 6",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_CRUD_007",
+        "module": "CRUD Operations",
+        "name": "Validate web component workflow: CRUD Operations - Step 7",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_CRUD_008",
+        "module": "CRUD Operations",
+        "name": "Validate web component workflow: CRUD Operations - Step 8",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 14,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_CRUD_009",
+        "module": "CRUD Operations",
+        "name": "Validate web component workflow: CRUD Operations - Step 9",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 4,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_CRUD_010",
+        "module": "CRUD Operations",
+        "name": "Validate web component workflow: CRUD Operations - Step 10",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_CRUD_011",
+        "module": "CRUD Operations",
+        "name": "Validate web component workflow: CRUD Operations - Step 11",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_CRUD_012",
+        "module": "CRUD Operations",
+        "name": "Validate web component workflow: CRUD Operations - Step 12",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_CRUD_013",
+        "module": "CRUD Operations",
+        "name": "Validate web component workflow: CRUD Operations - Step 13",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 4,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_CRUD_014",
+        "module": "CRUD Operations",
+        "name": "Validate web component workflow: CRUD Operations - Step 14",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_CRUD_015",
+        "module": "CRUD Operations",
+        "name": "Validate web component workflow: CRUD Operations - Step 15",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_CRUD_016",
+        "module": "CRUD Operations",
+        "name": "Validate web component workflow: CRUD Operations - Step 16",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 14,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_CRUD_017",
+        "module": "CRUD Operations",
+        "name": "Validate web component workflow: CRUD Operations - Step 17",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 9,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_CRUD_018",
+        "module": "CRUD Operations",
+        "name": "Validate web component workflow: CRUD Operations - Step 18",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 11,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_CRUD_019",
+        "module": "CRUD Operations",
+        "name": "Validate web component workflow: CRUD Operations - Step 19",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_CRUD_020",
+        "module": "CRUD Operations",
+        "name": "Validate web component workflow: CRUD Operations - Step 20",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 10,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_CRUD_021",
+        "module": "CRUD Operations",
+        "name": "Validate web component workflow: CRUD Operations - Step 21",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 11,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_CRUD_022",
+        "module": "CRUD Operations",
+        "name": "Validate web component workflow: CRUD Operations - Step 22",
+        "priority": "HIGH",
+        "status": "FAIL",
+        "duration_ms": 11,
+        "error": "CRUD flow failed: Timeout error while trying to fetch updated item list",
+        "screenshot": "C:\\car care\\car_service_app\\automation\\reports\\Screenshots\\TC_W_CRUD_022_1784737832.png"
+    },
+    {
+        "test_id": "TC_W_CRUD_023",
+        "module": "CRUD Operations",
+        "name": "Validate web component workflow: CRUD Operations - Step 23",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 14,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_CRUD_024",
+        "module": "CRUD Operations",
+        "name": "Validate web component workflow: CRUD Operations - Step 24",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_CRUD_025",
+        "module": "CRUD Operations",
+        "name": "Validate web component workflow: CRUD Operations - Step 25",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 5,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_CRUD_026",
+        "module": "CRUD Operations",
+        "name": "Validate web component workflow: CRUD Operations - Step 26",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_CRUD_027",
+        "module": "CRUD Operations",
+        "name": "Validate web component workflow: CRUD Operations - Step 27",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_CRUD_028",
+        "module": "CRUD Operations",
+        "name": "Validate web component workflow: CRUD Operations - Step 28",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_CRUD_029",
+        "module": "CRUD Operations",
+        "name": "Validate web component workflow: CRUD Operations - Step 29",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 5,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_CRUD_030",
+        "module": "CRUD Operations",
+        "name": "Validate web component workflow: CRUD Operations - Step 30",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_CRUD_031",
+        "module": "CRUD Operations",
+        "name": "Validate web component workflow: CRUD Operations - Step 31",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_CRUD_032",
+        "module": "CRUD Operations",
+        "name": "Validate web component workflow: CRUD Operations - Step 32",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_CRUD_033",
+        "module": "CRUD Operations",
+        "name": "Validate web component workflow: CRUD Operations - Step 33",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 11,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_CRUD_034",
+        "module": "CRUD Operations",
+        "name": "Validate web component workflow: CRUD Operations - Step 34",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_CRUD_035",
+        "module": "CRUD Operations",
+        "name": "Validate web component workflow: CRUD Operations - Step 35",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_CRUD_036",
+        "module": "CRUD Operations",
+        "name": "Validate web component workflow: CRUD Operations - Step 36",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 14,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_CRUD_037",
+        "module": "CRUD Operations",
+        "name": "Validate web component workflow: CRUD Operations - Step 37",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_CRUD_038",
+        "module": "CRUD Operations",
+        "name": "Validate web component workflow: CRUD Operations - Step 38",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_CRUD_039",
+        "module": "CRUD Operations",
+        "name": "Validate web component workflow: CRUD Operations - Step 39",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_CRUD_040",
+        "module": "CRUD Operations",
+        "name": "Validate web component workflow: CRUD Operations - Step 40",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 6,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_CRUD_041",
+        "module": "CRUD Operations",
+        "name": "Validate web component workflow: CRUD Operations - Step 41",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 14,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_CRUD_042",
+        "module": "CRUD Operations",
+        "name": "Validate web component workflow: CRUD Operations - Step 42",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_CRUD_043",
+        "module": "CRUD Operations",
+        "name": "Validate web component workflow: CRUD Operations - Step 43",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_CRUD_044",
+        "module": "CRUD Operations",
+        "name": "Validate web component workflow: CRUD Operations - Step 44",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_CRUD_045",
+        "module": "CRUD Operations",
+        "name": "Validate web component workflow: CRUD Operations - Step 45",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 10,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_CRUD_046",
+        "module": "CRUD Operations",
+        "name": "Validate web component workflow: CRUD Operations - Step 46",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 10,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_CRUD_047",
+        "module": "CRUD Operations",
+        "name": "Validate web component workflow: CRUD Operations - Step 47",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 11,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_CRUD_048",
+        "module": "CRUD Operations",
+        "name": "Validate web component workflow: CRUD Operations - Step 48",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 6,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_CRUD_049",
+        "module": "CRUD Operations",
+        "name": "Validate web component workflow: CRUD Operations - Step 49",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 4,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_CRUD_050",
+        "module": "CRUD Operations",
+        "name": "Validate web component workflow: CRUD Operations - Step 50",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_VAL_001",
+        "module": "Input Validation",
+        "name": "Validate web component workflow: Input Validation - Step 1",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_VAL_002",
+        "module": "Input Validation",
+        "name": "Validate web component workflow: Input Validation - Step 2",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_VAL_003",
+        "module": "Input Validation",
+        "name": "Validate web component workflow: Input Validation - Step 3",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_VAL_004",
+        "module": "Input Validation",
+        "name": "Validate web component workflow: Input Validation - Step 4",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_VAL_005",
+        "module": "Input Validation",
+        "name": "Validate web component workflow: Input Validation - Step 5",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_VAL_006",
+        "module": "Input Validation",
+        "name": "Validate web component workflow: Input Validation - Step 6",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_VAL_007",
+        "module": "Input Validation",
+        "name": "Validate web component workflow: Input Validation - Step 7",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_VAL_008",
+        "module": "Input Validation",
+        "name": "Validate web component workflow: Input Validation - Step 8",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_VAL_009",
+        "module": "Input Validation",
+        "name": "Validate web component workflow: Input Validation - Step 9",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 4,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_VAL_010",
+        "module": "Input Validation",
+        "name": "Validate web component workflow: Input Validation - Step 10",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_VAL_011",
+        "module": "Input Validation",
+        "name": "Validate web component workflow: Input Validation - Step 11",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 11,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_VAL_012",
+        "module": "Input Validation",
+        "name": "Validate web component workflow: Input Validation - Step 12",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 5,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_VAL_013",
+        "module": "Input Validation",
+        "name": "Validate web component workflow: Input Validation - Step 13",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_VAL_014",
+        "module": "Input Validation",
+        "name": "Validate web component workflow: Input Validation - Step 14",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_VAL_015",
+        "module": "Input Validation",
+        "name": "Validate web component workflow: Input Validation - Step 15",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 14,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_VAL_016",
+        "module": "Input Validation",
+        "name": "Validate web component workflow: Input Validation - Step 16",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_VAL_017",
+        "module": "Input Validation",
+        "name": "Validate web component workflow: Input Validation - Step 17",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 10,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_VAL_018",
+        "module": "Input Validation",
+        "name": "Validate web component workflow: Input Validation - Step 18",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 11,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_VAL_019",
+        "module": "Input Validation",
+        "name": "Validate web component workflow: Input Validation - Step 19",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 10,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_VAL_020",
+        "module": "Input Validation",
+        "name": "Validate web component workflow: Input Validation - Step 20",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 3,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_VAL_021",
+        "module": "Input Validation",
+        "name": "Validate web component workflow: Input Validation - Step 21",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_VAL_022",
+        "module": "Input Validation",
+        "name": "Validate web component workflow: Input Validation - Step 22",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_VAL_023",
+        "module": "Input Validation",
+        "name": "Validate web component workflow: Input Validation - Step 23",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 4,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_VAL_024",
+        "module": "Input Validation",
+        "name": "Validate web component workflow: Input Validation - Step 24",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 14,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_VAL_025",
+        "module": "Input Validation",
+        "name": "Validate web component workflow: Input Validation - Step 25",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 5,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_VAL_026",
+        "module": "Input Validation",
+        "name": "Validate web component workflow: Input Validation - Step 26",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_VAL_027",
+        "module": "Input Validation",
+        "name": "Validate web component workflow: Input Validation - Step 27",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 4,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_VAL_028",
+        "module": "Input Validation",
+        "name": "Validate web component workflow: Input Validation - Step 28",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_VAL_029",
+        "module": "Input Validation",
+        "name": "Validate web component workflow: Input Validation - Step 29",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_VAL_030",
+        "module": "Input Validation",
+        "name": "Validate web component workflow: Input Validation - Step 30",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_VAL_031",
+        "module": "Input Validation",
+        "name": "Validate web component workflow: Input Validation - Step 31",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_VAL_032",
+        "module": "Input Validation",
+        "name": "Validate web component workflow: Input Validation - Step 32",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_VAL_033",
+        "module": "Input Validation",
+        "name": "Validate web component workflow: Input Validation - Step 33",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_VAL_034",
+        "module": "Input Validation",
+        "name": "Validate web component workflow: Input Validation - Step 34",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_VAL_035",
+        "module": "Input Validation",
+        "name": "Validate web component workflow: Input Validation - Step 35",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 6,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_VAL_036",
+        "module": "Input Validation",
+        "name": "Validate web component workflow: Input Validation - Step 36",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_VAL_037",
+        "module": "Input Validation",
+        "name": "Validate web component workflow: Input Validation - Step 37",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_VAL_038",
+        "module": "Input Validation",
+        "name": "Validate web component workflow: Input Validation - Step 38",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_VAL_039",
+        "module": "Input Validation",
+        "name": "Validate web component workflow: Input Validation - Step 39",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_VAL_040",
+        "module": "Input Validation",
+        "name": "Validate web component workflow: Input Validation - Step 40",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 14,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_ERR_001",
+        "module": "Error Handling",
+        "name": "Validate web component workflow: Error Handling - Step 1",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_ERR_002",
+        "module": "Error Handling",
+        "name": "Validate web component workflow: Error Handling - Step 2",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_ERR_003",
+        "module": "Error Handling",
+        "name": "Validate web component workflow: Error Handling - Step 3",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 4,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_ERR_004",
+        "module": "Error Handling",
+        "name": "Validate web component workflow: Error Handling - Step 4",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_ERR_005",
+        "module": "Error Handling",
+        "name": "Validate web component workflow: Error Handling - Step 5",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_ERR_006",
+        "module": "Error Handling",
+        "name": "Validate web component workflow: Error Handling - Step 6",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_ERR_007",
+        "module": "Error Handling",
+        "name": "Validate web component workflow: Error Handling - Step 7",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_ERR_008",
+        "module": "Error Handling",
+        "name": "Validate web component workflow: Error Handling - Step 8",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_ERR_009",
+        "module": "Error Handling",
+        "name": "Validate web component workflow: Error Handling - Step 9",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_ERR_010",
+        "module": "Error Handling",
+        "name": "Validate web component workflow: Error Handling - Step 10",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_ERR_011",
+        "module": "Error Handling",
+        "name": "Validate web component workflow: Error Handling - Step 11",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_ERR_012",
+        "module": "Error Handling",
+        "name": "Validate web component workflow: Error Handling - Step 12",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_ERR_013",
+        "module": "Error Handling",
+        "name": "Validate web component workflow: Error Handling - Step 13",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 14,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_ERR_014",
+        "module": "Error Handling",
+        "name": "Validate web component workflow: Error Handling - Step 14",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_ERR_015",
+        "module": "Error Handling",
+        "name": "Validate web component workflow: Error Handling - Step 15",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_ERR_016",
+        "module": "Error Handling",
+        "name": "Validate web component workflow: Error Handling - Step 16",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 14,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_ERR_017",
+        "module": "Error Handling",
+        "name": "Validate web component workflow: Error Handling - Step 17",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 14,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_ERR_018",
+        "module": "Error Handling",
+        "name": "Validate web component workflow: Error Handling - Step 18",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 5,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_ERR_019",
+        "module": "Error Handling",
+        "name": "Validate web component workflow: Error Handling - Step 19",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_ERR_020",
+        "module": "Error Handling",
+        "name": "Validate web component workflow: Error Handling - Step 20",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 11,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_SESS_001",
+        "module": "Session Management",
+        "name": "Validate web component workflow: Session Management - Step 1",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_SESS_002",
+        "module": "Session Management",
+        "name": "Validate web component workflow: Session Management - Step 2",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_SESS_003",
+        "module": "Session Management",
+        "name": "Validate web component workflow: Session Management - Step 3",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 14,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_SESS_004",
+        "module": "Session Management",
+        "name": "Validate web component workflow: Session Management - Step 4",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_SESS_005",
+        "module": "Session Management",
+        "name": "Validate web component workflow: Session Management - Step 5",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 14,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_SESS_006",
+        "module": "Session Management",
+        "name": "Validate web component workflow: Session Management - Step 6",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 5,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_SESS_007",
+        "module": "Session Management",
+        "name": "Validate web component workflow: Session Management - Step 7",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 14,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_SESS_008",
+        "module": "Session Management",
+        "name": "Validate web component workflow: Session Management - Step 8",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 14,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_SESS_009",
+        "module": "Session Management",
+        "name": "Validate web component workflow: Session Management - Step 9",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 14,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_SESS_010",
+        "module": "Session Management",
+        "name": "Validate web component workflow: Session Management - Step 10",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_SESS_011",
+        "module": "Session Management",
+        "name": "Validate web component workflow: Session Management - Step 11",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_SESS_012",
+        "module": "Session Management",
+        "name": "Validate web component workflow: Session Management - Step 12",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_SESS_013",
+        "module": "Session Management",
+        "name": "Validate web component workflow: Session Management - Step 13",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 14,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_SESS_014",
+        "module": "Session Management",
+        "name": "Validate web component workflow: Session Management - Step 14",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_SESS_015",
+        "module": "Session Management",
+        "name": "Validate web component workflow: Session Management - Step 15",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_SESS_016",
+        "module": "Session Management",
+        "name": "Validate web component workflow: Session Management - Step 16",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_SESS_017",
+        "module": "Session Management",
+        "name": "Validate web component workflow: Session Management - Step 17",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_SESS_018",
+        "module": "Session Management",
+        "name": "Validate web component workflow: Session Management - Step 18",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 11,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_SESS_019",
+        "module": "Session Management",
+        "name": "Validate web component workflow: Session Management - Step 19",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_SESS_020",
+        "module": "Session Management",
+        "name": "Validate web component workflow: Session Management - Step 20",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FILE_001",
+        "module": "File Upload",
+        "name": "Validate web component workflow: File Upload - Step 1",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FILE_002",
+        "module": "File Upload",
+        "name": "Validate web component workflow: File Upload - Step 2",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 3,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FILE_003",
+        "module": "File Upload",
+        "name": "Validate web component workflow: File Upload - Step 3",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FILE_004",
+        "module": "File Upload",
+        "name": "Validate web component workflow: File Upload - Step 4",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 11,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FILE_005",
+        "module": "File Upload",
+        "name": "Validate web component workflow: File Upload - Step 5",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 11,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FILE_006",
+        "module": "File Upload",
+        "name": "Validate web component workflow: File Upload - Step 6",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 5,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FILE_007",
+        "module": "File Upload",
+        "name": "Validate web component workflow: File Upload - Step 7",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 5,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FILE_008",
+        "module": "File Upload",
+        "name": "Validate web component workflow: File Upload - Step 8",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 11,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FILE_009",
+        "module": "File Upload",
+        "name": "Validate web component workflow: File Upload - Step 9",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FILE_010",
+        "module": "File Upload",
+        "name": "Validate web component workflow: File Upload - Step 10",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FILE_011",
+        "module": "File Upload",
+        "name": "Validate web component workflow: File Upload - Step 11",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FILE_012",
+        "module": "File Upload",
+        "name": "Validate web component workflow: File Upload - Step 12",
+        "priority": "MEDIUM",
+        "status": "SKIP",
+        "duration_ms": 0,
+        "error": "Feature Toggle: File upload server backend not active in staging environment"
+    },
+    {
+        "test_id": "TC_W_FILE_013",
+        "module": "File Upload",
+        "name": "Validate web component workflow: File Upload - Step 13",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FILE_014",
+        "module": "File Upload",
+        "name": "Validate web component workflow: File Upload - Step 14",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FILE_015",
+        "module": "File Upload",
+        "name": "Validate web component workflow: File Upload - Step 15",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FILE_016",
+        "module": "File Upload",
+        "name": "Validate web component workflow: File Upload - Step 16",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 4,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FILE_017",
+        "module": "File Upload",
+        "name": "Validate web component workflow: File Upload - Step 17",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FILE_018",
+        "module": "File Upload",
+        "name": "Validate web component workflow: File Upload - Step 18",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 11,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FILE_019",
+        "module": "File Upload",
+        "name": "Validate web component workflow: File Upload - Step 19",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 11,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_FILE_020",
+        "module": "File Upload",
+        "name": "Validate web component workflow: File Upload - Step 20",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 5,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_ACC_001",
+        "module": "Accessibility",
+        "name": "Validate web component workflow: Accessibility - Step 1",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_ACC_002",
+        "module": "Accessibility",
+        "name": "Validate web component workflow: Accessibility - Step 2",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_ACC_003",
+        "module": "Accessibility",
+        "name": "Validate web component workflow: Accessibility - Step 3",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_ACC_004",
+        "module": "Accessibility",
+        "name": "Validate web component workflow: Accessibility - Step 4",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 14,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_ACC_005",
+        "module": "Accessibility",
+        "name": "Validate web component workflow: Accessibility - Step 5",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 15,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_ACC_006",
+        "module": "Accessibility",
+        "name": "Validate web component workflow: Accessibility - Step 6",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 4,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_ACC_007",
+        "module": "Accessibility",
+        "name": "Validate web component workflow: Accessibility - Step 7",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_ACC_008",
+        "module": "Accessibility",
+        "name": "Validate web component workflow: Accessibility - Step 8",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 11,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_ACC_009",
+        "module": "Accessibility",
+        "name": "Validate web component workflow: Accessibility - Step 9",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 11,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_ACC_010",
+        "module": "Accessibility",
+        "name": "Validate web component workflow: Accessibility - Step 10",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 10,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_ACC_011",
+        "module": "Accessibility",
+        "name": "Validate web component workflow: Accessibility - Step 11",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 8,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_ACC_012",
+        "module": "Accessibility",
+        "name": "Validate web component workflow: Accessibility - Step 12",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 7,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_ACC_013",
+        "module": "Accessibility",
+        "name": "Validate web component workflow: Accessibility - Step 13",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 10,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_ACC_014",
+        "module": "Accessibility",
+        "name": "Validate web component workflow: Accessibility - Step 14",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 5,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_ACC_015",
+        "module": "Accessibility",
+        "name": "Validate web component workflow: Accessibility - Step 15",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_ACC_016",
+        "module": "Accessibility",
+        "name": "Validate web component workflow: Accessibility - Step 16",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 14,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_ACC_017",
+        "module": "Accessibility",
+        "name": "Validate web component workflow: Accessibility - Step 17",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_ACC_018",
+        "module": "Accessibility",
+        "name": "Validate web component workflow: Accessibility - Step 18",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_ACC_019",
+        "module": "Accessibility",
+        "name": "Validate web component workflow: Accessibility - Step 19",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 11,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_ACC_020",
+        "module": "Accessibility",
+        "name": "Validate web component workflow: Accessibility - Step 20",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_RESP_001",
+        "module": "Responsive Design",
+        "name": "Validate web component workflow: Responsive Design - Step 1",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 4,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_RESP_002",
+        "module": "Responsive Design",
+        "name": "Validate web component workflow: Responsive Design - Step 2",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_RESP_003",
+        "module": "Responsive Design",
+        "name": "Validate web component workflow: Responsive Design - Step 3",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 10,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_RESP_004",
+        "module": "Responsive Design",
+        "name": "Validate web component workflow: Responsive Design - Step 4",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_RESP_005",
+        "module": "Responsive Design",
+        "name": "Validate web component workflow: Responsive Design - Step 5",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 9,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_RESP_006",
+        "module": "Responsive Design",
+        "name": "Validate web component workflow: Responsive Design - Step 6",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 4,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_RESP_007",
+        "module": "Responsive Design",
+        "name": "Validate web component workflow: Responsive Design - Step 7",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_RESP_008",
+        "module": "Responsive Design",
+        "name": "Validate web component workflow: Responsive Design - Step 8",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 5,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_RESP_009",
+        "module": "Responsive Design",
+        "name": "Validate web component workflow: Responsive Design - Step 9",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 11,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_RESP_010",
+        "module": "Responsive Design",
+        "name": "Validate web component workflow: Responsive Design - Step 10",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_RESP_011",
+        "module": "Responsive Design",
+        "name": "Validate web component workflow: Responsive Design - Step 11",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_RESP_012",
+        "module": "Responsive Design",
+        "name": "Validate web component workflow: Responsive Design - Step 12",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 5,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_RESP_013",
+        "module": "Responsive Design",
+        "name": "Validate web component workflow: Responsive Design - Step 13",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_RESP_014",
+        "module": "Responsive Design",
+        "name": "Validate web component workflow: Responsive Design - Step 14",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 14,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_RESP_015",
+        "module": "Responsive Design",
+        "name": "Validate web component workflow: Responsive Design - Step 15",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 5,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_RESP_016",
+        "module": "Responsive Design",
+        "name": "Validate web component workflow: Responsive Design - Step 16",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_RESP_017",
+        "module": "Responsive Design",
+        "name": "Validate web component workflow: Responsive Design - Step 17",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_RESP_018",
+        "module": "Responsive Design",
+        "name": "Validate web component workflow: Responsive Design - Step 18",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 5,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_RESP_019",
+        "module": "Responsive Design",
+        "name": "Validate web component workflow: Responsive Design - Step 19",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_RESP_020",
+        "module": "Responsive Design",
+        "name": "Validate web component workflow: Responsive Design - Step 20",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_PERF_001",
+        "module": "Performance Smoke Tests",
+        "name": "Validate web component workflow: Performance Smoke Tests - Step 1",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_PERF_002",
+        "module": "Performance Smoke Tests",
+        "name": "Validate web component workflow: Performance Smoke Tests - Step 2",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 5,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_PERF_003",
+        "module": "Performance Smoke Tests",
+        "name": "Validate web component workflow: Performance Smoke Tests - Step 3",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_PERF_004",
+        "module": "Performance Smoke Tests",
+        "name": "Validate web component workflow: Performance Smoke Tests - Step 4",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_PERF_005",
+        "module": "Performance Smoke Tests",
+        "name": "Validate web component workflow: Performance Smoke Tests - Step 5",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_PERF_006",
+        "module": "Performance Smoke Tests",
+        "name": "Validate web component workflow: Performance Smoke Tests - Step 6",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_PERF_007",
+        "module": "Performance Smoke Tests",
+        "name": "Validate web component workflow: Performance Smoke Tests - Step 7",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 5,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_PERF_008",
+        "module": "Performance Smoke Tests",
+        "name": "Validate web component workflow: Performance Smoke Tests - Step 8",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_PERF_009",
+        "module": "Performance Smoke Tests",
+        "name": "Validate web component workflow: Performance Smoke Tests - Step 9",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_PERF_010",
+        "module": "Performance Smoke Tests",
+        "name": "Validate web component workflow: Performance Smoke Tests - Step 10",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 11,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_PERF_011",
+        "module": "Performance Smoke Tests",
+        "name": "Validate web component workflow: Performance Smoke Tests - Step 11",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 7,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_PERF_012",
+        "module": "Performance Smoke Tests",
+        "name": "Validate web component workflow: Performance Smoke Tests - Step 12",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_PERF_013",
+        "module": "Performance Smoke Tests",
+        "name": "Validate web component workflow: Performance Smoke Tests - Step 13",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 4,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_PERF_014",
+        "module": "Performance Smoke Tests",
+        "name": "Validate web component workflow: Performance Smoke Tests - Step 14",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_PERF_015",
+        "module": "Performance Smoke Tests",
+        "name": "Validate web component workflow: Performance Smoke Tests - Step 15",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_PERF_016",
+        "module": "Performance Smoke Tests",
+        "name": "Validate web component workflow: Performance Smoke Tests - Step 16",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 4,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_PERF_017",
+        "module": "Performance Smoke Tests",
+        "name": "Validate web component workflow: Performance Smoke Tests - Step 17",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_PERF_018",
+        "module": "Performance Smoke Tests",
+        "name": "Validate web component workflow: Performance Smoke Tests - Step 18",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_PERF_019",
+        "module": "Performance Smoke Tests",
+        "name": "Validate web component workflow: Performance Smoke Tests - Step 19",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_PERF_020",
+        "module": "Performance Smoke Tests",
+        "name": "Validate web component workflow: Performance Smoke Tests - Step 20",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 5,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_REGR_001",
+        "module": "Regression",
+        "name": "Validate web component workflow: Regression - Step 1",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_REGR_002",
+        "module": "Regression",
+        "name": "Validate web component workflow: Regression - Step 2",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 10,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_REGR_003",
+        "module": "Regression",
+        "name": "Validate web component workflow: Regression - Step 3",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 3,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_REGR_004",
+        "module": "Regression",
+        "name": "Validate web component workflow: Regression - Step 4",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 11,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_REGR_005",
+        "module": "Regression",
+        "name": "Validate web component workflow: Regression - Step 5",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_REGR_006",
+        "module": "Regression",
+        "name": "Validate web component workflow: Regression - Step 6",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_REGR_007",
+        "module": "Regression",
+        "name": "Validate web component workflow: Regression - Step 7",
+        "priority": "CRITICAL",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_REGR_008",
+        "module": "Regression",
+        "name": "Validate web component workflow: Regression - Step 8",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_REGR_009",
+        "module": "Regression",
+        "name": "Validate web component workflow: Regression - Step 9",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_REGR_010",
+        "module": "Regression",
+        "name": "Validate web component workflow: Regression - Step 10",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 4,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_REGR_011",
+        "module": "Regression",
+        "name": "Validate web component workflow: Regression - Step 11",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 11,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_REGR_012",
+        "module": "Regression",
+        "name": "Validate web component workflow: Regression - Step 12",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 11,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_REGR_013",
+        "module": "Regression",
+        "name": "Validate web component workflow: Regression - Step 13",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_REGR_014",
+        "module": "Regression",
+        "name": "Validate web component workflow: Regression - Step 14",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 14,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_REGR_015",
+        "module": "Regression",
+        "name": "Validate web component workflow: Regression - Step 15",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_REGR_016",
+        "module": "Regression",
+        "name": "Validate web component workflow: Regression - Step 16",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_REGR_017",
+        "module": "Regression",
+        "name": "Validate web component workflow: Regression - Step 17",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 11,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_REGR_018",
+        "module": "Regression",
+        "name": "Validate web component workflow: Regression - Step 18",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_REGR_019",
+        "module": "Regression",
+        "name": "Validate web component workflow: Regression - Step 19",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_REGR_020",
+        "module": "Regression",
+        "name": "Validate web component workflow: Regression - Step 20",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_REGR_021",
+        "module": "Regression",
+        "name": "Validate web component workflow: Regression - Step 21",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 4,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_REGR_022",
+        "module": "Regression",
+        "name": "Validate web component workflow: Regression - Step 22",
+        "priority": "HIGH",
+        "status": "PASS",
+        "duration_ms": 4,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_REGR_023",
+        "module": "Regression",
+        "name": "Validate web component workflow: Regression - Step 23",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 11,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_REGR_024",
+        "module": "Regression",
+        "name": "Validate web component workflow: Regression - Step 24",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 5,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_REGR_025",
+        "module": "Regression",
+        "name": "Validate web component workflow: Regression - Step 25",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_REGR_026",
+        "module": "Regression",
+        "name": "Validate web component workflow: Regression - Step 26",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 3,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_REGR_027",
+        "module": "Regression",
+        "name": "Validate web component workflow: Regression - Step 27",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_REGR_028",
+        "module": "Regression",
+        "name": "Validate web component workflow: Regression - Step 28",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_REGR_029",
+        "module": "Regression",
+        "name": "Validate web component workflow: Regression - Step 29",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_REGR_030",
+        "module": "Regression",
+        "name": "Validate web component workflow: Regression - Step 30",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_REGR_031",
+        "module": "Regression",
+        "name": "Validate web component workflow: Regression - Step 31",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 4,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_REGR_032",
+        "module": "Regression",
+        "name": "Validate web component workflow: Regression - Step 32",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_REGR_033",
+        "module": "Regression",
+        "name": "Validate web component workflow: Regression - Step 33",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_REGR_034",
+        "module": "Regression",
+        "name": "Validate web component workflow: Regression - Step 34",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 11,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_REGR_035",
+        "module": "Regression",
+        "name": "Validate web component workflow: Regression - Step 35",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 4,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_REGR_036",
+        "module": "Regression",
+        "name": "Validate web component workflow: Regression - Step 36",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_REGR_037",
+        "module": "Regression",
+        "name": "Validate web component workflow: Regression - Step 37",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_REGR_038",
+        "module": "Regression",
+        "name": "Validate web component workflow: Regression - Step 38",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_REGR_039",
+        "module": "Regression",
+        "name": "Validate web component workflow: Regression - Step 39",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_REGR_040",
+        "module": "Regression",
+        "name": "Validate web component workflow: Regression - Step 40",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_REGR_041",
+        "module": "Regression",
+        "name": "Validate web component workflow: Regression - Step 41",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 5,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_REGR_042",
+        "module": "Regression",
+        "name": "Validate web component workflow: Regression - Step 42",
+        "priority": "MEDIUM",
+        "status": "PASS",
+        "duration_ms": 12,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_REGR_043",
+        "module": "Regression",
+        "name": "Validate web component workflow: Regression - Step 43",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_REGR_044",
+        "module": "Regression",
+        "name": "Validate web component workflow: Regression - Step 44",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 5,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_REGR_045",
+        "module": "Regression",
+        "name": "Validate web component workflow: Regression - Step 45",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 5,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_REGR_046",
+        "module": "Regression",
+        "name": "Validate web component workflow: Regression - Step 46",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_REGR_047",
+        "module": "Regression",
+        "name": "Validate web component workflow: Regression - Step 47",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_REGR_048",
+        "module": "Regression",
+        "name": "Validate web component workflow: Regression - Step 48",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 4,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_REGR_049",
+        "module": "Regression",
+        "name": "Validate web component workflow: Regression - Step 49",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    },
+    {
+        "test_id": "TC_W_REGR_050",
+        "module": "Regression",
+        "name": "Validate web component workflow: Regression - Step 50",
+        "priority": "LOW",
+        "status": "PASS",
+        "duration_ms": 13,
+        "error": ""
+    }
+]
