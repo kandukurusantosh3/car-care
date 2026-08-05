@@ -44,7 +44,11 @@ def add_vehicle():
 @jwt_required()
 def get_vehicles():
     user_id = get_jwt_identity()
-    vehicles = db.vehicles.find({"user_id": user_id})
+    vehicles_cursor = db.vehicles.find({"user_id": user_id})
+    vehicles = list(vehicles_cursor)
+    for v in vehicles:
+        if '_id' in v and not isinstance(v['_id'], str):
+            v['_id'] = str(v['_id'])
     return jsonify(vehicles), 200
 
 # --- Booking Routes ---
@@ -135,10 +139,15 @@ def get_bookings():
 
     # Mechanics and admins get to see all bookings in the queue
     if user.get('role') in ['mechanic', 'admin']:
-        bookings = db.bookings.find()
+        bookings_cursor = db.bookings.find()
     else:
-        bookings = db.bookings.find({"user_id": user_id})
+        bookings_cursor = db.bookings.find({"user_id": user_id})
         
+    bookings = list(bookings_cursor)
+    for b in bookings:
+        if '_id' in b and not isinstance(b['_id'], str):
+            b['_id'] = str(b['_id'])
+            
     return jsonify(bookings), 200
 
 @bookings_bp.route('/<booking_id>', methods=['GET'])

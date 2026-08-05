@@ -442,7 +442,7 @@ export default function Explore() {
             ) : (
               // Show details and service list selection
               <div style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
-                <div className="glass-card" style={{ padding: '24px', display: 'flex', gap: '24px' }}>
+                <div className="glass-card flex-responsive" style={{ padding: '24px' }}>
                   {selectedCenter.image && (
                     <img 
                       src={selectedCenter.image} 
@@ -501,20 +501,32 @@ export default function Explore() {
                           }}
                         >
                           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '10px' }}>
-                            <div style={{ fontWeight: '750', fontSize: '15px', color: 'var(--text-main)' }}>{srv.name}</div>
-                            <input 
-                              type="checkbox" 
-                              checked={isChecked} 
-                              onChange={() => {}} // handled by click
-                              style={{ width: '16px', height: '16px', cursor: 'pointer' }}
-                            />
+                            <div style={{ fontWeight: '750', fontSize: '15px', color: 'var(--text-main)', paddingRight: '10px' }}>{srv.name}</div>
                           </div>
                           <p style={{ color: 'var(--text-muted)', fontSize: '12px', margin: '0 0 12px 0', display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical', overflow: 'hidden', height: '32px' }}>
                             {srv.description}
                           </p>
-                          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                            <span style={{ fontSize: '11px', color: 'var(--text-muted-dark)' }}>⏱ {srv.estimated_time || '2 hours'}</span>
-                            <span style={{ fontWeight: '800', color: 'var(--accent)', fontSize: '16px' }}>${srv.price}</span>
+                          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '10px', marginTop: 'auto' }}>
+                            <div>
+                              <span style={{ fontSize: '11px', color: 'var(--text-muted-dark)', display: 'block', marginBottom: '2px' }}>⏱ {srv.estimated_time || '2 hours'}</span>
+                              <span style={{ fontWeight: '800', color: 'var(--accent)', fontSize: '16px' }}>${srv.price}</span>
+                            </div>
+                            <button 
+                              className={isChecked ? 'btn-glow' : 'btn-secondary'} 
+                              style={{ 
+                                width: 'auto', 
+                                padding: '6px 16px', 
+                                fontSize: '13px',
+                                background: isChecked ? accentColor : '',
+                                borderColor: isChecked ? accentColor : ''
+                              }}
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                handleServiceToggle(srvId);
+                              }}
+                            >
+                              {isChecked ? '✓ Selected' : '+ Add'}
+                            </button>
                           </div>
                         </div>
                       );

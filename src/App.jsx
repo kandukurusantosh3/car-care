@@ -41,6 +41,27 @@ function Layout({ children }) {
       <div className="app-content-wrapper">
         {children}
       </div>
+
+      <nav className="mobile-bottom-nav">
+        <Link to="/" className={`bottom-nav-item ${location.pathname === '/' ? 'active' : ''}`}>
+          <span style={{ fontSize: '20px', marginBottom: '4px' }}>🏠</span>
+          Dashboard
+        </Link>
+        {user?.role !== 'mechanic' && (
+          <Link to="/explore" className={`bottom-nav-item ${location.pathname === '/explore' ? 'active' : ''}`}>
+            <span style={{ fontSize: '20px', marginBottom: '4px' }}>🔍</span>
+            Explore
+          </Link>
+        )}
+        <Link to="/tracking" className={`bottom-nav-item ${location.pathname === '/tracking' ? 'active' : ''}`}>
+          <span style={{ fontSize: '20px', marginBottom: '4px' }}>📍</span>
+          Track
+        </Link>
+        <Link to="/auth" className={`bottom-nav-item ${location.pathname === '/auth' ? 'active' : ''}`}>
+          <span style={{ fontSize: '20px', marginBottom: '4px' }}>👤</span>
+          Profile
+        </Link>
+      </nav>
     </MobileFrame>
   );
 }
