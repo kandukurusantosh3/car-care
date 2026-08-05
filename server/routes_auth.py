@@ -9,6 +9,9 @@ bcrypt = Bcrypt()
 
 @auth_bp.route('/register', methods=['POST'])
 def register():
+    print("API ENDPOINT HIT: /api/auth/register", flush=True)
+    import logging
+    logging.info(f"Received request from {request.remote_addr} to /register")
     data = request.get_json() or {}
     name = data.get('name')
     email = data.get('email')
@@ -60,6 +63,7 @@ def register():
 
 @auth_bp.route('/login', methods=['POST'])
 def login():
+    print("API ENDPOINT HIT: /api/auth/login", flush=True)
     data = request.get_json() or {}
     email = data.get('email')
     password = data.get('password')
