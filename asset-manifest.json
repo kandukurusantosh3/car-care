@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "https://kandukurusantosh3.github.io/car-care/static/css/main.f67716ce.css",
-    "main.js": "https://kandukurusantosh3.github.io/car-care/static/js/main.decca381.js",
+    "main.js": "https://kandukurusantosh3.github.io/car-care/static/js/main.a666da8f.js",
     "index.html": "https://kandukurusantosh3.github.io/car-care/index.html",
     "main.f67716ce.css.map": "https://kandukurusantosh3.github.io/car-care/static/css/main.f67716ce.css.map",
-    "main.decca381.js.map": "https://kandukurusantosh3.github.io/car-care/static/js/main.decca381.js.map"
+    "main.a666da8f.js.map": "https://kandukurusantosh3.github.io/car-care/static/js/main.a666da8f.js.map"
   },
   "entrypoints": [
     "static/css/main.f67716ce.css",
-    "static/js/main.decca381.js"
+    "static/js/main.a666da8f.js"
   ]
 }
