@@ -14,8 +14,8 @@ def get_tracking(booking_id):
 
     # Fetch center coordinate details
     center = db.centers.find_one({"_id": booking["center_id"]})
-    center_lat = center.get("lat", 12.9716) if center else 12.9716
-    center_lng = center.get("lng", 77.5946) if center else 77.5946
+    center_lat = float(center.get("lat", 12.9716)) if center and center.get("lat") is not None else 12.9716
+    center_lng = float(center.get("lng", 77.5946)) if center and center.get("lng") is not None else 77.5946
 
     # Determine status and mock dynamic driver location coordinates
     status = booking.get("status", "Confirmed")

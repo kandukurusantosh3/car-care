@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { useLocation } from 'react-router-dom';
 import axios from 'axios';
 
@@ -11,6 +11,7 @@ const getAuthHeader = () => {
 
 export default function Tracking() {
   const location = useLocation();
+  const detailsRef = useRef(null);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [user, setUser] = useState(null);
   const [bookings, setBookings] = useState([]);
@@ -56,11 +57,11 @@ export default function Tracking() {
 
   // Set booking from location state (redirect from Dashboard)
   useEffect(() => {
-    if (location.state?.booking) {
+    if (location.state?.booking && !selectedBooking) {
       setSelectedBooking(location.state.booking);
       setStatusToUpdate(location.state.booking.status);
     }
-  }, [location.state, bookings]);
+  }, [location.state, selectedBooking]);
 
   // Poll for tracking details if a booking is selected
   useEffect(() => {
@@ -213,7 +214,15 @@ export default function Tracking() {
                 return (
                   <div 
                     key={bkId}
-                    onClick={() => { setSelectedBooking(bk); setStatusToUpdate(bk.status); }}
+                    onClick={() => { 
+                      setSelectedBooking(bk); 
+                      setStatusToUpdate(bk.status); 
+                      if (window.innerWidth <= 768) {
+                        setTimeout(() => {
+                          detailsRef.current?.scrollIntoView({ behavior: 'smooth' });
+                        }, 100);
+                      }
+                    }}
                     style={{
                       background: isSelected ? 'rgba(255,255,255,0.03)' : 'rgba(255,255,255,0.01)',
                       border: `1px solid ${isSelected ? 'var(--accent)' : 'var(--border-color)'}`,
@@ -249,7 +258,7 @@ export default function Tracking() {
         </div>
 
         {/* Right Pane: Selected Booking Tracking Info */}
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
+        <div ref={detailsRef} style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
           {selectedBooking ? (
             (() => {
               const statusIndex = statuses.indexOf(trackingInfo?.status || selectedBooking.status);
@@ -306,7 +315,7 @@ export default function Tracking() {
                             <div><strong>Name:</strong> {trackingInfo.driver_name}</div>
                             <div><strong>Phone:</strong> {trackingInfo.driver_phone}</div>
                             <div style={{ background: 'rgba(0,0,0,0.15)', padding: '10px', borderRadius: '8px', fontSize: '12px', fontFamily: 'monospace', color: 'var(--text-muted)' }}>
-                              Coordinates: {trackingInfo.driver_location.lat.toFixed(5)}, {trackingInfo.driver_location.lng.toFixed(5)}
+                              Coordinates: {Number(trackingInfo.driver_location.lat).toFixed(5)}, {Number(trackingInfo.driver_location.lng).toFixed(5)}
                             </div>
                           </div>
                         </div>
