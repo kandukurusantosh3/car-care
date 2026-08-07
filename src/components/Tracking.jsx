@@ -83,7 +83,7 @@ export default function Tracking() {
   const fetchBookings = async () => {
     try {
       setLoading(true);
-      const response = await axios.get(`${API_BASE_URL}/bookings`, {
+      const response = await axios.get(`${API_BASE_URL}/bookings?_t=${Date.now()}`, {
         headers: getAuthHeader()
       });
       setBookings(Array.isArray(response.data) ? response.data : []);

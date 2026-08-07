@@ -42,7 +42,7 @@ export default function Dashboard() {
       setLoading(true);
       const [vehiclesRes, bookingsRes] = await Promise.all([
         axios.get(`${API_BASE_URL}/bookings/vehicles`, { headers: getAuthHeader() }),
-        axios.get(`${API_BASE_URL}/bookings`, { headers: getAuthHeader() })
+        axios.get(`${API_BASE_URL}/bookings?_t=${Date.now()}`, { headers: getAuthHeader() })
       ]);
       setVehicles(Array.isArray(vehiclesRes.data) ? vehiclesRes.data : []);
       setBookings(Array.isArray(bookingsRes.data) ? bookingsRes.data : []);
