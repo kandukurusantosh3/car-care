@@ -25,6 +25,11 @@ jobs:
       run: |
         mkdir -p reports
         pytest automation/tests/test_ui_massive.py -v --html=reports/ui_report.html
+    - name: Upload Test Report
+      uses: actions/upload-artifact@v4
+      with:
+        name: Selenium-UI-Report
+        path: reports/ui_report.html
 
   load_performance_tests:
     name: Load & Performance Tests (300 TCs)
