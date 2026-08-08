@@ -1,0 +1,83 @@
+name: Test Suite
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  pull_request:
+    branches: [ "main", "master" ]
+  workflow_dispatch:
+
+jobs:
+  selenium_ui_tests:
+    name: Selenium UI Tests (300 TCs)
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.12'
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pytest pytest-html
+    - name: Run Selenium UI Tests
+      run: |
+        mkdir -p reports
+        pytest automation/tests/test_ui_massive.py -v --html=reports/ui_report.html
+
+  load_performance_tests:
+    name: Load & Performance Tests (300 TCs)
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.12'
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pytest
+    - name: Run Load & Performance Tests
+      run: pytest automation/tests/test_load_massive.py -v
+
+  appium_mobile_api_tests:
+    name: Appium Mobile API Tests (300 TCs)
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.12'
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pytest
+    - name: Run Appium Mobile API Tests
+      run: pytest automation/tests/test_mobile_massive.py -v
+
+  vulnerability_security_tests:
+    name: Vulnerability & Security Tests (300 TCs)
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.12'
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pytest
+    - name: Run Vulnerability & Security Tests
+      run: pytest automation/tests/test_security_massive.py -v
+
+  overall_test_summary:
+    name: Overall Test Summary
+    needs: [selenium_ui_tests, load_performance_tests, appium_mobile_api_tests, vulnerability_security_tests]
+    runs-on: ubuntu-latest
+    steps:
+    - name: Summarize Test Results
+      run: echo "All 1200+ test cases passed successfully across UI, Load, Mobile, and Security suites!"

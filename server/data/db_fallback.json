@@ -229,6 +229,22 @@
       "phone": "5555666698",
       "password_hash": "$2b$12$py0DGDiWnElj9pBX6jb6eOKXLnQ4CiNFSFBxb8QABqNxS/jqTyf.G",
       "role": "customer"
+    },
+    {
+      "_id": "6a730e94ec1ae03fc0aea395",
+      "name": "Juyy",
+      "email": "test2@example.com",
+      "phone": "1234567",
+      "password_hash": "$2b$12$imwSJcj/2baDQ29iE170eOaiUQgA4v./R3qJisWTIC6dxVO.0YBWq",
+      "role": "customer"
+    },
+    {
+      "_id": "6a731ed5c2be6b0ade1b7961",
+      "name": "john",
+      "email": "bharath123@gmail.com",
+      "phone": "987321654",
+      "password_hash": "$2b$12$CDlFBgYRt1ZJHgWrdJctSu9y09YwLmgczI5/NrSLWu8WxY9u5NQ5S",
+      "role": "mechanic"
     }
   ],
   "bookings": [
@@ -315,7 +331,7 @@
       "scheduled_date": "2026-07-23",
       "scheduled_time": "10:30",
       "pickup_option": false,
-      "status": "Picked Up",
+      "status": "Completed",
       "timeline": [
         {
           "status": "Confirmed",
@@ -326,6 +342,11 @@
           "status": "Picked Up",
           "timestamp": "2026-07-22 04:10 PM",
           "description": "Valet has picked up your vehicle."
+        },
+        {
+          "status": "Completed",
+          "timestamp": "2026-08-05 05:28 PM",
+          "description": "Service completed and car delivered."
         }
       ],
       "mechanic_notes": ""
@@ -814,6 +835,11 @@
         }
       ],
       "mechanic_notes": ""
+    },
+    {
+      "_id": "ea8910cc-8d46-4c6a-9342-9d63cf64ee46",
+      "user_id": "bc7d7e98-2f07-47f0-9353-e710dca61a93",
+      "test": "test"
     }
   ],
   "vehicles": [
